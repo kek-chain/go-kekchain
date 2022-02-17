@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/core"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/downloader"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/ethconfig"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/ethclient"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/ethstats"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/debug"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/les"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/node"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/nat"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

@@ -27,17 +27,17 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/external"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/keystore"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/scwallet"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/usbwallet"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/cmd/utils"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/ethconfig"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/ethapi"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/metrics"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/node"
+	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
 	"github.com/naoina/toml"
 )
 
