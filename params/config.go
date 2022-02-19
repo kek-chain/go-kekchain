@@ -127,12 +127,11 @@ var (
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
 	MainnetCheckpointOracle = &CheckpointOracleConfig{
-		Address: common.HexToAddress("0x9a9070028361F7AAbeB3f2F2Dc07F82C4a98A02a"),
+		Address: common.HexToAddress("0xf3a4ac5a0d64b366ad4c28f6dd0de81ac7f68c61"),
 		Signers: []common.Address{
-			common.HexToAddress("0x1b2C260efc720BE89101890E4Db589b44E950527"), // Peter
-			common.HexToAddress("0x78d1aD571A1A09D60D9BBf25894b44e4C8859595"), // Martin
+			common.HexToAddress("0xd7A108189471b7e3f0E66723e89170E310493125"), // Interchained
 		},
-		Threshold: 2,
+		Threshold: 1,
 	}
 
 	// RopstenChainConfig contains the chain parameters to run a node on the Ropsten test network.
