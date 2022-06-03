@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/abi"
+	"github.com/electronero-project/go-electronero/accounts/abi"
 	fuzz "github.com/google/gofuzz"
 )
 

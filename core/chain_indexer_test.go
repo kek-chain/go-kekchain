@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/rawdb"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/core/rawdb"
+	"github.com/electronero-project/go-electronero/core/types"
 )
 
 // Runs multiple tests with randomized parameters.

@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/metrics"
+	"github.com/electronero-project/go-electronero/metrics"
 )
 
 const (

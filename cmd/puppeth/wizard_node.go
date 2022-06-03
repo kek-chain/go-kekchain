@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/keystore"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
+	"github.com/electronero-project/go-electronero/accounts/keystore"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

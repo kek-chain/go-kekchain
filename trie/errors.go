@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
+	"github.com/electronero-project/go-electronero/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

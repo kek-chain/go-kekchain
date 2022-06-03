@@ -26,13 +26,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/keystore"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/hexutil"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/math"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/crypto"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/signer/core"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/signer/core/apitypes"
+	"github.com/electronero-project/go-electronero/accounts/keystore"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/common/hexutil"
+	"github.com/electronero-project/go-electronero/common/math"
+	"github.com/electronero-project/go-electronero/crypto"
+	"github.com/electronero-project/go-electronero/signer/core"
+	"github.com/electronero-project/go-electronero/signer/core/apitypes"
 )
 
 var typesStandard = apitypes.Types{

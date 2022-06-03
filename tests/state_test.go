@@ -27,11 +27,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/rawdb"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/vm"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/tracers/logger"
+	"github.com/electronero-project/go-electronero/core"
+	"github.com/electronero-project/go-electronero/core/rawdb"
+	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/electronero-project/go-electronero/core/vm"
+	"github.com/electronero-project/go-electronero/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

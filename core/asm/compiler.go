@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/math"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/vm"
+	"github.com/electronero-project/go-electronero/common/math"
+	"github.com/electronero-project/go-electronero/core/vm"
 )
 
 // Compiler contains information about the parsed source

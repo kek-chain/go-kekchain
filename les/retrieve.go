@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/light"
+	"github.com/electronero-project/go-electronero/light"
 )
 
 var (

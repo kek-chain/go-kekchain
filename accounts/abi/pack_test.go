@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
+	"github.com/electronero-project/go-electronero/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

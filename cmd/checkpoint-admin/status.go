@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/cmd/utils"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
+	"github.com/electronero-project/go-electronero/cmd/utils"
+	"github.com/electronero-project/go-electronero/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

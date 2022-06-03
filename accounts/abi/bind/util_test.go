@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/abi/bind"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/abi/bind/backends"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/crypto"
+	"github.com/electronero-project/go-electronero/accounts/abi/bind"
+	"github.com/electronero-project/go-electronero/accounts/abi/bind/backends"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/core"
+	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/electronero-project/go-electronero/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

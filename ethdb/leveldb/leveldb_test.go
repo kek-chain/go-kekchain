@@ -19,8 +19,8 @@ package leveldb
 import (
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethdb"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethdb/dbtest"
+	"github.com/electronero-project/go-electronero/ethdb"
+	"github.com/electronero-project/go-electronero/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

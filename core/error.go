@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
+	"github.com/electronero-project/go-electronero/core/types"
 )
 
 var (

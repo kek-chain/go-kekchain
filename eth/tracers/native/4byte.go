@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/vm"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/tracers"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/core/vm"
+	"github.com/electronero-project/go-electronero/eth/tracers"
 )
 
 func init() {

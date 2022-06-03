@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/state"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/vm"
+	"github.com/electronero-project/go-electronero/core/state"
+	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/electronero-project/go-electronero/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

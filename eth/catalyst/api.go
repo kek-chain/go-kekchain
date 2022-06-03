@@ -22,13 +22,13 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/beacon"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/node"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rpc"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/core/beacon"
+	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/electronero-project/go-electronero/eth"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/node"
+	"github.com/electronero-project/go-electronero/rpc"
 )
 
 // Register adds catalyst APIs to the full node.

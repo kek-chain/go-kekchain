@@ -23,9 +23,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/crypto"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/utesting"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/discover/v4wire"
+	"github.com/electronero-project/go-electronero/crypto"
+	"github.com/electronero-project/go-electronero/internal/utesting"
+	"github.com/electronero-project/go-electronero/p2p/discover/v4wire"
 )
 
 const (

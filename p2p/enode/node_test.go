@@ -24,8 +24,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enr"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rlp"
+	"github.com/electronero-project/go-electronero/p2p/enr"
+	"github.com/electronero-project/go-electronero/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

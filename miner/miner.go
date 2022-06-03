@@ -23,16 +23,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/hexutil"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/consensus"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/state"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/downloader"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/event"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/common/hexutil"
+	"github.com/electronero-project/go-electronero/consensus"
+	"github.com/electronero-project/go-electronero/core"
+	"github.com/electronero-project/go-electronero/core/state"
+	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/electronero-project/go-electronero/eth/downloader"
+	"github.com/electronero-project/go-electronero/event"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/params"
 )
 
 // Backend wraps all methods required for mining. Only full node is capable

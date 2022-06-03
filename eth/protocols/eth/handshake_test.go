@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/forkid"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enode"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/core/forkid"
+	"github.com/electronero-project/go-electronero/p2p"
+	"github.com/electronero-project/go-electronero/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.

@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
+	"github.com/electronero-project/go-electronero/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

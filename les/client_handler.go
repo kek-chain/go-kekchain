@@ -24,16 +24,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/mclock"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/forkid"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/protocols/eth"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/les/downloader"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/light"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/common/mclock"
+	"github.com/electronero-project/go-electronero/core/forkid"
+	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/electronero-project/go-electronero/eth/protocols/eth"
+	"github.com/electronero-project/go-electronero/les/downloader"
+	"github.com/electronero-project/go-electronero/light"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/p2p"
+	"github.com/electronero-project/go-electronero/params"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/rawdb"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethdb"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/core/rawdb"
+	"github.com/electronero-project/go-electronero/ethdb"
 )
 
 // Iterator is an iterator to step over all the accounts or the specific

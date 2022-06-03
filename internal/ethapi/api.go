@@ -25,27 +25,27 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/abi"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/keystore"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/scwallet"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/hexutil"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/math"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/consensus/clique"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/consensus/ethash"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/consensus/misc"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/state"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/vm"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/crypto"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/tracers/logger"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rlp"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rpc"
+	"github.com/electronero-project/go-electronero/accounts"
+	"github.com/electronero-project/go-electronero/accounts/abi"
+	"github.com/electronero-project/go-electronero/accounts/keystore"
+	"github.com/electronero-project/go-electronero/accounts/scwallet"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/common/hexutil"
+	"github.com/electronero-project/go-electronero/common/math"
+	"github.com/electronero-project/go-electronero/consensus/clique"
+	"github.com/electronero-project/go-electronero/consensus/ethash"
+	"github.com/electronero-project/go-electronero/consensus/misc"
+	"github.com/electronero-project/go-electronero/core"
+	"github.com/electronero-project/go-electronero/core/state"
+	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/electronero-project/go-electronero/core/vm"
+	"github.com/electronero-project/go-electronero/crypto"
+	"github.com/electronero-project/go-electronero/eth/tracers/logger"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/p2p"
+	"github.com/electronero-project/go-electronero/params"
+	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/electronero-project/go-electronero/rpc"
 	"github.com/tyler-smith/go-bip39"
 )
 
@@ -513,7 +513,7 @@ func (s *PrivateAccountAPI) SignTransaction(ctx context.Context, args Transactio
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/CryptocurrencyDevelopers/go-ethereum/wiki/Management-APIs#personal_sign
+// https://github.com/electronero-project/go-electronero/wiki/Management-APIs#personal_sign
 func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -541,7 +541,7 @@ func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr c
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/CryptocurrencyDevelopers/go-ethereum/wiki/Management-APIs#personal_ecRecover
+// https://github.com/electronero-project/go-electronero/wiki/Management-APIs#personal_ecRecover
 func (s *PrivateAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)

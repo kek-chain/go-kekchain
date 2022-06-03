@@ -28,9 +28,9 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
+	"github.com/electronero-project/go-electronero/accounts"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

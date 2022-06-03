@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/les/utils"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rlp"
+	"github.com/electronero-project/go-electronero/les/utils"
+	"github.com/electronero-project/go-electronero/rlp"
 )
 
 const (

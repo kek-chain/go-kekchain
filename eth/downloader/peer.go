@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/protocols/eth"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/event"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/msgrate"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/eth/protocols/eth"
+	"github.com/electronero-project/go-electronero/event"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/p2p/msgrate"
 )
 
 const (

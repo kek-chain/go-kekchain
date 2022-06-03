@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
+	"github.com/electronero-project/go-electronero/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

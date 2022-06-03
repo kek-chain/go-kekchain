@@ -20,15 +20,15 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/state"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/light"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/metrics"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rlp"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/trie"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/core"
+	"github.com/electronero-project/go-electronero/core/state"
+	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/electronero-project/go-electronero/light"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/metrics"
+	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/electronero-project/go-electronero/trie"
 )
 
 // serverBackend defines the backend functions needed for serving LES requests

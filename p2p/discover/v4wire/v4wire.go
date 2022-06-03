@@ -27,11 +27,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/math"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/crypto"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enode"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enr"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rlp"
+	"github.com/electronero-project/go-electronero/common/math"
+	"github.com/electronero-project/go-electronero/crypto"
+	"github.com/electronero-project/go-electronero/p2p/enode"
+	"github.com/electronero-project/go-electronero/p2p/enr"
+	"github.com/electronero-project/go-electronero/rlp"
 )
 
 // RPC packet types

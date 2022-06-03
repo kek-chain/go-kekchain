@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/mclock"
+	"github.com/electronero-project/go-electronero/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

@@ -31,11 +31,11 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/console/prompt"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/jsre"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/jsre/deps"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/web3ext"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rpc"
+	"github.com/electronero-project/go-electronero/console/prompt"
+	"github.com/electronero-project/go-electronero/internal/jsre"
+	"github.com/electronero-project/go-electronero/internal/jsre/deps"
+	"github.com/electronero-project/go-electronero/internal/web3ext"
+	"github.com/electronero-project/go-electronero/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

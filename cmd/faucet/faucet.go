@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/keystore"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/cmd/utils"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/downloader"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/ethconfig"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethclient"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethstats"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/les"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/node"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enode"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/nat"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
+	"github.com/electronero-project/go-electronero/accounts"
+	"github.com/electronero-project/go-electronero/accounts/keystore"
+	"github.com/electronero-project/go-electronero/cmd/utils"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/core"
+	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/electronero-project/go-electronero/eth/downloader"
+	"github.com/electronero-project/go-electronero/eth/ethconfig"
+	"github.com/electronero-project/go-electronero/ethclient"
+	"github.com/electronero-project/go-electronero/ethstats"
+	"github.com/electronero-project/go-electronero/les"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/node"
+	"github.com/electronero-project/go-electronero/p2p"
+	"github.com/electronero-project/go-electronero/p2p/enode"
+	"github.com/electronero-project/go-electronero/p2p/nat"
+	"github.com/electronero-project/go-electronero/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/CryptocurrencyDevelopers/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/electronero-project/go-electronero/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

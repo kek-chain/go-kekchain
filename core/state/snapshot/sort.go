@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
+	"github.com/electronero-project/go-electronero/common"
 )
 
 // hashes is a helper to implement sort.Interface.

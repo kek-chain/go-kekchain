@@ -23,10 +23,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/keystore"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/crypto"
+	"github.com/electronero-project/go-electronero/accounts"
+	"github.com/electronero-project/go-electronero/accounts/keystore"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/crypto"
 )
 
 const (

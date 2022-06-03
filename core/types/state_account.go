@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
+	"github.com/electronero-project/go-electronero/common"
 )
 
 // StateAccount is the Ethereum consensus representation of accounts.

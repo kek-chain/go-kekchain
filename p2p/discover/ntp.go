@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
+	"github.com/electronero-project/go-electronero/log"
 )
 
 const (

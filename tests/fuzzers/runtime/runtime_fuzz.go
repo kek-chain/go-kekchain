@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/vm/runtime"
+	"github.com/electronero-project/go-electronero/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

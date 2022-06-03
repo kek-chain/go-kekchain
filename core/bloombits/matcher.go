@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/bitutil"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/crypto"
+	"github.com/electronero-project/go-electronero/common/bitutil"
+	"github.com/electronero-project/go-electronero/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

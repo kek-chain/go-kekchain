@@ -25,8 +25,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enode"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/p2p/enode"
 )
 
 const jsonIndent = "    "

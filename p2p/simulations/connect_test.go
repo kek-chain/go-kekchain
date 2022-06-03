@@ -19,9 +19,9 @@ package simulations
 import (
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/node"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enode"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/simulations/adapters"
+	"github.com/electronero-project/go-electronero/node"
+	"github.com/electronero-project/go-electronero/p2p/enode"
+	"github.com/electronero-project/go-electronero/p2p/simulations/adapters"
 )
 
 func newTestNetwork(t *testing.T, nodeCount int) (*Network, []enode.ID) {

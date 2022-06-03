@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rlp"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/params"
+	"github.com/electronero-project/go-electronero/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

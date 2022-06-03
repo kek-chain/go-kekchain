@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/metrics"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

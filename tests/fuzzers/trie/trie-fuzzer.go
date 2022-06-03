@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethdb/memorydb"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/trie"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/ethdb/memorydb"
+	"github.com/electronero-project/go-electronero/trie"
 )
 
 // randTest performs random trie operations.

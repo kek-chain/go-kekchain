@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/crypto"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/utesting"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/rlpx"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rlp"
+	"github.com/electronero-project/go-electronero/cmd/devp2p/internal/ethtest"
+	"github.com/electronero-project/go-electronero/crypto"
+	"github.com/electronero-project/go-electronero/internal/utesting"
+	"github.com/electronero-project/go-electronero/p2p"
+	"github.com/electronero-project/go-electronero/p2p/rlpx"
+	"github.com/electronero-project/go-electronero/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

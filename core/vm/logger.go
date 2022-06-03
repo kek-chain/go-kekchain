@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
+	"github.com/electronero-project/go-electronero/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

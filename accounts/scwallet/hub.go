@@ -41,10 +41,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/event"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
+	"github.com/electronero-project/go-electronero/accounts"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/event"
+	"github.com/electronero-project/go-electronero/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 )
 

@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
+	"github.com/electronero-project/go-electronero/log"
 )
 
 // handler handles JSON-RPC messages. There is one handler per connection. Note that

@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/abi/bind"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/external"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/cmd/utils"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/contracts/checkpointoracle"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethclient"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rpc"
+	"github.com/electronero-project/go-electronero/accounts"
+	"github.com/electronero-project/go-electronero/accounts/abi/bind"
+	"github.com/electronero-project/go-electronero/accounts/external"
+	"github.com/electronero-project/go-electronero/cmd/utils"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/contracts/checkpointoracle"
+	"github.com/electronero-project/go-electronero/ethclient"
+	"github.com/electronero-project/go-electronero/params"
+	"github.com/electronero-project/go-electronero/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

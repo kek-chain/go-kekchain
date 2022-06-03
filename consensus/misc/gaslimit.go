@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
+	"github.com/electronero-project/go-electronero/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

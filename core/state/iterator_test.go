@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethdb"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

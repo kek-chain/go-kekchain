@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/protocols/eth"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/eth/protocols/eth"
+	"github.com/electronero-project/go-electronero/log"
 )
 
 // bodyQueue implements typedQueue and is a type adapter between the generic

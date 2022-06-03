@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/protocols/snap"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enode"
+	"github.com/electronero-project/go-electronero/core"
+	"github.com/electronero-project/go-electronero/eth/protocols/snap"
+	"github.com/electronero-project/go-electronero/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enode"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/nodestate"
+	"github.com/electronero-project/go-electronero/p2p/enode"
+	"github.com/electronero-project/go-electronero/p2p/nodestate"
 )
 
 // QueueIterator returns nodes from the specified selectable set in the same order as

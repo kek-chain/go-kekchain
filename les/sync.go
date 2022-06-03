@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/rawdb"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/les/downloader"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/light"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/core/rawdb"
+	"github.com/electronero-project/go-electronero/les/downloader"
+	"github.com/electronero-project/go-electronero/light"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

@@ -19,11 +19,11 @@ package core
 import (
 	"fmt"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/consensus"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/state"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/types"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/trie"
+	"github.com/electronero-project/go-electronero/consensus"
+	"github.com/electronero-project/go-electronero/core/state"
+	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/electronero-project/go-electronero/params"
+	"github.com/electronero-project/go-electronero/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

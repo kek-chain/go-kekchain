@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/bitutil"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/metrics"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/rlpx"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rlp"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/common/bitutil"
+	"github.com/electronero-project/go-electronero/metrics"
+	"github.com/electronero-project/go-electronero/p2p/rlpx"
+	"github.com/electronero-project/go-electronero/rlp"
 )
 
 const (

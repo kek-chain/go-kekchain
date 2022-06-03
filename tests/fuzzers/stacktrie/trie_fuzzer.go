@@ -25,9 +25,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethdb"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/trie"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/ethdb"
+	"github.com/electronero-project/go-electronero/trie"
 	"golang.org/x/crypto/sha3"
 )
 

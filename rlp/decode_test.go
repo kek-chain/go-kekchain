@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/math"
+	"github.com/electronero-project/go-electronero/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

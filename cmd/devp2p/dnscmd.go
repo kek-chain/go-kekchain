@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/keystore"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/console/prompt"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/dnsdisc"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enode"
+	"github.com/electronero-project/go-electronero/accounts/keystore"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/console/prompt"
+	"github.com/electronero-project/go-electronero/p2p/dnsdisc"
+	"github.com/electronero-project/go-electronero/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

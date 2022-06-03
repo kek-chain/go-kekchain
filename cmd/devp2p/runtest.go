@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/utesting"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
+	"github.com/electronero-project/go-electronero/cmd/devp2p/internal/v4test"
+	"github.com/electronero-project/go-electronero/internal/utesting"
+	"github.com/electronero-project/go-electronero/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

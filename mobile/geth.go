@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/downloader"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/ethconfig"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethclient"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethstats"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/debug"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/les"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/node"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/nat"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
+	"github.com/electronero-project/go-electronero/core"
+	"github.com/electronero-project/go-electronero/eth/downloader"
+	"github.com/electronero-project/go-electronero/eth/ethconfig"
+	"github.com/electronero-project/go-electronero/ethclient"
+	"github.com/electronero-project/go-electronero/ethstats"
+	"github.com/electronero-project/go-electronero/internal/debug"
+	"github.com/electronero-project/go-electronero/les"
+	"github.com/electronero-project/go-electronero/node"
+	"github.com/electronero-project/go-electronero/p2p"
+	"github.com/electronero-project/go-electronero/p2p/nat"
+	"github.com/electronero-project/go-electronero/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

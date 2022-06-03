@@ -17,7 +17,7 @@
 package server
 
 import (
-	"github.com/CryptocurrencyDevelopers/go-ethereum/metrics"
+	"github.com/electronero-project/go-electronero/metrics"
 )
 
 var (

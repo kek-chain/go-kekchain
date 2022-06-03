@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p"
+	"github.com/electronero-project/go-electronero/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

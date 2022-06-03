@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/ethapi"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rpc"
+	"github.com/electronero-project/go-electronero/internal/ethapi"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/rpc"
 )
 
 type StdIOUI struct {

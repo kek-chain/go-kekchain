@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/abi/bind"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/contracts/checkpointoracle"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/crypto"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
+	"github.com/electronero-project/go-electronero/accounts/abi/bind"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/contracts/checkpointoracle"
+	"github.com/electronero-project/go-electronero/crypto"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

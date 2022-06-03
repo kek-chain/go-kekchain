@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/cmd/utils"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/debug"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/internal/flags"
+	"github.com/electronero-project/go-electronero/cmd/utils"
+	"github.com/electronero-project/go-electronero/internal/debug"
+	"github.com/electronero-project/go-electronero/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

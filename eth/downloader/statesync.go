@@ -19,8 +19,8 @@ package downloader
 import (
 	"sync"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/log"
 )
 
 // syncState starts downloading state with the given root hash.

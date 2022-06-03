@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/protocols/eth"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/protocols/snap"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/eth/protocols/eth"
+	"github.com/electronero-project/go-electronero/eth/protocols/snap"
+	"github.com/electronero-project/go-electronero/p2p"
 )
 
 var (

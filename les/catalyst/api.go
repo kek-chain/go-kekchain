@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/core/beacon"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/les"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/node"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rpc"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/core/beacon"
+	"github.com/electronero-project/go-electronero/les"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/node"
+	"github.com/electronero-project/go-electronero/rpc"
 )
 
 // Register adds catalyst APIs to the light client.

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/mclock"
+	"github.com/electronero-project/go-electronero/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

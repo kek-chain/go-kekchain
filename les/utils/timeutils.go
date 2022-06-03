@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/mclock"
+	"github.com/electronero-project/go-electronero/common/mclock"
 )
 
 type UpdateTimer struct {

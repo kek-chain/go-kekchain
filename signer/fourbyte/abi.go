@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/accounts/abi"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
+	"github.com/electronero-project/go-electronero/accounts/abi"
+	"github.com/electronero-project/go-electronero/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

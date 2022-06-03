@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rpc"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/rpc"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint.

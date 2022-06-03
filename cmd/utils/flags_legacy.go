@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/eth/ethconfig"
+	"github.com/electronero-project/go-electronero/eth/ethconfig"
 	"gopkg.in/urfave/cli.v1"
 )
 

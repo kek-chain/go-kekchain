@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/bitutil"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/light"
+	"github.com/electronero-project/go-electronero/common/bitutil"
+	"github.com/electronero-project/go-electronero/light"
 )
 
 const (

@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/CryptocurrencyDevelopers/go-ethereum/params"
+	"github.com/electronero-project/go-electronero/params"
 )
 
 func minSwapStack(n int) int {

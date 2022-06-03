@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethdb"
+	"github.com/electronero-project/go-electronero/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

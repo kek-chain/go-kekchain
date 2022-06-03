@@ -19,9 +19,9 @@ package state
 import (
 	"sync"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/metrics"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/metrics"
 )
 
 var (

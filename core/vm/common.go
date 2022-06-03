@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/math"
+	"github.com/electronero-project/go-electronero/common"
+	"github.com/electronero-project/go-electronero/common/math"
 	"github.com/holiman/uint256"
 )
 

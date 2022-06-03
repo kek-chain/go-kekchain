@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/ethdb"
+	"github.com/electronero-project/go-electronero/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/CryptocurrencyDevelopers/go-ethereum/metrics"
+import "github.com/electronero-project/go-electronero/metrics"
 
 var (
 	accountUpdatedMeter   = metrics.NewRegisteredMeter("state/update/account", nil)

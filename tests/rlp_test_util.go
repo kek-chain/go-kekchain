@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rlp"
+	"github.com/electronero-project/go-electronero/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

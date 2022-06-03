@@ -1,4 +1,4 @@
-module github.com/CryptocurrencyDevelopers/go-ethereum
+module github.com/electronero-project/go-electronero
 
 go 1.15
 

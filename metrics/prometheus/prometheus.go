@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/metrics"
+	"github.com/electronero-project/go-electronero/log"
+	"github.com/electronero-project/go-electronero/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

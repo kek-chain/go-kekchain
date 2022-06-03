@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/cmd/evm/internal/compiler"
+	"github.com/electronero-project/go-electronero/cmd/evm/internal/compiler"
 
 	"gopkg.in/urfave/cli.v1"
 )

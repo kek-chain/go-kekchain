@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/log"
+	"github.com/electronero-project/go-electronero/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

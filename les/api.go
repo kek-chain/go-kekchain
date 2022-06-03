@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/hexutil"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common/mclock"
-	vfs "github.com/CryptocurrencyDevelopers/go-ethereum/les/vflux/server"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/p2p/enode"
+	"github.com/electronero-project/go-electronero/common/hexutil"
+	"github.com/electronero-project/go-electronero/common/mclock"
+	vfs "github.com/electronero-project/go-electronero/les/vflux/server"
+	"github.com/electronero-project/go-electronero/p2p/enode"
 )
 
 var (

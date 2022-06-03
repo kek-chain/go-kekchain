@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
+	"github.com/electronero-project/go-electronero/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/event"
+	"github.com/electronero-project/go-electronero/event"
 )
 
 func ExampleNewSubscription() {

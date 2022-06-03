@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/common"
+	"github.com/electronero-project/go-electronero/common"
 )
 
 type AddrLocker struct {

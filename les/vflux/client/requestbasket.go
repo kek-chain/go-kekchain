@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/CryptocurrencyDevelopers/go-ethereum/les/utils"
-	"github.com/CryptocurrencyDevelopers/go-ethereum/rlp"
+	"github.com/electronero-project/go-electronero/les/utils"
+	"github.com/electronero-project/go-electronero/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor
