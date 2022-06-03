@@ -126,13 +126,7 @@ var (
 	MainnetTrustedCheckpoint = &TrustedCheckpoint{}
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
-	MainnetCheckpointOracle = &CheckpointOracleConfig{
-		Address: common.HexToAddress("0xa6436810175c6031C2187310efFc4F06946278bb"),
-		Signers: []common.Address{
-			common.HexToAddress("0x97D1e8bA5F25c8012f7a8135c7a0614e39a0b2dA"), // CryptocurrencyDevs
-		},
-		Threshold: 1,
-	}
+	MainnetCheckpointOracle = &CheckpointOracleConfig{}
 
 	// RopstenChainConfig contains the chain parameters to run a node on the Ropsten test network.
 	RopstenChainConfig = &ChainConfig{
