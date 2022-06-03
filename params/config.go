@@ -116,6 +116,8 @@ var (
 		MuirGlacierBlock:    big.NewInt(5),
 		BerlinBlock:         big.NewInt(6),
 		LondonBlock:         big.NewInt(7),
+		BRBlock:             big.NewInt(5151),
+		BRHalving:           big.NewInt(5252),
 		Clique: &CliqueConfig{
 			Period: 3,
 			Epoch:  30000,
@@ -390,6 +392,8 @@ type ChainConfig struct {
 	LondonBlock         *big.Int `json:"londonBlock,omitempty"`         // London switch block (nil = no fork, 0 = already on london)
 	ArrowGlacierBlock   *big.Int `json:"arrowGlacierBlock,omitempty"`   // Eip-4345 (bomb delay) switch block (nil = no fork, 0 = already activated)
 	MergeForkBlock      *big.Int `json:"mergeForkBlock,omitempty"`      // EIP-3675 (TheMerge) switch block (nil = no fork, 0 = already in merge proceedings)
+	BRBlock		    *big.Int `json:"brBlock,omitempty"`      	    // Block Reward switch block (nil = no fork, 0 = already activated)
+	BRHalving	    *big.Int `json:"brHalvingBlock,omitempty"`      // Block Reward halving switch block (nil = no fork, 0 = already halved)
 
 	// TerminalTotalDifficulty is the amount of total difficulty reached by
 	// the network that triggers the consensus upgrade.
@@ -430,7 +434,7 @@ func (c *ChainConfig) String() string {
 	default:
 		engine = "unknown"
 	}
-	return fmt.Sprintf("{ChainID: %v Homestead: %v DAO: %v DAOSupport: %v EIP150: %v EIP155: %v EIP158: %v Byzantium: %v Constantinople: %v Petersburg: %v Istanbul: %v, Muir Glacier: %v, Berlin: %v, London: %v, Arrow Glacier: %v, MergeFork: %v, Engine: %v}",
+	return fmt.Sprintf("{ChainID: %v Homestead: %v DAO: %v DAOSupport: %v EIP150: %v EIP155: %v EIP158: %v Byzantium: %v Constantinople: %v Petersburg: %v Istanbul: %v, Muir Glacier: %v, Berlin: %v, London: %v, Arrow Glacier: %v, MergeFork: %v, BlockReward: %v, BlockHalving: %v, Engine: %v}",
 		c.ChainID,
 		c.HomesteadBlock,
 		c.DAOForkBlock,
@@ -447,6 +451,8 @@ func (c *ChainConfig) String() string {
 		c.LondonBlock,
 		c.ArrowGlacierBlock,
 		c.MergeForkBlock,
+		c.BRBlock,
+		c.BRHalving,
 		engine,
 	)
 }
@@ -526,6 +532,16 @@ func (c *ChainConfig) IsTerminalPoWBlock(parentTotalDiff *big.Int, totalDiff *bi
 	return parentTotalDiff.Cmp(c.TerminalTotalDifficulty) < 0 && totalDiff.Cmp(c.TerminalTotalDifficulty) >= 0
 }
 
+// IsBRonline returns whether num is either equal to the block reward activator fork block or greater.
+func (c *ChainConfig) IsBRonline(num *big.Int) bool {
+	return isForked(c.BRBlock, num)
+}
+
+// IsBRHalving returns whether num is either equal to the block reward halnving fork block or greater.
+func (c *ChainConfig) IsBRHalving(num *big.Int) bool {
+	return isForked(c.BRHalving, num)
+}
+
 // CheckCompatible checks whether scheduled fork transitions have been imported
 // with a mismatching chain configuration.
 func (c *ChainConfig) CheckCompatible(newcfg *ChainConfig, height uint64) *ConfigCompatError {
@@ -568,6 +584,8 @@ func (c *ChainConfig) CheckConfigForkOrder() error {
 		{name: "londonBlock", block: c.LondonBlock},
 		{name: "arrowGlacierBlock", block: c.ArrowGlacierBlock, optional: true},
 		{name: "mergeStartBlock", block: c.MergeForkBlock, optional: true},
+		{name: "rewardStartBlock", block: c.BRBlock, optional: true},
+		{name: "rewardHalvingBlock", block: c.BRHalving, optional: true},
 	} {
 		if lastFork.name != "" {
 			// Next one must be higher number
@@ -642,6 +660,12 @@ func (c *ChainConfig) checkCompatible(newcfg *ChainConfig, head *big.Int) *Confi
 	}
 	if isForkIncompatible(c.MergeForkBlock, newcfg.MergeForkBlock, head) {
 		return newCompatError("Merge Start fork block", c.MergeForkBlock, newcfg.MergeForkBlock)
+	}
+	if isForkIncompatible(c.BRBlock, newcfg.BRBlock, head) {
+		return newCompatError("Block Reward Start fork block", c.BRBlock, newcfg.BRBlock)
+	}
+	if isForkIncompatible(c.BRHalving, newcfg.BRHalving, head) {
+		return newCompatError("Block Reward Halving Start fork block", c.BRHalving, newcfg.BRHalving)
 	}
 	return nil
 }
