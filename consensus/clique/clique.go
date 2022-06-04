@@ -56,7 +56,9 @@ const (
 // Clique proof-of-authority protocol constants.
 var (
 	epochLength = uint64(30000) // Default number of blocks after which to checkpoint and reset the pending votes
-
+	CostantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
+	ConstantHalfBlockReward = big.NewInt(1e+18) // Block reward in wei for successfully mining a block upward from BR halving fork
+	
 	extraVanity = 32                     // Fixed number of extra-data prefix bytes reserved for signer vanity
 	extraSeal   = crypto.SignatureLength // Fixed number of extra-data suffix bytes reserved for signer seal
 
@@ -562,7 +564,8 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 // Finalize implements consensus.Engine, ensuring no uncles are set, nor block
 // rewards given.
 func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Header, state *state.StateDB, txs []*types.Transaction, uncles []*types.Header) {
-	// No block rewards in PoA, so the state remains as is and uncles are dropped
+	// NEW block rebates in PoA! 
+	accumulateRebates(chain.Config(), state, header)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
 }
@@ -703,6 +706,31 @@ func SealHash(header *types.Header) (hash common.Hash) {
 	encodeSigHeader(hasher, header)
 	hasher.(crypto.KeccakState).Read(hash[:])
 	return hash
+}
+
+
+// AccumulateRebates credits the coinbase of the given block with the 
+// rebates. The total rebate consists of the static block rebate.
+// Example; A block gets sealed by a signer spending computational power.
+// Network thanks signer by issuing rebates after block is sealed.
+// Signer seals more blocks, keeping blockchain safe from attack.
+func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header) {
+	// Select the correct block rebate based on chain progression
+	blockRebate := nil
+	tr = false
+	if config.IsBRonline(header.Number) {
+		tr = true
+		blockRebate = CostantBlockReward
+	}
+	if config.IsBRHalving(header.Number) {
+		tr = true
+		blockRebate = ConstantHalfBlockReward
+	}
+	if tr == true {
+		// Accumulate rebates for the signers
+		rebate := new(big.Int).Set(blockRebate)
+		state.AddBalance(header.Coinbase, rebate)
+	}
 }
 
 // CliqueRLP returns the rlp bytes which needs to be signed for the proof-of-authority
