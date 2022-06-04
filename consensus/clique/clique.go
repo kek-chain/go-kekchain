@@ -717,13 +717,14 @@ func SealHash(header *types.Header) (hash common.Hash) {
 func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header) {
 	// Select the correct block rebate based on chain progression
 	var tr = false
+	blockRebate := big.NewInt(0)
 	if config.IsBRonline(header.Number) {
 		tr = true
-		var blockRebate = CostantBlockReward
+		blockRebate = CostantBlockReward
 	}
 	if config.IsBRHalving(header.Number) {
 		tr = true
-		var blockRebate = ConstantHalfBlockReward
+		blockRebate = ConstantHalfBlockReward
 	}
 	if tr != false {
 		// Accumulate rebates for the signers
