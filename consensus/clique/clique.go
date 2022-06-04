@@ -716,13 +716,9 @@ func SealHash(header *types.Header) (hash common.Hash) {
 // Signer seals more blocks, keeping blockchain safe from attack.
 func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header) {
 	// Select the correct block rebate based on chain progression
-	var tr = false
 	blockRebate := big.NewInt(1e+9)
 	if config.IsBRonline(header.Number) {
-		tr = true
-		blockRebate = CostantBlockReward
 		if config.IsBRHalving(header.Number) {
-			tr = true
 			blockRebate = ConstantHalfBlockReward
 		}
 		// Accumulate rebates for the signers
