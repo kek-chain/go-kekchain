@@ -717,7 +717,7 @@ func SealHash(header *types.Header) (hash common.Hash) {
 func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header) {
 	// Select the correct block rebate based on chain progression
 	blockRebate := nil
-	tr = false
+	var tr = false
 	if config.IsBRonline(header.Number) {
 		tr = true
 		blockRebate = CostantBlockReward
