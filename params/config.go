@@ -116,8 +116,8 @@ var (
 		MuirGlacierBlock:    big.NewInt(5),
 		BerlinBlock:         big.NewInt(6),
 		LondonBlock:         big.NewInt(7),
-		BRBlock:             big.NewInt(5151),
-		BRHalving:           big.NewInt(5252),
+		BRBlock:             big.NewInt(10),
+		BRHalving:           big.NewInt(100),
 		Clique: &CliqueConfig{
 			Period: 3,
 			Epoch:  30000,
@@ -584,8 +584,8 @@ func (c *ChainConfig) CheckConfigForkOrder() error {
 		{name: "londonBlock", block: c.LondonBlock},
 		{name: "arrowGlacierBlock", block: c.ArrowGlacierBlock, optional: true},
 		{name: "mergeStartBlock", block: c.MergeForkBlock, optional: true},
-		{name: "rewardStartBlock", block: c.BRBlock, optional: true},
-		{name: "rewardHalvingBlock", block: c.BRHalving, optional: true},
+		{name: "brBlock", block: c.BRBlock, optional: true},
+		{name: "brHalvingBlock", block: c.BRHalving, optional: true},
 	} {
 		if lastFork.name != "" {
 			// Next one must be higher number
