@@ -38,10 +38,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/electronero-project/go-electronero/accounts"
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/common/math"
-	"github.com/electronero-project/go-electronero/crypto"
+	"github.com/crystaleum/go-electronero/accounts"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/crystaleum/go-electronero/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
@@ -121,7 +121,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://github.com/electronero-project/go-electronero/issues." +
+				"https://github.com/crystaleum/go-electronero/issues." +
 				"The error was : %s"
 			//lint:ignore ST1005 This is a message for the user
 			return fmt.Errorf(msg, tmpName, err)

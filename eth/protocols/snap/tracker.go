@@ -19,7 +19,7 @@ package snap
 import (
 	"time"
 
-	"github.com/electronero-project/go-electronero/p2p/tracker"
+	"github.com/crystaleum/go-electronero/p2p/tracker"
 )
 
 // requestTracker is a singleton tracker for request times.

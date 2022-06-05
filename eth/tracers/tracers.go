@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/vm"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

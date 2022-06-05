@@ -21,9 +21,9 @@ import (
 	"errors"
 	"os"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/log"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 )
 

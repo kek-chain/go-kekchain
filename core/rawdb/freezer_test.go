@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/ethdb"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/ethdb"
+	"github.com/crystaleum/go-electronero/rlp"
 	"github.com/stretchr/testify/require"
 )
 

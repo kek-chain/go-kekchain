@@ -26,13 +26,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/accounts/keystore"
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/common/hexutil"
-	"github.com/electronero-project/go-electronero/common/math"
-	"github.com/electronero-project/go-electronero/crypto"
-	"github.com/electronero-project/go-electronero/signer/core"
-	"github.com/electronero-project/go-electronero/signer/core/apitypes"
+	"github.com/crystaleum/go-electronero/accounts/keystore"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/crystaleum/go-electronero/signer/core"
+	"github.com/crystaleum/go-electronero/signer/core/apitypes"
 )
 
 var typesStandard = apitypes.Types{

@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/electronero-project/go-electronero/consensus/ethash"
-	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/consensus/ethash"
+	"github.com/crystaleum/go-electronero/core/types"
 )
 
 type fuzzer struct {

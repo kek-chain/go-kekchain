@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

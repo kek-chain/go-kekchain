@@ -24,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

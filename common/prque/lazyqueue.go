@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common/mclock"
+	"github.com/crystaleum/go-electronero/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over

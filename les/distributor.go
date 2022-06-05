@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common/mclock"
-	"github.com/electronero-project/go-electronero/les/utils"
+	"github.com/crystaleum/go-electronero/common/mclock"
+	"github.com/crystaleum/go-electronero/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

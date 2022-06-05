@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/cmd/utils"
-	"github.com/electronero-project/go-electronero/crypto"
+	"github.com/crystaleum/go-electronero/cmd/utils"
+	"github.com/crystaleum/go-electronero/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

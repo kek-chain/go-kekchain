@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/accounts/keystore"
-	"github.com/electronero-project/go-electronero/cmd/utils"
+	"github.com/crystaleum/go-electronero/accounts/keystore"
+	"github.com/crystaleum/go-electronero/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

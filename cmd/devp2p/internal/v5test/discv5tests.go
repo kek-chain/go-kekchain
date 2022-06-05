@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/electronero-project/go-electronero/internal/utesting"
-	"github.com/electronero-project/go-electronero/p2p/discover/v5wire"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/p2p/netutil"
+	"github.com/crystaleum/go-electronero/internal/utesting"
+	"github.com/crystaleum/go-electronero/p2p/discover/v5wire"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/netutil"
 )
 
 // Suite is the discv5 test suite.

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/electronero-project/go-electronero/event"
+	"github.com/crystaleum/go-electronero/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

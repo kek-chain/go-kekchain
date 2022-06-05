@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/p2p/enr"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

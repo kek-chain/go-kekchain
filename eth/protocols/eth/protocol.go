@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/forkid"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/forkid"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 // Constants to match up protocol versions and messages

@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/consensus/ethash"
-	"github.com/electronero-project/go-electronero/console/prompt"
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/eth"
-	"github.com/electronero-project/go-electronero/eth/ethconfig"
-	"github.com/electronero-project/go-electronero/internal/jsre"
-	"github.com/electronero-project/go-electronero/miner"
-	"github.com/electronero-project/go-electronero/node"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/consensus/ethash"
+	"github.com/crystaleum/go-electronero/console/prompt"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/eth"
+	"github.com/crystaleum/go-electronero/eth/ethconfig"
+	"github.com/crystaleum/go-electronero/internal/jsre"
+	"github.com/crystaleum/go-electronero/miner"
+	"github.com/crystaleum/go-electronero/node"
 )
 
 const (

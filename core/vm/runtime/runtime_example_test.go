@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/vm/runtime"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/vm/runtime"
 )
 
 func ExampleExecute() {

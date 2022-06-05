@@ -23,9 +23,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 type jsonEncoder interface {

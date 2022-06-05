@@ -26,7 +26,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // ipcListen will create a Unix socket on the given endpoint.

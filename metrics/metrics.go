@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

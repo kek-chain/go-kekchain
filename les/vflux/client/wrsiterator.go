@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/electronero-project/go-electronero/les/utils"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/p2p/nodestate"
+	"github.com/crystaleum/go-electronero/les/utils"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

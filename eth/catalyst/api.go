@@ -22,13 +22,13 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/beacon"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/eth"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/node"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/beacon"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/eth"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/node"
+	"github.com/crystaleum/go-electronero/rpc"
 )
 
 // Register adds catalyst APIs to the full node.

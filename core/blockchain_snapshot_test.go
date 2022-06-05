@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/consensus"
-	"github.com/electronero-project/go-electronero/consensus/ethash"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/core/vm"
-	"github.com/electronero-project/go-electronero/ethdb"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/consensus"
+	"github.com/crystaleum/go-electronero/consensus/ethash"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/core/vm"
+	"github.com/crystaleum/go-electronero/ethdb"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 // snapshotTestBasic wraps the common testing fields in the snapshot tests.

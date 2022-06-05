@@ -23,14 +23,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/electronero-project/go-electronero"
-	"github.com/electronero-project/go-electronero/accounts/abi"
-	"github.com/electronero-project/go-electronero/accounts/abi/bind"
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/common/hexutil"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/crypto"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero"
+	"github.com/crystaleum/go-electronero/accounts/abi"
+	"github.com/crystaleum/go-electronero/accounts/abi/bind"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/crystaleum/go-electronero/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

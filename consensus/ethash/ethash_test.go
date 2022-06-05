@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/common/hexutil"
-	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/crystaleum/go-electronero/core/types"
 )
 
 // Tests that ethash works correctly in test mode.
@@ -55,7 +55,7 @@ func TestTestMode(t *testing.T) {
 }
 
 // This test checks that cache lru logic doesn't crash under load.
-// It reproduces https://github.com/electronero-project/go-electronero/issues/14943
+// It reproduces https://github.com/crystaleum/go-electronero/issues/14943
 func TestCacheFileEvict(t *testing.T) {
 	tmpdir, err := ioutil.TempDir("", "ethash-test")
 	if err != nil {

@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/common/hexutil"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common/hexutil"
 )
 
 var testAddrHex = "970e8128ab834e8eac17ab8e3812f010678cf791"

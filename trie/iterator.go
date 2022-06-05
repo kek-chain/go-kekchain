@@ -21,9 +21,9 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/ethdb"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/ethdb"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

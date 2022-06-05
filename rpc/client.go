@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 var (

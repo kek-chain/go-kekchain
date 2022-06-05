@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/metrics"
+	"github.com/crystaleum/go-electronero/metrics"
 )
 
 var (

@@ -25,16 +25,16 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/consensus"
-	"github.com/electronero-project/go-electronero/consensus/misc"
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/core/state"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/event"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/params"
-	"github.com/electronero-project/go-electronero/trie"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/consensus"
+	"github.com/crystaleum/go-electronero/consensus/misc"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/core/state"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/event"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/params"
+	"github.com/crystaleum/go-electronero/trie"
 )
 
 const (
@@ -1135,7 +1135,7 @@ func (w *worker) commit(env *environment, interval func(), update bool, start ti
 			interval()
 		}
 		// Create a local environment copy, avoid the data race with snapshot state.
-		// https://github.com/electronero-project/go-electronero/issues/24299
+		// https://github.com/crystaleum/go-electronero/issues/24299
 		env := env.copy()
 		block, err := w.engine.FinalizeAndAssemble(w.chain, env.header, env.state, env.txs, env.unclelist(), env.receipts)
 		if err != nil {

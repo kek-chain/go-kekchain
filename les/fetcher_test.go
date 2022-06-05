@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/consensus/ethash"
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/consensus/ethash"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

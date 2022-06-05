@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/electronero-project/go-electronero/accounts"
-	"github.com/electronero-project/go-electronero/event"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/accounts"
+	"github.com/crystaleum/go-electronero/event"
+	"github.com/crystaleum/go-electronero/log"
 	"github.com/karalabe/usb"
 )
 

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 // Account is a modified version of a state.Account, where the root is replaced

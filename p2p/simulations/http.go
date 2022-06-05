@@ -29,11 +29,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/electronero-project/go-electronero/event"
-	"github.com/electronero-project/go-electronero/p2p"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/p2p/simulations/adapters"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/event"
+	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/simulations/adapters"
+	"github.com/crystaleum/go-electronero/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"
 )

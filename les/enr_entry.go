@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/electronero-project/go-electronero/core/forkid"
-	"github.com/electronero-project/go-electronero/p2p/dnsdisc"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/core/forkid"
+	"github.com/crystaleum/go-electronero/p2p/dnsdisc"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

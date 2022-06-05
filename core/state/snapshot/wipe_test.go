@@ -20,9 +20,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/ethdb/memorydb"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/ethdb/memorydb"
 )
 
 // Tests that given a database with random data content, all parts of a snapshot

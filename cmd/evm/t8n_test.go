@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/electronero-project/go-electronero/cmd/evm/internal/t8ntool"
-	"github.com/electronero-project/go-electronero/internal/cmdtest"
+	"github.com/crystaleum/go-electronero/cmd/evm/internal/t8ntool"
+	"github.com/crystaleum/go-electronero/internal/cmdtest"
 )
 
 func TestMain(m *testing.M) {

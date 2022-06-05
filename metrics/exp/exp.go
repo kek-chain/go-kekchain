@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/metrics"
-	"github.com/electronero-project/go-electronero/metrics/prometheus"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/metrics"
+	"github.com/crystaleum/go-electronero/metrics/prometheus"
 )
 
 type exp struct {

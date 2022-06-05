@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/electronero-project/go-electronero/accounts"
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero/accounts"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 var (

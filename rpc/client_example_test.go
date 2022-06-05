@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common/hexutil"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/crystaleum/go-electronero/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

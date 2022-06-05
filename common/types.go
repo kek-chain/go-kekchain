@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/common/hexutil"
+	"github.com/crystaleum/go-electronero/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

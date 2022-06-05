@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/electronero-project/go-electronero/accounts"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/ethdb"
-	"github.com/electronero-project/go-electronero/event"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/p2p"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/accounts"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/ethdb"
+	"github.com/crystaleum/go-electronero/event"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

@@ -37,7 +37,7 @@ package native
 import (
 	"errors"
 
-	"github.com/electronero-project/go-electronero/eth/tracers"
+	"github.com/crystaleum/go-electronero/eth/tracers"
 )
 
 // init registers itself this packages as a lookup for tracers.

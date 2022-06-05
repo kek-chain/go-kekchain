@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common/math"
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/ethdb"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/ethdb"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/les/downloader"
-	"github.com/electronero-project/go-electronero/light"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/les/downloader"
+	"github.com/crystaleum/go-electronero/light"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

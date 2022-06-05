@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

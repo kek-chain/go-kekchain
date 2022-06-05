@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/params"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/params"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

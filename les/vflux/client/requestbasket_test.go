@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/les/utils"
+	"github.com/crystaleum/go-electronero/les/utils"
 )
 
 func checkU64(t *testing.T, name string, value, exp uint64) {

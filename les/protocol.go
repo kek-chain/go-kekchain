@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/crypto"
-	vfc "github.com/electronero-project/go-electronero/les/vflux/client"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/crypto"
+	vfc "github.com/crystaleum/go-electronero/les/vflux/client"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 // Constants to match up protocol versions and messages

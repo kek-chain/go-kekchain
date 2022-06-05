@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/electronero-project/go-electronero/common/mclock"
+	"github.com/crystaleum/go-electronero/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

@@ -24,8 +24,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/common/math"
-	"github.com/electronero-project/go-electronero/crypto/secp256k1"
+	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/crystaleum/go-electronero/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

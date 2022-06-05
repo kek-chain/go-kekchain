@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

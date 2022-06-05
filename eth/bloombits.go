@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/electronero-project/go-electronero/common/bitutil"
-	"github.com/electronero-project/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/common/bitutil"
+	"github.com/crystaleum/go-electronero/core/rawdb"
 )
 
 const (

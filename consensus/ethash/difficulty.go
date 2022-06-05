@@ -19,7 +19,7 @@ package ethash
 import (
 	"math/big"
 
-	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/core/types"
 	"github.com/holiman/uint256"
 )
 

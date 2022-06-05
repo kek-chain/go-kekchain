@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/core/vm"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/core/vm"
 )
 
 // accessList is an accumulator for the set of accounts and storage slots an EVM

@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/accounts/abi"
-	"github.com/electronero-project/go-electronero/accounts/abi/bind"
-	"github.com/electronero-project/go-electronero/cmd/utils"
-	"github.com/electronero-project/go-electronero/common/compiler"
-	"github.com/electronero-project/go-electronero/crypto"
-	"github.com/electronero-project/go-electronero/internal/flags"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/accounts/abi"
+	"github.com/crystaleum/go-electronero/accounts/abi/bind"
+	"github.com/crystaleum/go-electronero/cmd/utils"
+	"github.com/crystaleum/go-electronero/common/compiler"
+	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/crystaleum/go-electronero/internal/flags"
+	"github.com/crystaleum/go-electronero/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

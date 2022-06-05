@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/log"
 	"github.com/olekukonko/tablewriter"
 )
 

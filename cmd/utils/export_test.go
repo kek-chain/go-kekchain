@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/electronero-project/go-electronero/common/mclock"
-	"github.com/electronero-project/go-electronero/common/prque"
+	"github.com/crystaleum/go-electronero/common/mclock"
+	"github.com/crystaleum/go-electronero/common/prque"
 )
 
 // servingQueue allows running tasks in a limited number of threads and puts the

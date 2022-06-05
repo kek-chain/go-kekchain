@@ -28,9 +28,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/p2p/enr"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/enr"
+	"github.com/crystaleum/go-electronero/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -19,9 +19,9 @@ package ethash
 import (
 	"errors"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/common/hexutil"
-	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/crystaleum/go-electronero/core/types"
 )
 
 var errEthashStopped = errors.New("ethash stopped")

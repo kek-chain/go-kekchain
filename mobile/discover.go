@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/electronero-project/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/enode"
 )
 
 // Enode represents a host on the network.

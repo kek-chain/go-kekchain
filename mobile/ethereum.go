@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	"github.com/electronero-project/go-electronero"
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 // Subscription represents an event subscription where events are

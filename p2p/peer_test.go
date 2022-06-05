@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/p2p/enr"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/enr"
 )
 
 var discard = Protocol{

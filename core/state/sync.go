@@ -19,11 +19,11 @@ package state
 import (
 	"bytes"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/ethdb"
-	"github.com/electronero-project/go-electronero/rlp"
-	"github.com/electronero-project/go-electronero/trie"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/ethdb"
+	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

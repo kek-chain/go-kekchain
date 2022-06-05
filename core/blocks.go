@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/electronero-project/go-electronero/common"
+import "github.com/crystaleum/go-electronero/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

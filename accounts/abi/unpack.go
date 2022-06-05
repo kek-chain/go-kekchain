@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 var (

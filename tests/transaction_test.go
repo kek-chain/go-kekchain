@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 func TestTransaction(t *testing.T) {

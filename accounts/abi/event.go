@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/crypto"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

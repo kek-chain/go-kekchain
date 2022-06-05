@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common/mclock"
-	"github.com/electronero-project/go-electronero/internal/testlog"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/p2p/netutil"
+	"github.com/crystaleum/go-electronero/common/mclock"
+	"github.com/crystaleum/go-electronero/internal/testlog"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/netutil"
 )
 
 // This test checks that dynamic dials are launched from discovery results.

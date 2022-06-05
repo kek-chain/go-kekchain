@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/consensus/ethash"
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/params"
-	"github.com/electronero-project/go-electronero/trie"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/consensus/ethash"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/params"
+	"github.com/crystaleum/go-electronero/trie"
 )
 
 var (

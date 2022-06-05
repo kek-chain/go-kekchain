@@ -19,9 +19,9 @@ package vm
 import (
 	"hash"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/common/math"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // Config are the configuration options for the Interpreter

@@ -27,11 +27,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/core/vm"
-	"github.com/electronero-project/go-electronero/eth/tracers/logger"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/core/vm"
+	"github.com/crystaleum/go-electronero/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

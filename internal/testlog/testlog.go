@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

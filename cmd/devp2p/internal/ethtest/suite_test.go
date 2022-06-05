@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/eth"
-	"github.com/electronero-project/go-electronero/eth/ethconfig"
-	"github.com/electronero-project/go-electronero/internal/utesting"
-	"github.com/electronero-project/go-electronero/node"
-	"github.com/electronero-project/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/eth"
+	"github.com/crystaleum/go-electronero/eth/ethconfig"
+	"github.com/crystaleum/go-electronero/internal/utesting"
+	"github.com/crystaleum/go-electronero/node"
+	"github.com/crystaleum/go-electronero/p2p"
 )
 
 var (

@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/metrics"
-	"github.com/electronero-project/go-electronero/p2p"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/p2p/enr"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/metrics"
+	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/enr"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 const (

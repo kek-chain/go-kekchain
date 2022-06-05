@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/common/math"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/core/state"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/core/state"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 var loopInterruptTests = []string{

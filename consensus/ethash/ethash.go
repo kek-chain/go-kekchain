@@ -34,10 +34,10 @@ import (
 	"unsafe"
 
 	"github.com/edsrzf/mmap-go"
-	"github.com/electronero-project/go-electronero/consensus"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/metrics"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/consensus"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/metrics"
+	"github.com/crystaleum/go-electronero/rpc"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 

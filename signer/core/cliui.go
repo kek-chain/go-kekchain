@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/electronero-project/go-electronero/common/hexutil"
-	"github.com/electronero-project/go-electronero/console/prompt"
-	"github.com/electronero-project/go-electronero/internal/ethapi"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/crystaleum/go-electronero/console/prompt"
+	"github.com/crystaleum/go-electronero/internal/ethapi"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 type CommandlineUI struct {

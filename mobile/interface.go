@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

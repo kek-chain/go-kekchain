@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/electronero-project/go-electronero/internal/ethapi"
-	"github.com/electronero-project/go-electronero/internal/jsre/deps"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/signer/core"
-	"github.com/electronero-project/go-electronero/signer/storage"
+	"github.com/crystaleum/go-electronero/internal/ethapi"
+	"github.com/crystaleum/go-electronero/internal/jsre/deps"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/signer/core"
+	"github.com/crystaleum/go-electronero/signer/storage"
 )
 
 var (

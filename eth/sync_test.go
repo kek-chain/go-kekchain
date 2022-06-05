@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/eth/downloader"
-	"github.com/electronero-project/go-electronero/eth/protocols/eth"
-	"github.com/electronero-project/go-electronero/eth/protocols/snap"
-	"github.com/electronero-project/go-electronero/p2p"
-	"github.com/electronero-project/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/eth/downloader"
+	"github.com/crystaleum/go-electronero/eth/protocols/eth"
+	"github.com/crystaleum/go-electronero/eth/protocols/snap"
+	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/p2p/enode"
 )
 
 // Tests that snap sync is disabled after a successful sync cycle.

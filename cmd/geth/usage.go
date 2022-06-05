@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/electronero-project/go-electronero/cmd/utils"
-	"github.com/electronero-project/go-electronero/internal/debug"
-	"github.com/electronero-project/go-electronero/internal/flags"
+	"github.com/crystaleum/go-electronero/cmd/utils"
+	"github.com/crystaleum/go-electronero/internal/debug"
+	"github.com/crystaleum/go-electronero/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

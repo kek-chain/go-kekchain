@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/electronero-project/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/enode"
 )
 
 // lookup performs a network search for nodes close to the given target. It approaches the

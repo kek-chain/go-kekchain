@@ -21,10 +21,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/common/prque"
-	"github.com/electronero-project/go-electronero/eth/protocols/eth"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common/prque"
+	"github.com/crystaleum/go-electronero/eth/protocols/eth"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // timeoutGracePeriod is the amount of time to allow for a peer to deliver a

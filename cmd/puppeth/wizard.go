@@ -30,10 +30,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/console/prompt"
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/console/prompt"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/log"
 	"github.com/peterh/liner"
 	"golang.org/x/crypto/ssh/terminal"
 )

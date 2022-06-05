@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/cmd/utils"
-	"github.com/electronero-project/go-electronero/console"
-	"github.com/electronero-project/go-electronero/node"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/cmd/utils"
+	"github.com/crystaleum/go-electronero/console"
+	"github.com/crystaleum/go-electronero/node"
+	"github.com/crystaleum/go-electronero/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

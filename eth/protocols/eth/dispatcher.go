@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/electronero-project/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/p2p"
 )
 
 var (

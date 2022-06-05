@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

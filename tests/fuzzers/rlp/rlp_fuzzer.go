@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

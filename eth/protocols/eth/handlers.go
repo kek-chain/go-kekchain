@@ -20,12 +20,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/rlp"
-	"github.com/electronero-project/go-electronero/trie"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/trie"
 )
 
 // handleGetBlockHeaders66 is the eth/66 version of handleGetBlockHeaders

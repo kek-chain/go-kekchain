@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/p2p"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/rpc"
 )
 
 type gethrpc struct {

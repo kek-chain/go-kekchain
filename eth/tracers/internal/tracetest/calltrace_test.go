@@ -26,22 +26,22 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/common/hexutil"
-	"github.com/electronero-project/go-electronero/common/math"
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/core/vm"
-	"github.com/electronero-project/go-electronero/crypto"
-	"github.com/electronero-project/go-electronero/eth/tracers"
-	"github.com/electronero-project/go-electronero/params"
-	"github.com/electronero-project/go-electronero/rlp"
-	"github.com/electronero-project/go-electronero/tests"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/core/vm"
+	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/crystaleum/go-electronero/eth/tracers"
+	"github.com/crystaleum/go-electronero/params"
+	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/tests"
 
 	// Force-load native and js pacakges, to trigger registration
-	_ "github.com/electronero-project/go-electronero/eth/tracers/js"
-	_ "github.com/electronero-project/go-electronero/eth/tracers/native"
+	_ "github.com/crystaleum/go-electronero/eth/tracers/js"
+	_ "github.com/crystaleum/go-electronero/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

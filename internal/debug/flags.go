@@ -24,9 +24,9 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/metrics"
-	"github.com/electronero-project/go-electronero/metrics/exp"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/metrics"
+	"github.com/crystaleum/go-electronero/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"

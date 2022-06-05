@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/electronero-project/go-electronero/tests/fuzzers/rangeproof"
+	"github.com/crystaleum/go-electronero/tests/fuzzers/rangeproof"
 )
 
 func main() {

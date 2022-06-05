@@ -29,8 +29,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/rpc"
 	"github.com/rs/cors"
 )
 

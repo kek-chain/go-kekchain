@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/electronero-project/go-electronero/common/mclock"
-	"github.com/electronero-project/go-electronero/les/utils"
-	"github.com/electronero-project/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/common/mclock"
+	"github.com/crystaleum/go-electronero/les/utils"
+	"github.com/crystaleum/go-electronero/p2p/enode"
 )
 
 // PrivateClientAPI implements the vflux client side API

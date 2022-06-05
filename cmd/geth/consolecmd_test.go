@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 const (

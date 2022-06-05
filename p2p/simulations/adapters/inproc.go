@@ -24,13 +24,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/electronero-project/go-electronero/event"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/node"
-	"github.com/electronero-project/go-electronero/p2p"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/p2p/simulations/pipes"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/event"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/node"
+	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/simulations/pipes"
+	"github.com/crystaleum/go-electronero/rpc"
 	"github.com/gorilla/websocket"
 )
 

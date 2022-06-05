@@ -19,11 +19,11 @@ package core
 import (
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/consensus"
-	"github.com/electronero-project/go-electronero/core/state"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/params"
-	"github.com/electronero-project/go-electronero/trie"
+	"github.com/crystaleum/go-electronero/consensus"
+	"github.com/crystaleum/go-electronero/core/state"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/params"
+	"github.com/crystaleum/go-electronero/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

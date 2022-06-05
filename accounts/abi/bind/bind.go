@@ -17,7 +17,7 @@
 // Package bind generates Ethereum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-ethereum Wiki page:
-// https://github.com/electronero-project/go-electronero/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
+// https://github.com/crystaleum/go-electronero/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
 package bind
 
 import (
@@ -30,8 +30,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/electronero-project/go-electronero/accounts/abi"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/accounts/abi"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

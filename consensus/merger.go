@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/electronero-project/go-electronero/core/rawdb"
-	"github.com/electronero-project/go-electronero/ethdb"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/core/rawdb"
+	"github.com/crystaleum/go-electronero/ethdb"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 // transitionStatus describes the status of eth1/2 transition. This switch

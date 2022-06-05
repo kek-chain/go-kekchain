@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/common/hexutil"
+	"github.com/crystaleum/go-electronero/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

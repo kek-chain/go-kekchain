@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/consensus/ethash"
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/eth/downloader"
-	"github.com/electronero-project/go-electronero/eth/gasprice"
-	"github.com/electronero-project/go-electronero/miner"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/consensus/ethash"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/eth/downloader"
+	"github.com/crystaleum/go-electronero/eth/gasprice"
+	"github.com/crystaleum/go-electronero/miner"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 // MarshalTOML marshals as TOML.

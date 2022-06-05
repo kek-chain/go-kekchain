@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/core/types"
 )
 
 var (

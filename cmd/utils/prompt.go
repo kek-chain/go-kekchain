@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/console/prompt"
+	"github.com/crystaleum/go-electronero/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

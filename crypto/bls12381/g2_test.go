@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 func (g *G2) one() *PointG2 {

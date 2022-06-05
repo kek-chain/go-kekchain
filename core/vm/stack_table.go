@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 func minSwapStack(n int) int {

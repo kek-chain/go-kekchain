@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

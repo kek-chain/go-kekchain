@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/eth/protocols/eth"
-	"github.com/electronero-project/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/eth/protocols/eth"
+	"github.com/crystaleum/go-electronero/p2p"
 	"github.com/stretchr/testify/assert"
 )
 

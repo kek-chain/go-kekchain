@@ -31,13 +31,13 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/crypto"
-	"github.com/electronero-project/go-electronero/ethdb"
-	"github.com/electronero-project/go-electronero/ethdb/leveldb"
-	"github.com/electronero-project/go-electronero/ethdb/memorydb"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/crystaleum/go-electronero/ethdb"
+	"github.com/crystaleum/go-electronero/ethdb/leveldb"
+	"github.com/crystaleum/go-electronero/ethdb/memorydb"
+	"github.com/crystaleum/go-electronero/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

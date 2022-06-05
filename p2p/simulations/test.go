@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/electronero-project/go-electronero/p2p"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/p2p/enr"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/enr"
+	"github.com/crystaleum/go-electronero/rpc"
 )
 
 // NoopService is the service that does not do anything

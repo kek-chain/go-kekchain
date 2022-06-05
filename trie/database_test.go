@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/ethdb/memorydb"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

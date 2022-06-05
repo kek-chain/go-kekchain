@@ -19,7 +19,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/metrics"
+	"github.com/crystaleum/go-electronero/metrics"
 )
 
 var (

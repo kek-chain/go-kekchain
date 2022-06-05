@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/electronero-project/go-electronero/tests/fuzzers/snap"
+	"github.com/crystaleum/go-electronero/tests/fuzzers/snap"
 )
 
 func main() {

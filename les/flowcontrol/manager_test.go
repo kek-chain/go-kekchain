@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/electronero-project/go-electronero/common/mclock"
+	"github.com/crystaleum/go-electronero/common/mclock"
 )
 
 type testNode struct {

@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/electronero-project/go-electronero/metrics"
+	"github.com/crystaleum/go-electronero/metrics"
 )
 
 var (

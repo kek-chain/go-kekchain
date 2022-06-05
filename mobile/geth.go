@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/eth/downloader"
-	"github.com/electronero-project/go-electronero/eth/ethconfig"
-	"github.com/electronero-project/go-electronero/ethclient"
-	"github.com/electronero-project/go-electronero/ethstats"
-	"github.com/electronero-project/go-electronero/internal/debug"
-	"github.com/electronero-project/go-electronero/les"
-	"github.com/electronero-project/go-electronero/node"
-	"github.com/electronero-project/go-electronero/p2p"
-	"github.com/electronero-project/go-electronero/p2p/nat"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/eth/downloader"
+	"github.com/crystaleum/go-electronero/eth/ethconfig"
+	"github.com/crystaleum/go-electronero/ethclient"
+	"github.com/crystaleum/go-electronero/ethstats"
+	"github.com/crystaleum/go-electronero/internal/debug"
+	"github.com/crystaleum/go-electronero/les"
+	"github.com/crystaleum/go-electronero/node"
+	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/p2p/nat"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

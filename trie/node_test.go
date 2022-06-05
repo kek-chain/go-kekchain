@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 func newTestFullNode(v []byte) []interface{} {

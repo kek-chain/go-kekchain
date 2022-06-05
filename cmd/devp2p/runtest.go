@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/electronero-project/go-electronero/cmd/devp2p/internal/v4test"
-	"github.com/electronero-project/go-electronero/internal/utesting"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/cmd/devp2p/internal/v4test"
+	"github.com/crystaleum/go-electronero/internal/utesting"
+	"github.com/crystaleum/go-electronero/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

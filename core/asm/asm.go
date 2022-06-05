@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/core/vm"
+	"github.com/crystaleum/go-electronero/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

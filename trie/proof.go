@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/ethdb"
-	"github.com/electronero-project/go-electronero/ethdb/memorydb"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/ethdb"
+	"github.com/crystaleum/go-electronero/ethdb/memorydb"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

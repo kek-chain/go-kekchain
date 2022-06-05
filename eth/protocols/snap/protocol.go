@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/state/snapshot"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/state/snapshot"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 // Constants to match up protocol versions and messages

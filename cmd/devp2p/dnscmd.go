@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/electronero-project/go-electronero/accounts/keystore"
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/console/prompt"
-	"github.com/electronero-project/go-electronero/p2p/dnsdisc"
-	"github.com/electronero-project/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/accounts/keystore"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/console/prompt"
+	"github.com/crystaleum/go-electronero/p2p/dnsdisc"
+	"github.com/crystaleum/go-electronero/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

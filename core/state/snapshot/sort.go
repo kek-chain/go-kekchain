@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 // hashes is a helper to implement sort.Interface.

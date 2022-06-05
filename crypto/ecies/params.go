@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/electronero-project/go-electronero/crypto"
+	ethcrypto "github.com/crystaleum/go-electronero/crypto"
 )
 
 var (

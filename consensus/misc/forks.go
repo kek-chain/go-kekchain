@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

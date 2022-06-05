@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/electronero-project/go-electronero/common/bitutil"
-	"github.com/electronero-project/go-electronero/light"
+	"github.com/crystaleum/go-electronero/common/bitutil"
+	"github.com/crystaleum/go-electronero/light"
 )
 
 const (

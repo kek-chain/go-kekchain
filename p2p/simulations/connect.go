@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/p2p/enode"
 )
 
 var (

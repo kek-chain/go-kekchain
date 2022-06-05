@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

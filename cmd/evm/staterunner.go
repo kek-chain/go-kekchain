@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/electronero-project/go-electronero/core/state"
-	"github.com/electronero-project/go-electronero/core/vm"
-	"github.com/electronero-project/go-electronero/eth/tracers/logger"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/tests"
+	"github.com/crystaleum/go-electronero/core/state"
+	"github.com/crystaleum/go-electronero/core/vm"
+	"github.com/crystaleum/go-electronero/eth/tracers/logger"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 func bigFromHex(hex string) *big.Int {

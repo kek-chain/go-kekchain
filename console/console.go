@@ -31,11 +31,11 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/electronero-project/go-electronero/console/prompt"
-	"github.com/electronero-project/go-electronero/internal/jsre"
-	"github.com/electronero-project/go-electronero/internal/jsre/deps"
-	"github.com/electronero-project/go-electronero/internal/web3ext"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/console/prompt"
+	"github.com/crystaleum/go-electronero/internal/jsre"
+	"github.com/crystaleum/go-electronero/internal/jsre/deps"
+	"github.com/crystaleum/go-electronero/internal/web3ext"
+	"github.com/crystaleum/go-electronero/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

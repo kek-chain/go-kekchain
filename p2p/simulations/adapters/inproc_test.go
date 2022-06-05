@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/p2p/simulations/pipes"
+	"github.com/crystaleum/go-electronero/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

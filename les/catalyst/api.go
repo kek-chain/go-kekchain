@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/beacon"
-	"github.com/electronero-project/go-electronero/les"
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/node"
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/beacon"
+	"github.com/crystaleum/go-electronero/les"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/node"
+	"github.com/crystaleum/go-electronero/rpc"
 )
 
 // Register adds catalyst APIs to the light client.

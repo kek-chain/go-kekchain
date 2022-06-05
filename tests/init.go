@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 // Forks table defines supported forks and their chain config.

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/rpc"
+	"github.com/crystaleum/go-electronero/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

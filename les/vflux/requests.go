@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

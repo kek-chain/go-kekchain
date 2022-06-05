@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/p2p/enode"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

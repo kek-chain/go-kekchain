@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/metrics"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/metrics"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
 )

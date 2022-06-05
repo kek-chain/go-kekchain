@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 // Type enumerator

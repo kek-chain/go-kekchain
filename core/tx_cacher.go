@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/electronero-project/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/electronero-project/go-electronero/les/utils"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/les/utils"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 const (

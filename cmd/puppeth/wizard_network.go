@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

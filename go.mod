@@ -1,4 +1,4 @@
-module github.com/electronero-project/go-electronero
+module github.com/crystaleum/go-electronero
 
 go 1.15
 

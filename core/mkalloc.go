@@ -35,8 +35,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/electronero-project/go-electronero/core"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/core"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

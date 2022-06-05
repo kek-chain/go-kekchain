@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/core/types"
-	"github.com/electronero-project/go-electronero/params"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/crystaleum/go-electronero/params"
 )
 
 // copyConfig does a _shallow_ copy of a given config. Safe to set new values, but

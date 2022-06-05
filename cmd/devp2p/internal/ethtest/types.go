@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/electronero-project/go-electronero/eth/protocols/eth"
-	"github.com/electronero-project/go-electronero/p2p"
-	"github.com/electronero-project/go-electronero/p2p/rlpx"
-	"github.com/electronero-project/go-electronero/rlp"
+	"github.com/crystaleum/go-electronero/eth/protocols/eth"
+	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/crystaleum/go-electronero/p2p/rlpx"
+	"github.com/crystaleum/go-electronero/rlp"
 )
 
 type Message interface {

@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/electronero-project/go-electronero/ethdb"
+	"github.com/crystaleum/go-electronero/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

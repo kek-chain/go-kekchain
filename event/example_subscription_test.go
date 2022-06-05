@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/electronero-project/go-electronero/event"
+	"github.com/crystaleum/go-electronero/event"
 )
 
 func ExampleNewSubscription() {

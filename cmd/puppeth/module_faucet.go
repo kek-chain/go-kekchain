@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

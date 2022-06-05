@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/electronero-project/go-electronero/common"
-	"github.com/electronero-project/go-electronero/event"
+	"github.com/crystaleum/go-electronero/common"
+	"github.com/crystaleum/go-electronero/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

@@ -22,7 +22,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/electronero-project/go-electronero/log"
+	"github.com/crystaleum/go-electronero/log"
 	"github.com/rjeczalik/notify"
 )
 

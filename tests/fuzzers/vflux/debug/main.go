@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/tests/fuzzers/vflux"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/tests/fuzzers/vflux"
 )
 
 func main() {

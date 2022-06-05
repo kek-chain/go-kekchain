@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/electronero-project/go-electronero/common"
+	"github.com/crystaleum/go-electronero/common"
 )
 
 func TestFacebook(t *testing.T) {

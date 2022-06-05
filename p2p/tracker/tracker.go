@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/electronero-project/go-electronero/log"
-	"github.com/electronero-project/go-electronero/metrics"
+	"github.com/crystaleum/go-electronero/log"
+	"github.com/crystaleum/go-electronero/metrics"
 )
 
 const (

@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/electronero-project/go-electronero/common/math"
-	"github.com/electronero-project/go-electronero/core/vm"
+	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/crystaleum/go-electronero/core/vm"
 )
 
 // Compiler contains information about the parsed source
