@@ -565,9 +565,8 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 // rewards given.
 func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Header, state *state.StateDB, txs []*types.Transaction, uncles []*types.Header) {
 	// NEW block rebates in PoA! 
-	blockRebate := ConstantHalfBlockReward
-	rebate := new(big.Int).Set(blockRebate)
-	state.AddBalance(header.Coinbase, rebate)
+	blockRebate := CostantBlockReward
+	state.AddBalance(header.Coinbase, blockRebate)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
 }
