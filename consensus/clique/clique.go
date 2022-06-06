@@ -56,9 +56,11 @@ const (
 // Clique proof-of-authority protocol constants.
 var (
 	epochLength = uint64(30000) // Default number of blocks after which to checkpoint and reset the pending votes
-	CostantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
+	ConstantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
 	ConstantHalfBlockReward = big.NewInt(1e+18) // Block reward in wei for successfully mining a block upward from BR halving fork
-	cliqueSignorRebateAddress = common.HexToAddress("0xbf4ed7b27f1d666546e30d74d50d173d20bca754")
+	ConstantEmptyBlocks = hexutil.MustDecode("0x0000000000000000") // Block reward in wei for successfully mining a block upward from BR activator fork
+	cliqueSignorRebateAddress = common.HexToAddress("0xC4C9284fdc065dc0190E97C7ADD4e2F530400B03") // fallback signor rebate address 
+	
 	extraVanity = 32                     // Fixed number of extra-data prefix bytes reserved for signer vanity
 	extraSeal   = crypto.SignatureLength // Fixed number of extra-data suffix bytes reserved for signer seal
 
@@ -149,8 +151,6 @@ func ecrecover(header *types.Header, sigcache *lru.ARCCache) (common.Address, er
 	// If the signature's already cached, return that
 	hash := header.Hash()
 	if address, known := sigcache.Get(hash); known {
-		
-		log.Info("Address: ", "address:", address.(common.Address))
 		return address.(common.Address), nil
 	}
 	// Retrieve the signature from the header extra-data
@@ -170,8 +170,7 @@ func ecrecover(header *types.Header, sigcache *lru.ARCCache) (common.Address, er
 
 	sigcache.Add(hash, signer)
 	cliqueSignorRebateAddress = signer;
-	log.Info("CoinbaseRebateAddress: ", "signer:", cliqueSignorRebateAddress)
-
+	
 	return signer, nil
 }
 
@@ -475,7 +474,6 @@ func (c *Clique) verifySeal(snap *Snapshot, header *types.Header, parents []*typ
 	}
 	// Resolve the authorization key and check against signers
 	signer, err := ecrecover(header, c.signatures)
-	log.Info("Signer address recovered: ", "signer:", signer)
 	if err != nil {
 		return err
 	}
@@ -522,7 +520,6 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 		// Gather all the proposals that make sense voting on
 		addresses := make([]common.Address, 0, len(c.proposals))
 		for address, authorize := range c.proposals {
-			log.Info("Address: ", "address:", address)
 			if snap.validVote(address, authorize) {
 				addresses = append(addresses, address)
 			}
@@ -530,8 +527,6 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 		// If there's pending proposals, cast a vote on them
 		if len(addresses) > 0 {
 			header.Coinbase = addresses[rand.Intn(len(addresses))]
-			
-			log.Info("Coinbase: ", "coinbase:", header.Coinbase)
 			if c.proposals[header.Coinbase] {
 				copy(header.Nonce[:], nonceAuthVote)
 			} else {
@@ -575,11 +570,8 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 // rewards given.
 func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Header, state *state.StateDB, txs []*types.Transaction, uncles []*types.Header) {
 	// NEW block rebates in PoA! 
-	blockRebate := CostantBlockReward
-	state.AddBalance(cliqueSignorRebateAddress, blockRebate)
-	// log.Info("Header: ", "header:", header)
-	// log.Info("State: ", "state:", header)
-	log.Info("Signer issued rebate: ", "signer:", cliqueSignorRebateAddress, "signer:", header.Coinbase, "rebate:", blockRebate)
+	blockSignor := cliqueSignorRebateAddress
+	accumulateRebates(chain.Config(), state, header, blockSignor)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
 }
@@ -720,6 +712,30 @@ func SealHash(header *types.Header) (hash common.Hash) {
 	encodeSigHeader(hasher, header)
 	hasher.(crypto.KeccakState).Read(hash[:])
 	return hash
+}
+
+// accumulateRebates credits the coinbase of the given block with the sealers
+// rebate. The total rebate consists of the static block rebate no rebates for
+// uncles, since PoA doesn't count uncles.
+func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header, signor *Address) {
+	// Select the correct block rebate based on chain progression
+	blockRebate := ConstantEmptyBlocks
+	if config.IsBRonline(header.Number) {
+		blockRebate = ConstantBlockReward
+		log.Info("Forked activated rebates: ", "blockRebate:", blockRebate)
+	}
+	if config.IsBRHalving(header.Number) {
+		blockRebate = ConstantHalfBlockReward
+		log.Info("Halving rebates: ", "blockRebate:", blockRebate)
+	}
+	if config.IsBRFinalSubsidy(header.Number) {
+		blockRebate = ConstantEmptyBlocks
+		log.Info("Forked final subsidy rebates: ", "blockRebate:", blockRebate)
+	}
+	// Accumulate rebates for the signer, no uncles in PoA
+	rebate := new(big.Int).Set(blockRebate)
+	log.Info("Rebates delivered: ", "blockRebate:", rebate)
+	state.AddBalance(signor, rebate)
 }
 
 // CliqueRLP returns the rlp bytes which needs to be signed for the proof-of-authority
