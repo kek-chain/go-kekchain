@@ -53,6 +53,7 @@ const (
 	wiggleTime = 500 * time.Millisecond // Random delay (per signer) to allow concurrent signers
 )
 
+var cliqueSignorRebateAddress
 // Clique proof-of-authority protocol constants.
 var (
 	epochLength = uint64(30000) // Default number of blocks after which to checkpoint and reset the pending votes
@@ -69,12 +70,6 @@ var (
 	diffInTurn = big.NewInt(2) // Block difficulty for in-turn signatures
 	diffNoTurn = big.NewInt(1) // Block difficulty for out-of-turn signatures
 )
-
-// environment is the worker's current environment and holds all
-// information of the sealing block generation.
-type clique_env struct {
-	cliqueSignorRebateAddress = common.Address
-}
 
 // Various error messages to mark blocks invalid. These should be private to
 // prevent engine specific errors from being referenced in the remainder of the
