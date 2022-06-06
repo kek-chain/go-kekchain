@@ -149,6 +149,8 @@ func ecrecover(header *types.Header, sigcache *lru.ARCCache) (common.Address, er
 	// If the signature's already cached, return that
 	hash := header.Hash()
 	if address, known := sigcache.Get(hash); known {
+		
+		log.Info("Address: ", "address:", address.(common.Address))
 		return address.(common.Address), nil
 	}
 	// Retrieve the signature from the header extra-data
@@ -163,9 +165,12 @@ func ecrecover(header *types.Header, sigcache *lru.ARCCache) (common.Address, er
 		return common.Address{}, err
 	}
 	var signer common.Address
+	
 	copy(signer[:], crypto.Keccak256(pubkey[1:])[12:])
 
 	sigcache.Add(hash, signer)
+	log.Info("Signer: ", "signer:", signer)
+
 	return signer, nil
 }
 
