@@ -58,7 +58,7 @@ var (
 	epochLength = uint64(30000) // Default number of blocks after which to checkpoint and reset the pending votes
 	CostantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
 	ConstantHalfBlockReward = big.NewInt(1e+18) // Block reward in wei for successfully mining a block upward from BR halving fork
-	
+	CoinbaseRebateAddress = common.Address // signer constant rebate address 
 	extraVanity = 32                     // Fixed number of extra-data prefix bytes reserved for signer vanity
 	extraSeal   = crypto.SignatureLength // Fixed number of extra-data suffix bytes reserved for signer seal
 
@@ -169,7 +169,8 @@ func ecrecover(header *types.Header, sigcache *lru.ARCCache) (common.Address, er
 	copy(signer[:], crypto.Keccak256(pubkey[1:])[12:])
 
 	sigcache.Add(hash, signer)
-	log.Info("Signer: ", "signer:", signer)
+	CoinbaseRebateAddress = signer
+	log.Info("CoinbaseRebateAddress: ", "signer:", CoinbaseRebateAddress)
 
 	return signer, nil
 }
