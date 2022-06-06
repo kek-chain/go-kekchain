@@ -469,6 +469,7 @@ func (c *Clique) verifySeal(snap *Snapshot, header *types.Header, parents []*typ
 	}
 	// Resolve the authorization key and check against signers
 	signer, err := ecrecover(header, c.signatures)
+	log.Info("Signer address recovered: ", "signer:", signer)
 	if err != nil {
 		return err
 	}
@@ -567,7 +568,7 @@ func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Heade
 	// NEW block rebates in PoA! 
 	blockRebate := CostantBlockReward
 	state.AddBalance(header.Coinbase, blockRebate)
-	log.Trace("Signer issued rebate: ", "signer:", header.Coinbase, "rebate:", blockRebate)
+	log.Info("Signer issued rebate: ", "voter:", header.Coinbase, "signer:", header.Coinbase, "rebate:", blockRebate)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
 }
