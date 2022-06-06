@@ -73,7 +73,7 @@ var (
 // environment is the worker's current environment and holds all
 // information of the sealing block generation.
 type clique_env struct {
-	cliqueSignorRebateAddress  common.Address
+	cliqueSignorRebateAddress = common.Address
 }
 
 // Various error messages to mark blocks invalid. These should be private to
@@ -584,7 +584,7 @@ func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Heade
 	state.AddBalance(clique_env.cliqueSignorRebateAddress, blockRebate)
 	// log.Info("Header: ", "header:", header)
 	// log.Info("State: ", "state:", header)
-		log.Info("Environment: ", "clique_env:", clique_env.cliqueSignorRebateAddress)
+	log.Info("Environment: ", "clique_env:", clique_env.cliqueSignorRebateAddress)
 	log.Info("Signer issued rebate: ", "signer:", clique_env.cliqueSignorRebateAddress, "signer:", header.Coinbase, "rebate:", blockRebate)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
