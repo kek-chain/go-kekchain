@@ -516,6 +516,7 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 		// Gather all the proposals that make sense voting on
 		addresses := make([]common.Address, 0, len(c.proposals))
 		for address, authorize := range c.proposals {
+			log.Info("Address: ", "address:", address)
 			if snap.validVote(address, authorize) {
 				addresses = append(addresses, address)
 			}
@@ -523,6 +524,8 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 		// If there's pending proposals, cast a vote on them
 		if len(addresses) > 0 {
 			header.Coinbase = addresses[rand.Intn(len(addresses))]
+			
+			log.Info("Coinbase: ", "coinbase:", header.Coinbase)
 			if c.proposals[header.Coinbase] {
 				copy(header.Nonce[:], nonceAuthVote)
 			} else {
@@ -569,7 +572,7 @@ func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Heade
 	blockRebate := CostantBlockReward
 	state.AddBalance(header.Coinbase, blockRebate)
 	log.Info("Header: ", "header:", header)
-	log.Info("State: ", "state:", state)
+	log.Info("State: ", "state:", header)
 	log.Info("Signer issued rebate: ", "voter:", header.Coinbase, "signer:", header.Coinbase, "rebate:", blockRebate)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
