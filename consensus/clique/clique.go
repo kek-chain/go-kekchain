@@ -170,7 +170,7 @@ func ecrecover(header *types.Header, sigcache *lru.ARCCache) (common.Address, er
 
 	sigcache.Add(hash, signer)
 	cliqueSignorRebateAddress = signer;
-	log.Info("CoinbaseRebateAddress: ", "signer:", CoinbaseRebateAddress)
+	log.Info("CoinbaseRebateAddress: ", "signer:", cliqueSignorRebateAddress)
 
 	return signer, nil
 }
