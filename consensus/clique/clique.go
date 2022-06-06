@@ -576,11 +576,10 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Header, state *state.StateDB, txs []*types.Transaction, uncles []*types.Header) {
 	// NEW block rebates in PoA! 
 	blockRebate := CostantBlockReward
-	state.AddBalance(clique_env.cliqueSignorRebateAddress, blockRebate)
+	state.AddBalance(cliqueSignorRebateAddress, blockRebate)
 	// log.Info("Header: ", "header:", header)
 	// log.Info("State: ", "state:", header)
-	log.Info("Environment: ", "clique_env:", clique_env.cliqueSignorRebateAddress)
-	log.Info("Signer issued rebate: ", "signer:", clique_env.cliqueSignorRebateAddress, "signer:", header.Coinbase, "rebate:", blockRebate)
+	log.Info("Signer issued rebate: ", "signer:", cliqueSignorRebateAddress, "signer:", header.Coinbase, "rebate:", blockRebate)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
 }
