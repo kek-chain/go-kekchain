@@ -567,6 +567,7 @@ func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Heade
 	// NEW block rebates in PoA! 
 	blockRebate := CostantBlockReward
 	state.AddBalance(header.Coinbase, blockRebate)
+	log.Trace("Signer issued rebate: ", "signer:", header.Coinbase, "rebate:", blockRebate)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
 }

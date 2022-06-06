@@ -5,6 +5,8 @@
 #   git config --global core.excludesfile ~/.gitignore_global
 bin
 /bin
+/keys
+keys
 bin/
 bin2
 /bin2
