@@ -58,7 +58,6 @@ var (
 	epochLength = uint64(30000) // Default number of blocks after which to checkpoint and reset the pending votes
 	CostantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
 	ConstantHalfBlockReward = big.NewInt(1e+18) // Block reward in wei for successfully mining a block upward from BR halving fork
-	CoinbaseRebateAddress = common.Address // signer constant rebate address 
 	extraVanity = 32                     // Fixed number of extra-data prefix bytes reserved for signer vanity
 	extraSeal   = crypto.SignatureLength // Fixed number of extra-data suffix bytes reserved for signer seal
 
@@ -70,6 +69,12 @@ var (
 	diffInTurn = big.NewInt(2) // Block difficulty for in-turn signatures
 	diffNoTurn = big.NewInt(1) // Block difficulty for out-of-turn signatures
 )
+
+// environment is the worker's current environment and holds all
+// information of the sealing block generation.
+type clique_env struct {
+	cliqueSignorRebateAddress  common.Address
+}
 
 // Various error messages to mark blocks invalid. These should be private to
 // prevent engine specific errors from being referenced in the remainder of the
@@ -169,8 +174,8 @@ func ecrecover(header *types.Header, sigcache *lru.ARCCache) (common.Address, er
 	copy(signer[:], crypto.Keccak256(pubkey[1:])[12:])
 
 	sigcache.Add(hash, signer)
-	CoinbaseRebateAddress = signer
-	log.Info("CoinbaseRebateAddress: ", "signer:", CoinbaseRebateAddress)
+	clique_env.cliqueSignorRebateAddress = signer;
+	log.Info("CoinbaseRebateAddress: ", "signer:", clique_env.CoinbaseRebateAddress)
 
 	return signer, nil
 }
@@ -576,10 +581,11 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Header, state *state.StateDB, txs []*types.Transaction, uncles []*types.Header) {
 	// NEW block rebates in PoA! 
 	blockRebate := CostantBlockReward
-	state.AddBalance(header.Coinbase, blockRebate)
-	log.Info("Header: ", "header:", header)
-	log.Info("State: ", "state:", header)
-	log.Info("Signer issued rebate: ", "voter:", header.Coinbase, "signer:", header.Coinbase, "rebate:", blockRebate)
+	state.AddBalance(clique_env.cliqueSignorRebateAddress, blockRebate)
+	// log.Info("Header: ", "header:", header)
+	// log.Info("State: ", "state:", header)
+		log.Info("Environment: ", "clique_env:", clique_env.cliqueSignorRebateAddress)
+	log.Info("Signer issued rebate: ", "signer:", clique_env.cliqueSignorRebateAddress, "signer:", header.Coinbase, "rebate:", blockRebate)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
 }
