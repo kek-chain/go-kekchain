@@ -717,9 +717,9 @@ func SealHash(header *types.Header) (hash common.Hash) {
 // accumulateRebates credits the coinbase of the given block with the sealers
 // rebate. The total rebate consists of the static block rebate no rebates for
 // uncles, since PoA doesn't count uncles.
-func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header, signor *Address) {
+func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header, signor *common.Address) {
 	// Select the correct block rebate based on chain progression
-	blockRebate := ConstantEmptyBlocks
+	blockRebate := big.NewInt(ConstantEmptyBlocks)
 	if config.IsBRonline(header.Number) {
 		blockRebate = ConstantBlockReward
 		log.Info("Forked activated rebates: ", "blockRebate:", blockRebate)
@@ -733,7 +733,7 @@ func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header 
 		log.Info("Forked final subsidy rebates: ", "blockRebate:", blockRebate)
 	}
 	// Accumulate rebates for the signer, no uncles in PoA
-	rebate := new(big.Int).Set(blockRebate)
+	rebate := big.NewInt(blockRebate)
 	log.Info("Rebates delivered: ", "blockRebate:", rebate)
 	state.AddBalance(signor, rebate)
 }
