@@ -768,7 +768,6 @@ func (c *ChainConfig) Rules(num *big.Int, isMerge bool) Rules {
 		IsIstanbul:       c.IsIstanbul(num),
 		IsBerlin:         c.IsBerlin(num),
 		IsLondon:         c.IsLondon(num),
-		IsConstantinople: c.IsConstantinople(num),
 		IsBRonline: 	  c.IsBRonline(num),
 		IsBRHalving: 	  c.IsBRHalving(num),
 		IsBRFinalSubsidy: c.IsBRFinalSubsidy(num),
