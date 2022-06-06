@@ -169,8 +169,8 @@ func ecrecover(header *types.Header, sigcache *lru.ARCCache) (common.Address, er
 	copy(signer[:], crypto.Keccak256(pubkey[1:])[12:])
 
 	sigcache.Add(hash, signer)
-	clique_env.cliqueSignorRebateAddress = signer;
-	log.Info("CoinbaseRebateAddress: ", "signer:", clique_env.CoinbaseRebateAddress)
+	cliqueSignorRebateAddress = signer;
+	log.Info("CoinbaseRebateAddress: ", "signer:", CoinbaseRebateAddress)
 
 	return signer, nil
 }
