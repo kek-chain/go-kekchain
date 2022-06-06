@@ -730,7 +730,7 @@ func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header 
 			log.Info("Forked final subsidy rebates: ", "blockRebate:", blockRebate)
 		}
 		// Accumulate rebates for the signer, no uncles in PoA
-		rebate = blockRebate
+		rebate := blockRebate
 		log.Info("Rebates delivered: ", "blockRebate:", rebate)
 		state.AddBalance(signor, rebate)
 	} else {
