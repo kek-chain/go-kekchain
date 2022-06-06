@@ -570,7 +570,8 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 // rewards given.
 func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Header, state *state.StateDB, txs []*types.Transaction, uncles []*types.Header) {
 	// NEW block rebates in PoA! 
-	accumulateRebates(chain.Config(), state, header)
+	signor := cliqueSignorRebateAddress
+	accumulateRebates(chain.Config(), state, header, signor)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
 }
@@ -716,7 +717,7 @@ func SealHash(header *types.Header) (hash common.Hash) {
 // accumulateRebates credits the coinbase of the given block with the sealers
 // rebate. The total rebate consists of the static block rebate no rebates for
 // uncles, since PoA doesn't count uncles.
-func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header) {
+func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header, signorInTurn string) {
 	// Select the correct block rebate based on chain progression
 	if config.IsBRonline(header.Number) {
 		blockRebate := ConstantBlockReward
@@ -731,9 +732,9 @@ func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header 
 		}
 		// Accumulate rebates for the signer, no uncles in PoA
 		rebate := blockRebate
-		signor := cliqueSignorRebateAddress
+		signor := signorInTurn
 		log.Info("Rebates delivered: ", "blockRebate:", rebate, "signor:", signor)
-		state.AddBalance(cliqueSignorRebateAddress, rebate)
+		state.AddBalance(signor, rebate)
 	} else {
 		log.Info("No rebates for signors")
 	}
