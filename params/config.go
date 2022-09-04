@@ -101,7 +101,7 @@ var (
 
 	// MainnetChainConfig is the chain parameters to run a node on the main network.
 	MainnetChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(19802),
+		ChainID:             big.NewInt(31291),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        nil,
 		DAOForkSupport:      false,
@@ -112,15 +112,15 @@ var (
 		ByzantiumBlock:      big.NewInt(0),
 		ConstantinopleBlock: big.NewInt(0),
 		PetersburgBlock:     big.NewInt(0),
-		IstanbulBlock:       big.NewInt(4),
-		MuirGlacierBlock:    big.NewInt(5),
-		BerlinBlock:         big.NewInt(6),
-		LondonBlock:         big.NewInt(7),
-		BRBlock:             big.NewInt(10),
-		BRHalving:           big.NewInt(100),
-		BRFinalSubsidy:      big.NewInt(110),
+		IstanbulBlock:       big.NewInt(0),
+		MuirGlacierBlock:    big.NewInt(0),
+		BerlinBlock:         big.NewInt(0),
+		LondonBlock:         big.NewInt(0),
+		BRBlock:             big.NewInt(0),
+		BRHalving:           big.NewInt(4400),
+		BRFinalSubsidy:      big.NewInt(5500),
 		Clique: &CliqueConfig{
-			Period: 3,
+			Period: 10,
 			Epoch:  30000,
 		},
 	}
@@ -129,13 +129,7 @@ var (
 	MainnetTrustedCheckpoint = &TrustedCheckpoint{}
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
-	MainnetCheckpointOracle = &CheckpointOracleConfig{
-		Address: common.HexToAddress("0x4D4a5299051994521aBBf2dF83448FAE2a3567c2"),
-		Signers: []common.Address{
-			common.HexToAddress("0xc4c9284fdc065dc0190e97c7add4e2f530400b03"), // CryptocurrencyDevs
-		},
-		Threshold: 1,
-	}
+	MainnetCheckpointOracle = &CheckpointOracleConfig{}
 
 	// RopstenChainConfig contains the chain parameters to run a node on the Ropsten test network.
 	RopstenChainConfig = &ChainConfig{
