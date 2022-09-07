@@ -2,7 +2,12 @@
 
 Some scripts were also provided to accompany the notes. 
 
-Genesis written: [testnet-genesis.json](https://github.com/lol-chain/go-kekchain-testnet/blob/main/testnet-genesis.json)
+Testnet is operational: self initializes add the following flag to geth on startup
+```
+--kektest
+```
+
+## Installation help frens?
 Check [[install.md]](https://github.com/lol-chain/go-kekchain-testnet/blob/main/install.md) for interchained notes.
 When Installed, check [startups.md](https://github.com/lol-chain/go-kekchain-testnet/blob/main/startups.md) 
 
