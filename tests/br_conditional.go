@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"time"
-    "math/big"
+	"math/big"
 
 	"github.com/lol-chain/go-kekchain/common"
 	"github.com/lol-chain/go-kekchain/params"
@@ -21,20 +21,20 @@ var (
 		EIP155Block:         big.NewInt(0),
 		EIP158Block:         big.NewInt(0),
 		ByzantiumBlock:      big.NewInt(0),
-        ConstantinopleBlock: big.NewInt(0),
-        PetersburgBlock:     big.NewInt(0),
-        IstanbulBlock:       big.NewInt(0),
-        MuirGlacierBlock:    big.NewInt(0),
-        BerlinBlock:         big.NewInt(0),
-        LondonBlock:         big.NewInt(0),
-        BRBlock:             big.NewInt(3),
-        BRHalving:           big.NewInt(6),
-        BRFinalSubsidy:      big.NewInt(9),
+		ConstantinopleBlock: big.NewInt(0),
+		PetersburgBlock:     big.NewInt(0),
+		IstanbulBlock:       big.NewInt(0),
+		MuirGlacierBlock:    big.NewInt(0),
+		BerlinBlock:         big.NewInt(0),
+		LondonBlock:         big.NewInt(0),
+		BRBlock:             big.NewInt(3),
+		BRHalving:           big.NewInt(6),
+		BRFinalSubsidy:      big.NewInt(9),
 	}
-    block = big.NewInt(0)
-    ConstantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
-    ConstantHalfBlockReward = big.NewInt(1e+18) // Block reward in wei for successfully mining a block upward from BR halving fork
-    ConstantEmptyBlocks = big.NewInt(1e+1) // Block reward in wei for successfully mining a block upward from BR activator fork
+    	block = big.NewInt(0)
+    	ConstantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
+    	ConstantHalfBlockReward = big.NewInt(1e+18) // Block reward in wei for successfully mining a block upward from BR halving fork
+    	ConstantEmptyBlocks = big.NewInt(1e+1) // Block reward in wei for successfully mining a block upward from BR activator fork
 
 )
 // to test
@@ -70,19 +70,19 @@ func IsBRFinalSubsidy(num *big.Int) bool {
 
 func blockSimulator() {
 	for range time.Tick(time.Second * 1) {
-        block.Add(block, big.NewInt(1))
-        if IsBRonline(block) {
-            rebate := ConstantBlockReward
-            if IsBRFinalSubsidy(block) {
-                fmt.Println("Final subsidy entered @ ",block," REBATE AMOUNT: 0")
-            } else if IsBRHalving(block) {
-                rebate = ConstantHalfBlockReward
-                fmt.Println("Block Halving event entered @ ",block," REBATE AMOUNT: ", rebate)
-            } else {
-                fmt.Println("Block Rebates ACTIVE @ ",block," REBATE AMOUNT: ",rebate)
-            }
-        } else {
-            fmt.Println("Disabled rebates",block)
-        }
+		block.Add(block, big.NewInt(1))
+		if IsBRonline(block) {
+		    rebate := ConstantBlockReward
+		    if IsBRFinalSubsidy(block) {
+			    fmt.Println("Final subsidy entered @ ",block," REBATE AMOUNT: 0")
+		    } else if IsBRHalving(block) {
+			    rebate = ConstantHalfBlockReward
+			    fmt.Println("Block Halving event entered @ ",block," REBATE AMOUNT: ", rebate)
+		    } else {
+			    fmt.Println("Block Rebates ACTIVE @ ",block," REBATE AMOUNT: ",rebate)
+		    }
+		} else {
+		    fmt.Println("Disabled rebates",block)
+		}
 	}
 }
