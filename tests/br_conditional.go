@@ -27,9 +27,9 @@ var (
         MuirGlacierBlock:    big.NewInt(0),
         BerlinBlock:         big.NewInt(0),
         LondonBlock:         big.NewInt(0),
-        BRBlock:             big.NewInt(1),
-        BRHalving:           big.NewInt(3),
-        BRFinalSubsidy:      big.NewInt(7),
+        BRBlock:             big.NewInt(3),
+        BRHalving:           big.NewInt(6),
+        BRFinalSubsidy:      big.NewInt(9),
 	}
     block = big.NewInt(0)
     ConstantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
@@ -41,7 +41,7 @@ var (
 // go run br_conditional.go
 func main() {
     go blockSimulator()
-	time.Sleep(time.Second * 10)
+	time.Sleep(time.Second * 15)
 }
 
 
