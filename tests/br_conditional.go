@@ -9,6 +9,11 @@ import (
 	"github.com/lol-chain/go-kekchain/params"
 )
 
+// to test build the program 
+// go build br_conditional.go
+// and run it (on WIN) ./br_conditional.exe || (on UNIX) ./br_conditional 
+// or simply run the program in go
+// go run br_conditional.go
 
 var (
 	mainnetChainConfig = params.ChainConfig{
@@ -37,8 +42,7 @@ var (
     	ConstantEmptyBlocks = big.NewInt(1e+1) // Block reward in wei for successfully mining a block upward from BR activator fork
 
 )
-// to test
-// go run br_conditional.go
+
 func main() {
     go blockSimulator()
 	time.Sleep(time.Second * 15)
@@ -68,6 +72,7 @@ func IsBRFinalSubsidy(num *big.Int) bool {
 	return isForked(mainnetChainConfig.BRFinalSubsidy, num)
 }
 
+// simulate block production
 func blockSimulator() {
 	for range time.Tick(time.Second * 1) {
 		block.Add(block, big.NewInt(1))
