@@ -21,20 +21,20 @@ var (
 		EIP155Block:         big.NewInt(0),
 		EIP158Block:         big.NewInt(0),
 		ByzantiumBlock:      big.NewInt(0),
-        ConstantinopleBlock: big.NewInt(0),
-        PetersburgBlock:     big.NewInt(0),
-        IstanbulBlock:       big.NewInt(0),
-        MuirGlacierBlock:    big.NewInt(0),
-        BerlinBlock:         big.NewInt(0),
-        LondonBlock:         big.NewInt(0),
-        BRBlock:             big.NewInt(1),
-        BRHalving:           big.NewInt(3),
-        BRFinalSubsidy:      big.NewInt(7),
+		ConstantinopleBlock: big.NewInt(0),
+		PetersburgBlock:     big.NewInt(0),
+		IstanbulBlock:       big.NewInt(0),
+		MuirGlacierBlock:    big.NewInt(0),
+		BerlinBlock:         big.NewInt(0),
+		LondonBlock:         big.NewInt(0),
+		BRBlock:             big.NewInt(1),
+		BRHalving:           big.NewInt(3),
+		BRFinalSubsidy:      big.NewInt(7),
 	}
-    block = big.NewInt(0)
-    ConstantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
-    ConstantHalfBlockReward = big.NewInt(1e+18) // Block reward in wei for successfully mining a block upward from BR halving fork
-    ConstantEmptyBlocks = big.NewInt(1e+1) // Block reward in wei for successfully mining a block upward from BR activator fork
+    	block = big.NewInt(0)
+    	ConstantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
+    	ConstantHalfBlockReward = big.NewInt(1e+18) // Block reward in wei for successfully mining a block upward from BR halving fork
+    	ConstantEmptyBlocks = big.NewInt(1e+1) // Block reward in wei for successfully mining a block upward from BR activator fork
 
 )
 // to test
