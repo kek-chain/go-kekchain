@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
 )
 
 var _ = (*payloadAttributesMarshaling)(nil)

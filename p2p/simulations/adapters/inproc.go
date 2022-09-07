@@ -24,13 +24,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/crystaleum/go-electronero/event"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/node"
-	"github.com/crystaleum/go-electronero/p2p"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/p2p/simulations/pipes"
-	"github.com/crystaleum/go-electronero/rpc"
+	"github.com/lol-chain/go-kekchain/event"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/node"
+	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/simulations/pipes"
+	"github.com/lol-chain/go-kekchain/rpc"
 	"github.com/gorilla/websocket"
 )
 

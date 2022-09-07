@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common/mclock"
-	"github.com/crystaleum/go-electronero/ethdb"
-	"github.com/crystaleum/go-electronero/ethdb/memorydb"
-	"github.com/crystaleum/go-electronero/les/utils"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/p2p/enr"
-	"github.com/crystaleum/go-electronero/p2p/nodestate"
+	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/lol-chain/go-kekchain/ethdb"
+	"github.com/lol-chain/go-kekchain/ethdb/memorydb"
+	"github.com/lol-chain/go-kekchain/les/utils"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/enr"
+	"github.com/lol-chain/go-kekchain/p2p/nodestate"
 )
 
 type zeroExpirer struct{}

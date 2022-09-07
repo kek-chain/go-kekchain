@@ -25,8 +25,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/types"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

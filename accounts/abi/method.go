@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/lol-chain/go-kekchain/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

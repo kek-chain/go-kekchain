@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/eth/downloader"
-	"github.com/crystaleum/go-electronero/eth/ethconfig"
-	"github.com/crystaleum/go-electronero/ethclient"
-	"github.com/crystaleum/go-electronero/ethstats"
-	"github.com/crystaleum/go-electronero/internal/debug"
-	"github.com/crystaleum/go-electronero/les"
-	"github.com/crystaleum/go-electronero/node"
-	"github.com/crystaleum/go-electronero/p2p"
-	"github.com/crystaleum/go-electronero/p2p/nat"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/eth/downloader"
+	"github.com/lol-chain/go-kekchain/eth/ethconfig"
+	"github.com/lol-chain/go-kekchain/ethclient"
+	"github.com/lol-chain/go-kekchain/ethstats"
+	"github.com/lol-chain/go-kekchain/internal/debug"
+	"github.com/lol-chain/go-kekchain/les"
+	"github.com/lol-chain/go-kekchain/node"
+	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/lol-chain/go-kekchain/p2p/nat"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

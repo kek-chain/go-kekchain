@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 type keyStorePlain struct {

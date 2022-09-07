@@ -17,7 +17,7 @@
 package server
 
 import (
-	"github.com/crystaleum/go-electronero/metrics"
+	"github.com/lol-chain/go-kekchain/metrics"
 )
 
 var (

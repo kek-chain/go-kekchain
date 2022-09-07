@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/les/utils"
+	"github.com/lol-chain/go-kekchain/les/utils"
 )
 
 func TestTransition(t *testing.T) {

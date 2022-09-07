@@ -19,7 +19,7 @@ package p2p
 import (
 	"container/heap"
 
-	"github.com/crystaleum/go-electronero/common/mclock"
+	"github.com/lol-chain/go-kekchain/common/mclock"
 )
 
 // expHeap tracks strings and their expiry time.

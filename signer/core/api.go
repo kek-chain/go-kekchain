@@ -25,17 +25,17 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/crystaleum/go-electronero/accounts"
-	"github.com/crystaleum/go-electronero/accounts/keystore"
-	"github.com/crystaleum/go-electronero/accounts/scwallet"
-	"github.com/crystaleum/go-electronero/accounts/usbwallet"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
-	"github.com/crystaleum/go-electronero/internal/ethapi"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/rpc"
-	"github.com/crystaleum/go-electronero/signer/core/apitypes"
-	"github.com/crystaleum/go-electronero/signer/storage"
+	"github.com/lol-chain/go-kekchain/accounts"
+	"github.com/lol-chain/go-kekchain/accounts/keystore"
+	"github.com/lol-chain/go-kekchain/accounts/scwallet"
+	"github.com/lol-chain/go-kekchain/accounts/usbwallet"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/lol-chain/go-kekchain/internal/ethapi"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/lol-chain/go-kekchain/signer/core/apitypes"
+	"github.com/lol-chain/go-kekchain/signer/storage"
 )
 
 const (

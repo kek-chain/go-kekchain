@@ -27,15 +27,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/rawdb"
-	"github.com/crystaleum/go-electronero/core/state/snapshot"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/ethdb"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/rlp"
-	"github.com/crystaleum/go-electronero/trie"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/lol-chain/go-kekchain/core/state/snapshot"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/ethdb"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/lol-chain/go-kekchain/trie"
 )
 
 const (

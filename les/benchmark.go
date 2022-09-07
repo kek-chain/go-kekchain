@@ -24,17 +24,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/mclock"
-	"github.com/crystaleum/go-electronero/core/rawdb"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/les/flowcontrol"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/p2p"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/params"
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/les/flowcontrol"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/params"
+	"github.com/lol-chain/go-kekchain/rlp"
 )
 
 // requestBenchmark is an interface for different randomized request generators

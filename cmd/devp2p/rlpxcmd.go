@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/crystaleum/go-electronero/cmd/devp2p/internal/ethtest"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/internal/utesting"
-	"github.com/crystaleum/go-electronero/p2p"
-	"github.com/crystaleum/go-electronero/p2p/rlpx"
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/cmd/devp2p/internal/ethtest"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/internal/utesting"
+	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/lol-chain/go-kekchain/p2p/rlpx"
+	"github.com/lol-chain/go-kekchain/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

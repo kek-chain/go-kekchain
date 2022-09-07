@@ -20,11 +20,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
-	"github.com/crystaleum/go-electronero/internal/ethapi"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/signer/core/apitypes"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/lol-chain/go-kekchain/internal/ethapi"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/signer/core/apitypes"
 )
 
 type AuditLogger struct {

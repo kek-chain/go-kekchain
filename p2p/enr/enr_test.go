@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

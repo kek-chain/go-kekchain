@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/crystaleum/go-electronero/accounts/keystore"
-	"github.com/crystaleum/go-electronero/cmd/utils"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/lol-chain/go-kekchain/accounts/keystore"
+	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

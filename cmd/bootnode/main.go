@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/crystaleum/go-electronero/cmd/utils"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/p2p/discover"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/p2p/nat"
-	"github.com/crystaleum/go-electronero/p2p/netutil"
+	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/p2p/discover"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/nat"
+	"github.com/lol-chain/go-kekchain/p2p/netutil"
 )
 
 func main() {

@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 const (

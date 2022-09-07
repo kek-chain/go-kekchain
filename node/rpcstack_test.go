@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/internal/testlog"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/rpc"
+	"github.com/lol-chain/go-kekchain/internal/testlog"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	"github.com/crystaleum/go-electronero"
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 // Subscription represents an event subscription where events are

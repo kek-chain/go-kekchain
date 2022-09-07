@@ -24,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

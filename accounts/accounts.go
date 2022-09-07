@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/crystaleum/go-electronero"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/event"
+	"github.com/lol-chain/go-kekchain"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/event"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/p2p"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/p2p/simulations"
-	"github.com/crystaleum/go-electronero/p2p/simulations/adapters"
-	"github.com/crystaleum/go-electronero/rpc"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/simulations"
+	"github.com/lol-chain/go-kekchain/p2p/simulations/adapters"
+	"github.com/lol-chain/go-kekchain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

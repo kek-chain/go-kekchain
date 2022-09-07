@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 // hashes is a helper to implement sort.Interface.

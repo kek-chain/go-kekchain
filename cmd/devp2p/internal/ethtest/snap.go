@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/eth/protocols/snap"
-	"github.com/crystaleum/go-electronero/internal/utesting"
-	"github.com/crystaleum/go-electronero/light"
-	"github.com/crystaleum/go-electronero/trie"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/eth/protocols/snap"
+	"github.com/lol-chain/go-kekchain/internal/utesting"
+	"github.com/lol-chain/go-kekchain/light"
+	"github.com/lol-chain/go-kekchain/trie"
 	"golang.org/x/crypto/sha3"
 )
 

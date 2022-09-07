@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/common/hexutil"
-	"github.com/crystaleum/go-electronero/common/math"
-	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/lol-chain/go-kekchain/common/math"
+	"github.com/lol-chain/go-kekchain/core/types"
 )
 
 var _ = (*stTransactionMarshaling)(nil)

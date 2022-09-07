@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), {{.GoBootPackage}}
 Standards-Version: 3.9.5
 Homepage: https://ethereum.org
-Vcs-Git: git://github.com/crystaleum/go-electronero.git
-Vcs-Browser: https://github.com/crystaleum/go-electronero
+Vcs-Git: git://github.com/lol-chain/go-kekchain.git
+Vcs-Browser: https://github.com/lol-chain/go-kekchain
 
 Package: {{.Name}}
 Architecture: any

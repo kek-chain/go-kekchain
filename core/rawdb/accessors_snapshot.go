@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/ethdb"
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/ethdb"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

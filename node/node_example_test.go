@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/crystaleum/go-electronero/node"
+	"github.com/lol-chain/go-kekchain/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/light"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/light"
 )
 
 func TestLightPruner(t *testing.T) {

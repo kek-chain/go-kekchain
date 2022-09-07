@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/log"
 	"github.com/olekukonko/tablewriter"
 )
 

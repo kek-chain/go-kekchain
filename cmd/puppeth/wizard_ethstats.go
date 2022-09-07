@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

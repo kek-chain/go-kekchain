@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 type accessList struct {

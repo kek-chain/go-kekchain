@@ -21,11 +21,11 @@ import (
 	"sync"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/rawdb"
-	"github.com/crystaleum/go-electronero/ethdb"
-	"github.com/crystaleum/go-electronero/rlp"
-	"github.com/crystaleum/go-electronero/trie"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/lol-chain/go-kekchain/ethdb"
+	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/lol-chain/go-kekchain/trie"
 )
 
 // diskLayer is a low level persistent snapshot built on top of a key-value store.

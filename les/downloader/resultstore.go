@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/lol-chain/go-kekchain/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

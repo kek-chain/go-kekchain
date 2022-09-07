@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/event"
-	"github.com/crystaleum/go-electronero/rpc"
+	"github.com/lol-chain/go-kekchain"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/event"
+	"github.com/lol-chain/go-kekchain/rpc"
 )
 
 // filter is a helper struct that holds meta information over the filter type

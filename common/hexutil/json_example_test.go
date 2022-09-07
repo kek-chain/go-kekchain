@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
 )
 
 type MyType [5]byte

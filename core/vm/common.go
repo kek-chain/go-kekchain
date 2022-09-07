@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/math"
 	"github.com/holiman/uint256"
 )
 

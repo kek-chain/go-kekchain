@@ -19,16 +19,16 @@ package core
 import (
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/consensus"
-	"github.com/crystaleum/go-electronero/core/rawdb"
-	"github.com/crystaleum/go-electronero/core/state"
-	"github.com/crystaleum/go-electronero/core/state/snapshot"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/core/vm"
-	"github.com/crystaleum/go-electronero/event"
-	"github.com/crystaleum/go-electronero/params"
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/consensus"
+	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/lol-chain/go-kekchain/core/state"
+	"github.com/lol-chain/go-kekchain/core/state/snapshot"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/core/vm"
+	"github.com/lol-chain/go-kekchain/event"
+	"github.com/lol-chain/go-kekchain/params"
+	"github.com/lol-chain/go-kekchain/rlp"
 )
 
 // CurrentHeader retrieves the current head header of the canonical chain. The

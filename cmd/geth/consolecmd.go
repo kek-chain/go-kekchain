@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/cmd/utils"
-	"github.com/crystaleum/go-electronero/console"
-	"github.com/crystaleum/go-electronero/node"
-	"github.com/crystaleum/go-electronero/rpc"
+	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/lol-chain/go-kekchain/console"
+	"github.com/lol-chain/go-kekchain/node"
+	"github.com/lol-chain/go-kekchain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

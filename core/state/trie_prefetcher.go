@@ -19,9 +19,9 @@ package state
 import (
 	"sync"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/metrics"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/metrics"
 )
 
 var (

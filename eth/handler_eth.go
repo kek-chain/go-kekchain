@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/eth/protocols/eth"
-	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
 )
 
 // ethHandler implements the eth.Backend interface to handle the various network

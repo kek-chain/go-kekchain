@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/crystaleum/go-electronero"
-	"github.com/crystaleum/go-electronero/accounts"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/lol-chain/go-kekchain"
+	"github.com/lol-chain/go-kekchain/accounts"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

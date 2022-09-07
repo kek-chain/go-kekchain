@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common/mclock"
-	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

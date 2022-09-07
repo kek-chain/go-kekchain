@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/metrics"
+	"github.com/lol-chain/go-kekchain/metrics"
 	"github.com/stretchr/testify/require"
 )
 

@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/accounts/abi"
-	"github.com/crystaleum/go-electronero/accounts/abi/bind"
-	"github.com/crystaleum/go-electronero/cmd/utils"
-	"github.com/crystaleum/go-electronero/common/compiler"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/internal/flags"
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/accounts/abi"
+	"github.com/lol-chain/go-kekchain/accounts/abi/bind"
+	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/lol-chain/go-kekchain/common/compiler"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/internal/flags"
+	"github.com/lol-chain/go-kekchain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

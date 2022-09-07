@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/crystaleum/go-electronero/cmd/utils"
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/lol-chain/go-kekchain/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

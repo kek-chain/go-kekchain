@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/bitutil"
-	"github.com/crystaleum/go-electronero/metrics"
-	"github.com/crystaleum/go-electronero/p2p/rlpx"
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/bitutil"
+	"github.com/lol-chain/go-kekchain/metrics"
+	"github.com/lol-chain/go-kekchain/p2p/rlpx"
+	"github.com/lol-chain/go-kekchain/rlp"
 )
 
 const (

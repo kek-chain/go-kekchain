@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/eth/protocols/eth"
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 // receiptQueue implements typedQueue and is a type adapter between the generic

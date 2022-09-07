@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/p2p/enr"
-	"github.com/crystaleum/go-electronero/p2p/netutil"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/p2p/enr"
+	"github.com/lol-chain/go-kekchain/p2p/netutil"
 )
 
 const (

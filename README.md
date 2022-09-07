@@ -4,9 +4,9 @@ Official Golang implementation of the Ethereum protocol.
 
 [![API Reference](
 https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-)](https://pkg.go.dev/github.com/crystaleum/go-electronero?tab=doc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/crystaleum/go-electronero)](https://goreportcard.com/report/github.com/crystaleum/go-electronero)
-[![Travis](https://travis-ci.com/crystaleum/go-electronero.svg?branch=master)](https://travis-ci.com/crystaleum/go-electronero)
+)](https://pkg.go.dev/github.com/lol-chain/go-kekchain?tab=doc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lol-chain/go-kekchain)](https://goreportcard.com/report/github.com/lol-chain/go-kekchain)
+[![Travis](https://travis-ci.com/lol-chain/go-kekchain.svg?branch=master)](https://travis-ci.com/lol-chain/go-kekchain)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/nthXNEv)
 
 Automated builds are available for stable releases and the unstable master branch. Binary

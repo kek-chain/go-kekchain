@@ -22,17 +22,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/consensus/ethash"
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/core/beacon"
-	"github.com/crystaleum/go-electronero/core/rawdb"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/eth"
-	"github.com/crystaleum/go-electronero/eth/ethconfig"
-	"github.com/crystaleum/go-electronero/node"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/consensus/ethash"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/core/beacon"
+	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/eth"
+	"github.com/lol-chain/go-kekchain/eth/ethconfig"
+	"github.com/lol-chain/go-kekchain/node"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 var (

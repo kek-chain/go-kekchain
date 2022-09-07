@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"github.com/crystaleum/go-electronero/common/bitutil"
+	"github.com/lol-chain/go-kekchain/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

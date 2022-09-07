@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/p2p/enr"
+	"github.com/lol-chain/go-kekchain/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

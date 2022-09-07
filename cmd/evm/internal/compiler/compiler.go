@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/crystaleum/go-electronero/core/asm"
+	"github.com/lol-chain/go-kekchain/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

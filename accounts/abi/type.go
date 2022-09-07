@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 // Type enumerator

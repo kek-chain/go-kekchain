@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

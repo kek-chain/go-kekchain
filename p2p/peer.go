@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common/mclock"
-	"github.com/crystaleum/go-electronero/event"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/metrics"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/p2p/enr"
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/lol-chain/go-kekchain/event"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/metrics"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/enr"
+	"github.com/lol-chain/go-kekchain/rlp"
 )
 
 var (

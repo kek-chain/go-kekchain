@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/signer/core/apitypes"
-	"github.com/crystaleum/go-electronero/signer/fourbyte"
+	"github.com/lol-chain/go-kekchain/signer/core/apitypes"
+	"github.com/lol-chain/go-kekchain/signer/fourbyte"
 )
 
 func init() {

@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/cmd/utils"
-	"github.com/crystaleum/go-electronero/consensus/ethash"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/lol-chain/go-kekchain/consensus/ethash"
+	"github.com/lol-chain/go-kekchain/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

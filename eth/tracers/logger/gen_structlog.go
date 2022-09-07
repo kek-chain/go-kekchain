@@ -5,10 +5,10 @@ package logger
 import (
 	"encoding/json"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
-	"github.com/crystaleum/go-electronero/common/math"
-	"github.com/crystaleum/go-electronero/core/vm"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/lol-chain/go-kekchain/common/math"
+	"github.com/lol-chain/go-kekchain/core/vm"
 	"github.com/holiman/uint256"
 )
 

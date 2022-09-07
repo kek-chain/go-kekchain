@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero/les/utils"
-	"github.com/crystaleum/go-electronero/les/vflux"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/les/utils"
+	"github.com/lol-chain/go-kekchain/les/vflux"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/rlp"
 )
 
 type (

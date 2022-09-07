@@ -22,13 +22,13 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/beacon"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/eth"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/node"
-	"github.com/crystaleum/go-electronero/rpc"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/beacon"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/eth"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/node"
+	"github.com/lol-chain/go-kekchain/rpc"
 )
 
 // Register adds catalyst APIs to the full node.

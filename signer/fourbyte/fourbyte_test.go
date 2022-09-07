@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/accounts/abi"
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/accounts/abi"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

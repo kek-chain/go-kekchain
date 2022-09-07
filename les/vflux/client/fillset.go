@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/p2p/nodestate"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

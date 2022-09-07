@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

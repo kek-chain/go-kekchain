@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/node"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/p2p/simulations/adapters"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/node"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/simulations/adapters"
 )
 
 // Tests that a created snapshot with a minimal service only contains the expected connections

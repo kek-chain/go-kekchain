@@ -26,9 +26,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/crystaleum/go-electronero/common/math"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/p2p/enr"
+	"github.com/lol-chain/go-kekchain/common/math"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/p2p/enr"
 )
 
 var (

@@ -23,9 +23,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/crystaleum/go-electronero/accounts/keystore"
-	"github.com/crystaleum/go-electronero/cmd/utils"
-	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/lol-chain/go-kekchain/accounts/keystore"
+	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/lol-chain/go-kekchain/crypto"
 	"github.com/google/uuid"
 	"gopkg.in/urfave/cli.v1"
 )

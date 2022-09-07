@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

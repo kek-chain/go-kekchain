@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/eth/protocols/eth"
-	"github.com/crystaleum/go-electronero/eth/protocols/snap"
-	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
+	"github.com/lol-chain/go-kekchain/eth/protocols/snap"
+	"github.com/lol-chain/go-kekchain/p2p"
 )
 
 var (

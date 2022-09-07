@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

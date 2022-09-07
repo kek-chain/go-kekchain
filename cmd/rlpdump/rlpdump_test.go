@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
 )
 
 func TestRoundtrip(t *testing.T) {

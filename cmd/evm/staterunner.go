@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/crystaleum/go-electronero/core/state"
-	"github.com/crystaleum/go-electronero/core/vm"
-	"github.com/crystaleum/go-electronero/eth/tracers/logger"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/tests"
+	"github.com/lol-chain/go-kekchain/core/state"
+	"github.com/lol-chain/go-kekchain/core/vm"
+	"github.com/lol-chain/go-kekchain/eth/tracers/logger"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

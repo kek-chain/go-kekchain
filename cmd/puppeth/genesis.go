@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
-	math2 "github.com/crystaleum/go-electronero/common/math"
-	"github.com/crystaleum/go-electronero/consensus/ethash"
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
+	math2 "github.com/lol-chain/go-kekchain/common/math"
+	"github.com/lol-chain/go-kekchain/consensus/ethash"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the

@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 type (

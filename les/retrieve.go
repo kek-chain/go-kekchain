@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero/light"
+	"github.com/lol-chain/go-kekchain/light"
 )
 
 var (

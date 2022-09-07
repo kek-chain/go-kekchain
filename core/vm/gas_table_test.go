@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
-	"github.com/crystaleum/go-electronero/core/rawdb"
-	"github.com/crystaleum/go-electronero/core/state"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/lol-chain/go-kekchain/core/state"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

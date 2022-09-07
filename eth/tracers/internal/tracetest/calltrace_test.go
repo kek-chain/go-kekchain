@@ -26,22 +26,22 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
-	"github.com/crystaleum/go-electronero/common/math"
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/core/rawdb"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/core/vm"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/eth/tracers"
-	"github.com/crystaleum/go-electronero/params"
-	"github.com/crystaleum/go-electronero/rlp"
-	"github.com/crystaleum/go-electronero/tests"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/lol-chain/go-kekchain/common/math"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/core/vm"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/eth/tracers"
+	"github.com/lol-chain/go-kekchain/params"
+	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/lol-chain/go-kekchain/tests"
 
 	// Force-load native and js pacakges, to trigger registration
-	_ "github.com/crystaleum/go-electronero/eth/tracers/js"
-	_ "github.com/crystaleum/go-electronero/eth/tracers/native"
+	_ "github.com/lol-chain/go-kekchain/eth/tracers/js"
+	_ "github.com/lol-chain/go-kekchain/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

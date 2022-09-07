@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/les/utils"
+	"github.com/lol-chain/go-kekchain/les/utils"
 )
 
 func checkU64(t *testing.T, name string, value, exp uint64) {

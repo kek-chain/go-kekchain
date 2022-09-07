@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/rawdb"
-	"github.com/crystaleum/go-electronero/les/downloader"
-	"github.com/crystaleum/go-electronero/light"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/lol-chain/go-kekchain/les/downloader"
+	"github.com/lol-chain/go-kekchain/light"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

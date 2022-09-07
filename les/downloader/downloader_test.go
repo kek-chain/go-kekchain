@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/rawdb"
-	"github.com/crystaleum/go-electronero/core/state/snapshot"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/eth/protocols/eth"
-	"github.com/crystaleum/go-electronero/ethdb"
-	"github.com/crystaleum/go-electronero/event"
-	"github.com/crystaleum/go-electronero/trie"
+	"github.com/lol-chain/go-kekchain"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/lol-chain/go-kekchain/core/state/snapshot"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
+	"github.com/lol-chain/go-kekchain/ethdb"
+	"github.com/lol-chain/go-kekchain/event"
+	"github.com/lol-chain/go-kekchain/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

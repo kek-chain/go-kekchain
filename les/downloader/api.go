@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/crystaleum/go-electronero"
-	"github.com/crystaleum/go-electronero/event"
-	"github.com/crystaleum/go-electronero/rpc"
+	"github.com/lol-chain/go-kekchain"
+	"github.com/lol-chain/go-kekchain/event"
+	"github.com/lol-chain/go-kekchain/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

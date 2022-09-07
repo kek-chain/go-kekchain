@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 // handler handles JSON-RPC messages. There is one handler per connection. Note that

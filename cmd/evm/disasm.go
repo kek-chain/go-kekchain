@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/core/asm"
+	"github.com/lol-chain/go-kekchain/core/asm"
 	"gopkg.in/urfave/cli.v1"
 )
 

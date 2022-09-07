@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 type DynamicFeeTx struct {

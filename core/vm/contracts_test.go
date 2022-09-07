@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

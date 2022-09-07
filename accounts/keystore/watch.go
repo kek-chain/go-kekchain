@@ -22,7 +22,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/log"
 	"github.com/rjeczalik/notify"
 )
 

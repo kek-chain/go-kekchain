@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/lol-chain/go-kekchain/common/math"
 )
 
 type testEncoder struct {

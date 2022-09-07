@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/eth"
-	"github.com/crystaleum/go-electronero/eth/ethconfig"
-	"github.com/crystaleum/go-electronero/internal/utesting"
-	"github.com/crystaleum/go-electronero/node"
-	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/lol-chain/go-kekchain/eth"
+	"github.com/lol-chain/go-kekchain/eth/ethconfig"
+	"github.com/lol-chain/go-kekchain/internal/utesting"
+	"github.com/lol-chain/go-kekchain/node"
+	"github.com/lol-chain/go-kekchain/p2p"
 )
 
 var (

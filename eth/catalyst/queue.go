@@ -19,7 +19,7 @@ package catalyst
 import (
 	"sync"
 
-	"github.com/crystaleum/go-electronero/core/beacon"
+	"github.com/lol-chain/go-kekchain/core/beacon"
 )
 
 // maxTrackedPayloads is the maximum number of prepared payloads the execution

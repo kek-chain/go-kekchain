@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/rpc"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

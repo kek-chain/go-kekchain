@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/crystaleum/go-electronero/consensus"
-	"github.com/crystaleum/go-electronero/core/state"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/core/vm"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/consensus"
+	"github.com/lol-chain/go-kekchain/core/state"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/core/vm"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

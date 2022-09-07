@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/core/vm"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

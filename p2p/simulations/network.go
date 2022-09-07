@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero/event"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/p2p"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/p2p/simulations/adapters"
+	"github.com/lol-chain/go-kekchain/event"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

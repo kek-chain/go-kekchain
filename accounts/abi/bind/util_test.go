@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/accounts/abi/bind"
-	"github.com/crystaleum/go-electronero/accounts/abi/bind/backends"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/lol-chain/go-kekchain/accounts/abi/bind"
+	"github.com/lol-chain/go-kekchain/accounts/abi/bind/backends"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 func TestPairingExpected(t *testing.T) {

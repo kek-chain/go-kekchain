@@ -21,10 +21,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/crystaleum/go-electronero"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

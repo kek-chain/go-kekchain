@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/p2p/netutil"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

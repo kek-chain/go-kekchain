@@ -41,10 +41,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero/accounts"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/event"
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/accounts"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/event"
+	"github.com/lol-chain/go-kekchain/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 )
 

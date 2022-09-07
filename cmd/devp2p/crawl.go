@@ -19,8 +19,8 @@ package main
 import (
 	"time"
 
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
 )
 
 type crawler struct {

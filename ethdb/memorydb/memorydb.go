@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/ethdb"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/ethdb"
 )
 
 var (

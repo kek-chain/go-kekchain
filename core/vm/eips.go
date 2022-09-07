@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/params"
 	"github.com/holiman/uint256"
 )
 

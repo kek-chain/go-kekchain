@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero"
-	"github.com/crystaleum/go-electronero/accounts/abi"
-	"github.com/crystaleum/go-electronero/accounts/abi/bind"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain"
+	"github.com/lol-chain/go-kekchain/accounts/abi"
+	"github.com/lol-chain/go-kekchain/accounts/abi/bind"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 func TestSimulatedBackend(t *testing.T) {

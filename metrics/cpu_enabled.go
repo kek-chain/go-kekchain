@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

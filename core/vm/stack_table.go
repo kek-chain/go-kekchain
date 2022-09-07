@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 func minSwapStack(n int) int {

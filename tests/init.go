@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 // Forks table defines supported forks and their chain config.

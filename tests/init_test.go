@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 var (

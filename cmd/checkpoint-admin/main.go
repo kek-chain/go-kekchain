@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/crystaleum/go-electronero/common/fdlimit"
-	"github.com/crystaleum/go-electronero/internal/flags"
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/common/fdlimit"
+	"github.com/lol-chain/go-kekchain/internal/flags"
+	"github.com/lol-chain/go-kekchain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

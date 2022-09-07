@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/crystaleum/go-electronero/accounts/keystore"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/console/prompt"
-	"github.com/crystaleum/go-electronero/p2p/dnsdisc"
-	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/lol-chain/go-kekchain/accounts/keystore"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/console/prompt"
+	"github.com/lol-chain/go-kekchain/p2p/dnsdisc"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/accounts/abi/bind"
-	"github.com/crystaleum/go-electronero/accounts/abi/bind/backends"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/contracts/checkpointoracle/contract"
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/accounts/abi/bind"
+	"github.com/lol-chain/go-kekchain/accounts/abi/bind/backends"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/contracts/checkpointoracle/contract"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 var (

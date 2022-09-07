@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

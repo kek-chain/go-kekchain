@@ -27,12 +27,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/accounts"
-	"github.com/crystaleum/go-electronero/accounts/usbwallet/trezor"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/accounts"
+	"github.com/lol-chain/go-kekchain/accounts/usbwallet/trezor"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/log"
 	"github.com/golang/protobuf/proto"
 )
 

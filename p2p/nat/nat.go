@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

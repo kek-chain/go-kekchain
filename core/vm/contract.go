@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 	"github.com/holiman/uint256"
 )
 

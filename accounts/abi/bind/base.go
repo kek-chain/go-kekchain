@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/crystaleum/go-electronero"
-	"github.com/crystaleum/go-electronero/accounts/abi"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/event"
+	"github.com/lol-chain/go-kekchain"
+	"github.com/lol-chain/go-kekchain/accounts/abi"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

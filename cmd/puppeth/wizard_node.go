@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/crystaleum/go-electronero/accounts/keystore"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/accounts/keystore"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

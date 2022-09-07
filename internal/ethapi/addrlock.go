@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 type AddrLocker struct {

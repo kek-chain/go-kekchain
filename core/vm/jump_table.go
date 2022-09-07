@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 type (

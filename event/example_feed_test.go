@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/crystaleum/go-electronero/event"
+	"github.com/lol-chain/go-kekchain/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

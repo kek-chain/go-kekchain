@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/metrics"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

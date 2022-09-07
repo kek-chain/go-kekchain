@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/math"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/crypto/blake2b"
-	"github.com/crystaleum/go-electronero/crypto/bls12381"
-	"github.com/crystaleum/go-electronero/crypto/bn256"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/math"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/crypto/blake2b"
+	"github.com/lol-chain/go-kekchain/crypto/bls12381"
+	"github.com/lol-chain/go-kekchain/crypto/bn256"
+	"github.com/lol-chain/go-kekchain/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common/mclock"
-	"github.com/crystaleum/go-electronero/common/prque"
+	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/lol-chain/go-kekchain/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

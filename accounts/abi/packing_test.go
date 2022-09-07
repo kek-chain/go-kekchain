@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 type packUnpackTest struct {

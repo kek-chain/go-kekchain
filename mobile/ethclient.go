@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/ethclient"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

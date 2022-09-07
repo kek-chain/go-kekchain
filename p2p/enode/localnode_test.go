@@ -21,8 +21,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/p2p/enr"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/p2p/enr"
 	"github.com/stretchr/testify/assert"
 )
 

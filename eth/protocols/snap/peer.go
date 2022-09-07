@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

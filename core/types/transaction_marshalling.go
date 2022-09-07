@@ -21,8 +21,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
 )
 
 // txJSON is the JSON representation of transactions.

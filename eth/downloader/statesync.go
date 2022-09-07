@@ -19,8 +19,8 @@ package downloader
 import (
 	"sync"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 // syncState starts downloading state with the given root hash.

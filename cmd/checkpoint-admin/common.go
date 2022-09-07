@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/crystaleum/go-electronero/accounts"
-	"github.com/crystaleum/go-electronero/accounts/abi/bind"
-	"github.com/crystaleum/go-electronero/accounts/external"
-	"github.com/crystaleum/go-electronero/cmd/utils"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/contracts/checkpointoracle"
-	"github.com/crystaleum/go-electronero/ethclient"
-	"github.com/crystaleum/go-electronero/params"
-	"github.com/crystaleum/go-electronero/rpc"
+	"github.com/lol-chain/go-kekchain/accounts"
+	"github.com/lol-chain/go-kekchain/accounts/abi/bind"
+	"github.com/lol-chain/go-kekchain/accounts/external"
+	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/contracts/checkpointoracle"
+	"github.com/lol-chain/go-kekchain/ethclient"
+	"github.com/lol-chain/go-kekchain/params"
+	"github.com/lol-chain/go-kekchain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

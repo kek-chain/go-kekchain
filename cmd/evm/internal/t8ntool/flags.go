@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/core/vm"
-	"github.com/crystaleum/go-electronero/tests"
+	"github.com/lol-chain/go-kekchain/core/vm"
+	"github.com/lol-chain/go-kekchain/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -19,7 +19,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/crystaleum/go-electronero/p2p/nodestate"
+	"github.com/lol-chain/go-kekchain/p2p/nodestate"
 )
 
 type peerWrapper struct{ clientPeer } // the NodeStateMachine type system needs this wrapper

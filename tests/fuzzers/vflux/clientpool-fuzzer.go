@@ -24,14 +24,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common/mclock"
-	"github.com/crystaleum/go-electronero/ethdb/memorydb"
-	"github.com/crystaleum/go-electronero/les/vflux"
-	vfs "github.com/crystaleum/go-electronero/les/vflux/server"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/p2p/enr"
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/lol-chain/go-kekchain/ethdb/memorydb"
+	"github.com/lol-chain/go-kekchain/les/vflux"
+	vfs "github.com/lol-chain/go-kekchain/les/vflux/server"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/enr"
+	"github.com/lol-chain/go-kekchain/rlp"
 )
 
 var (

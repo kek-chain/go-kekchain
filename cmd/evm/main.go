@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/crystaleum/go-electronero/cmd/evm/internal/t8ntool"
-	"github.com/crystaleum/go-electronero/cmd/utils"
-	"github.com/crystaleum/go-electronero/internal/flags"
+	"github.com/lol-chain/go-kekchain/cmd/evm/internal/t8ntool"
+	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/lol-chain/go-kekchain/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

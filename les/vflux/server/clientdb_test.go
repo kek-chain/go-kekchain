@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common/mclock"
-	"github.com/crystaleum/go-electronero/core/rawdb"
-	"github.com/crystaleum/go-electronero/les/utils"
-	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/lol-chain/go-kekchain/les/utils"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
 )
 
 func expval(v uint64) utils.ExpiredValue {

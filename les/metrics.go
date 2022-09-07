@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/crystaleum/go-electronero/metrics"
-	"github.com/crystaleum/go-electronero/p2p"
+	"github.com/lol-chain/go-kekchain/metrics"
+	"github.com/lol-chain/go-kekchain/p2p"
 )
 
 var (

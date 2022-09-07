@@ -35,25 +35,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crystaleum/go-electronero/accounts"
-	"github.com/crystaleum/go-electronero/accounts/keystore"
-	"github.com/crystaleum/go-electronero/cmd/utils"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
-	"github.com/crystaleum/go-electronero/core/types"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/internal/ethapi"
-	"github.com/crystaleum/go-electronero/internal/flags"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/node"
-	"github.com/crystaleum/go-electronero/params"
-	"github.com/crystaleum/go-electronero/rlp"
-	"github.com/crystaleum/go-electronero/rpc"
-	"github.com/crystaleum/go-electronero/signer/core"
-	"github.com/crystaleum/go-electronero/signer/core/apitypes"
-	"github.com/crystaleum/go-electronero/signer/fourbyte"
-	"github.com/crystaleum/go-electronero/signer/rules"
-	"github.com/crystaleum/go-electronero/signer/storage"
+	"github.com/lol-chain/go-kekchain/accounts"
+	"github.com/lol-chain/go-kekchain/accounts/keystore"
+	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/internal/ethapi"
+	"github.com/lol-chain/go-kekchain/internal/flags"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/node"
+	"github.com/lol-chain/go-kekchain/params"
+	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/lol-chain/go-kekchain/signer/core"
+	"github.com/lol-chain/go-kekchain/signer/core/apitypes"
+	"github.com/lol-chain/go-kekchain/signer/fourbyte"
+	"github.com/lol-chain/go-kekchain/signer/rules"
+	"github.com/lol-chain/go-kekchain/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"gopkg.in/urfave/cli.v1"
@@ -795,7 +795,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/crystaleum/go-electronero/issues/20123
+	// https://github.com/lol-chain/go-kekchain/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

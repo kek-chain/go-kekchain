@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/consensus/ethash"
-	"github.com/crystaleum/go-electronero/console/prompt"
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/eth"
-	"github.com/crystaleum/go-electronero/eth/ethconfig"
-	"github.com/crystaleum/go-electronero/internal/jsre"
-	"github.com/crystaleum/go-electronero/miner"
-	"github.com/crystaleum/go-electronero/node"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/consensus/ethash"
+	"github.com/lol-chain/go-kekchain/console/prompt"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/eth"
+	"github.com/lol-chain/go-kekchain/eth/ethconfig"
+	"github.com/lol-chain/go-kekchain/internal/jsre"
+	"github.com/lol-chain/go-kekchain/miner"
+	"github.com/lol-chain/go-kekchain/node"
 )
 
 const (

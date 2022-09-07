@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/crystaleum/go-electronero/common"
+import "github.com/lol-chain/go-kekchain/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.

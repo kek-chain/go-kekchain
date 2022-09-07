@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/hexutil"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

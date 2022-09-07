@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/crystaleum/go-electronero/internal/debug"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/internal/debug"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

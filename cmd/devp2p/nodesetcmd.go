@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crystaleum/go-electronero/core/forkid"
-	"github.com/crystaleum/go-electronero/p2p/enr"
-	"github.com/crystaleum/go-electronero/params"
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/core/forkid"
+	"github.com/lol-chain/go-kekchain/p2p/enr"
+	"github.com/lol-chain/go-kekchain/params"
+	"github.com/lol-chain/go-kekchain/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

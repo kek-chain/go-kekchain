@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/crystaleum/go-electronero/core"
-	"github.com/crystaleum/go-electronero/eth/protocols/snap"
-	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/lol-chain/go-kekchain/core"
+	"github.com/lol-chain/go-kekchain/eth/protocols/snap"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

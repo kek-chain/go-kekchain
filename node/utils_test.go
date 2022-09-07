@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/crystaleum/go-electronero/p2p"
-	"github.com/crystaleum/go-electronero/rpc"
+	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/lol-chain/go-kekchain/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

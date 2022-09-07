@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

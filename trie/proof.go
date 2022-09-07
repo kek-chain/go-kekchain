@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/ethdb"
-	"github.com/crystaleum/go-electronero/ethdb/memorydb"
-	"github.com/crystaleum/go-electronero/log"
-	"github.com/crystaleum/go-electronero/rlp"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/ethdb"
+	"github.com/lol-chain/go-kekchain/ethdb/memorydb"
+	"github.com/lol-chain/go-kekchain/log"
+	"github.com/lol-chain/go-kekchain/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

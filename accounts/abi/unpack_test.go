@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 	"github.com/stretchr/testify/require"
 )
 

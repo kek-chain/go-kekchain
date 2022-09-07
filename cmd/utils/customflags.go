@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/lol-chain/go-kekchain/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

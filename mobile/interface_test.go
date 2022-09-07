@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 func TestInterfaceGetSet(t *testing.T) {

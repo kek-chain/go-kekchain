@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/crystaleum/go-electronero/metrics"
+	"github.com/lol-chain/go-kekchain/metrics"
 )
 
 const (

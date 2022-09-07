@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/common/math"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/common/math"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

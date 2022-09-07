@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/crystaleum/go-electronero/core/types"
+	"github.com/lol-chain/go-kekchain/core/types"
 )
 
 var (

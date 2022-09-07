@@ -16,7 +16,7 @@
 
 package beacon
 
-import "github.com/crystaleum/go-electronero/rpc"
+import "github.com/lol-chain/go-kekchain/rpc"
 
 var (
 	VALID              = GenericStringResponse{"VALID"}

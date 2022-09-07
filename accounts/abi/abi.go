@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/crypto"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/crypto"
 )
 
 // The ABI holds information about a contract's context and available

@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

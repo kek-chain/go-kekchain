@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

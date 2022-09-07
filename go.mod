@@ -1,4 +1,4 @@
-module github.com/crystaleum/go-electronero
+module github.com/lol-chain/go-kekchain
 
 go 1.15
 

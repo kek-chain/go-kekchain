@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/p2p/nodestate"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/nodestate"
 )
 
 // QueueIterator returns nodes from the specified selectable set in the same order as

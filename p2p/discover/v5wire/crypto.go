@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/crystaleum/go-electronero/common/math"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/lol-chain/go-kekchain/common/math"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
 	"golang.org/x/crypto/hkdf"
 )
 

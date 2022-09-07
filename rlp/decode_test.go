@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common/math"
+	"github.com/lol-chain/go-kekchain/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

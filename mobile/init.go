@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/crystaleum/go-electronero/log"
+	"github.com/lol-chain/go-kekchain/log"
 )
 
 func init() {

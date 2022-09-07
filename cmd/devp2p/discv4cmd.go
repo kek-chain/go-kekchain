@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crystaleum/go-electronero/cmd/devp2p/internal/v4test"
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/crypto"
-	"github.com/crystaleum/go-electronero/p2p/discover"
-	"github.com/crystaleum/go-electronero/p2p/enode"
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/cmd/devp2p/internal/v4test"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/lol-chain/go-kekchain/p2p/discover"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/lol-chain/go-kekchain/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

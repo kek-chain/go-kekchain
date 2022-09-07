@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/crystaleum/go-electronero/common"
+	"github.com/lol-chain/go-kekchain/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

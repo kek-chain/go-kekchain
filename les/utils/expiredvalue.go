@@ -20,7 +20,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/crystaleum/go-electronero/common/mclock"
+	"github.com/lol-chain/go-kekchain/common/mclock"
 )
 
 // ExpiredValue is a scalar value that is continuously expired (decreased

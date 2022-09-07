@@ -15,7 +15,7 @@
 package secp256k1
 
 import (
-	_ "github.com/crystaleum/go-electronero/crypto/secp256k1/libsecp256k1/include"
-	_ "github.com/crystaleum/go-electronero/crypto/secp256k1/libsecp256k1/src"
-	_ "github.com/crystaleum/go-electronero/crypto/secp256k1/libsecp256k1/src/modules/recovery"
+	_ "github.com/lol-chain/go-kekchain/crypto/secp256k1/libsecp256k1/include"
+	_ "github.com/lol-chain/go-kekchain/crypto/secp256k1/libsecp256k1/src"
+	_ "github.com/lol-chain/go-kekchain/crypto/secp256k1/libsecp256k1/src/modules/recovery"
 )

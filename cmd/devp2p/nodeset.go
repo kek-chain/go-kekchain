@@ -25,8 +25,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/crystaleum/go-electronero/common"
-	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/lol-chain/go-kekchain/common"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
 )
 
 const jsonIndent = "    "

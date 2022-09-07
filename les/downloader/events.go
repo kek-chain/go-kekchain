@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/crystaleum/go-electronero/core/types"
+import "github.com/lol-chain/go-kekchain/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

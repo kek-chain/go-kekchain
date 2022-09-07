@@ -20,7 +20,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/crystaleum/go-electronero/p2p/enode"
+	"github.com/lol-chain/go-kekchain/p2p/enode"
 )
 
 const maxSelectionWeight = 1000000000 // maximum selection weight of each individual node/address group

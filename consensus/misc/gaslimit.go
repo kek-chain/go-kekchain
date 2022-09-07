@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/crystaleum/go-electronero/params"
+	"github.com/lol-chain/go-kekchain/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease
