@@ -77,7 +77,7 @@ func blockSimulator() {
                 fmt.Println("Final subsidy entered @ ",block," REBATE AMOUNT: 0")
             } else if IsBRHalving(block) {
                 rebate = ConstantHalfBlockReward
-                fmt.Println("Block Halving event entered. REBATE AMOUNT: ", rebate)
+                fmt.Println("Block Halving event entered @ ",block," REBATE AMOUNT: ", rebate)
             } else {
                 fmt.Println("Block Rebates ACTIVE @ ",block," REBATE AMOUNT: ",rebate)
             }
