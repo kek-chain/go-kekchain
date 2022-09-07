@@ -1,4 +1,4 @@
-## Go Ethereum fork "Kekchain (testnet)"
+## Go-Ethereum, an alt-eth hard fork "Kekchain (KEK)"
 
 Some scripts were also provided to accompany the notes. 
 
