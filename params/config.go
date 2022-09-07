@@ -40,6 +40,7 @@ var (
 // the chain it belongs to.
 var TrustedCheckpoints = map[common.Hash]*TrustedCheckpoint{
 	MainnetGenesisHash:    MainnetTrustedCheckpoint,
+	TestnetGenesisHash:    MainnetTrustedCheckpoint,
 	MainnetETHGenesisHash: MainnetETHTrustedCheckpoint,
 	RopstenGenesisHash:    RopstenTrustedCheckpoint,
 	SepoliaGenesisHash:    SepoliaTrustedCheckpoint,
@@ -51,6 +52,7 @@ var TrustedCheckpoints = map[common.Hash]*TrustedCheckpoint{
 // the chain it belongs to.
 var CheckpointOracles = map[common.Hash]*CheckpointOracleConfig{
 	MainnetGenesisHash:    MainnetCheckpointOracle,
+	TestnetGenesisHash:    TestnetCheckpointOracle,
 	MainnetETHGenesisHash: MainnetETHCheckpointOracle,
 	RopstenGenesisHash:    RopstenCheckpointOracle,
 	RinkebyGenesisHash:    RinkebyCheckpointOracle,
@@ -102,7 +104,7 @@ var (
 
 	// MainnetChainConfig is the chain parameters to run a node on the main network.
 	MainnetChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(31291),
+		ChainID:             big.NewInt(420690),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        nil,
 		DAOForkSupport:      false,
@@ -118,8 +120,43 @@ var (
 		BerlinBlock:         big.NewInt(0),
 		LondonBlock:         big.NewInt(0),
 		BRBlock:             big.NewInt(0),
-		BRHalving:           big.NewInt(4400),
-		BRFinalSubsidy:      big.NewInt(5500),
+		BRHalving:           big.NewInt(2599200),
+		BRFinalSubsidy:      big.NewInt(5198400),
+		Clique: &CliqueConfig{
+			Period: 10,
+			Epoch:  30000,
+		},
+	}
+
+	// TestnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
+	TestnetTrustedCheckpoint = &TrustedCheckpoint{}
+
+	// TestnetCheckpointOracle contains a set of configs for the main network oracle.
+	TestnetCheckpointOracle = &CheckpointOracleConfig{
+		Address: common.HexToAddress("0xABA76a543ea8849adf3185dfa7AfB8627A264476"),
+		Signers: []common.Address{
+			common.HexToAddress("0xd7A108189471b7e3f0E66723e89170E310493125"), // Interchained
+		},
+		Threshold: 1,
+	}
+	
+	// TestnetChainConfig is the chain parameters to run a node on the main network.
+	TestnetChainConfig = &ChainConfig{
+		ChainID:             big.NewInt(420666),
+		HomesteadBlock:      big.NewInt(0),
+		DAOForkBlock:        nil,
+		DAOForkSupport:      false,
+		EIP150Block:         big.NewInt(0),
+		EIP150Hash:          common.HexToHash("0x0000000000000000000000000000000000000000000000000000000000000000"),
+		EIP155Block:         big.NewInt(0),
+		EIP158Block:         big.NewInt(0),
+		ByzantiumBlock:      big.NewInt(0),
+		ConstantinopleBlock: big.NewInt(0),
+		PetersburgBlock:     big.NewInt(0),
+		IstanbulBlock:       big.NewInt(0),
+		MuirGlacierBlock:    big.NewInt(0),
+		BerlinBlock:         big.NewInt(0),
+		LondonBlock:         big.NewInt(0),
 		Clique: &CliqueConfig{
 			Period: 10,
 			Epoch:  30000,
@@ -130,7 +167,13 @@ var (
 	MainnetTrustedCheckpoint = &TrustedCheckpoint{}
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
-	MainnetCheckpointOracle = &CheckpointOracleConfig{}
+	MainnetCheckpointOracle = &CheckpointOracleConfig{
+		Address: common.HexToAddress("0xABA76a543ea8849adf3185dfa7AfB8627A264476"),
+		Signers: []common.Address{
+			common.HexToAddress("0xd7A108189471b7e3f0E66723e89170E310493125"), // Interchained
+		},
+		Threshold: 1,
+	}
 
 	// RopstenChainConfig contains the chain parameters to run a node on the Ropsten test network.
 	RopstenChainConfig = &ChainConfig{
