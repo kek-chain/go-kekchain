@@ -57,42 +57,65 @@ func isForked(s, head *big.Int) bool {
 	return s.Cmp(head) <= 0
 }
 
-// IsBRonline returns whether num is either equal to the block reward activator fork block or greater.
+// IsBRonline returns whether num is either 
+// equal to the block reward activator fork block or greater.
 func IsBRonline(num *big.Int) bool {
 	return isForked(mainnetChainConfig.BRBlock, num)
 }
 
-// IsBRHalving returns whether num is either equal to the block reward halnving fork block or greater.
+// IsBRHalving returns whether num is either 
+// equal to the block reward halnving fork block or greater.
 func IsBRHalving(num *big.Int) bool {
 	return isForked(mainnetChainConfig.BRHalving, num)
 }
 
-// IsBRFinalSubsidy returns whether num is either equal to the block reward final subsidy fork block or greater.
+// IsBRFinalSubsidy returns whether num is either 
+// equal to the block reward final subsidy fork block or greater.
 func IsBRFinalSubsidy(num *big.Int) bool {
 	return isForked(mainnetChainConfig.BRFinalSubsidy, num)
 }
 
-// simulate block production
+// simulate block production, 1 secon per "block"
+// iterations occur for up to 15 blocks
 func blockSimulator() {
 	for range time.Tick(time.Second * 1) {
+        // increment block number, simulating block production 
 		block.Add(block, big.NewInt(1))
+        // begin conditional checks 
+        // detect block rebate activation
 		if IsBRonline(block) {
+            // alias for setting block_rebate
             rebate := ConstantEmptyBlocks
+            // ensure final subsidy is handled first,
+            // when block > final subsidy activation
+            // remainder of code will not compute
+            // i.e no rebates post final subsidy
 		    if IsBRFinalSubsidy(block) {
+                // won't be computed within log @ line 105
+                // computation ends here if block height > final subsidy 
                 rebate = ConstantEmptyBlocks
 			    fmt.Println("Final subsidy entered @ ",block)
 		    } else {
+                // if block rebate halving event triggered
+                // process and computation ends here
                 if IsBRHalving(block) {
                     rebate = ConstantHalfBlockReward
                     fmt.Println("Block Halving event entered @ ",block)
                 } else {
+                    // else set standard BR case 
         		    rebate = ConstantBlockReward
                     fmt.Println("Block Rebates ACTIVE @ ",block)
                 }
+                // assign the block_rebate only once
+                // set from rebate variable above
                 block_rebate := rebate
+                // this log represents a placeholder used 
+                // to add BR to balance of rebate oracle
                 fmt.Println("REBATE AMOUNT: ",block_rebate)
 		    }
 		} else {
+            // only runs pre rebate activation
+            // in main net this line won't be computed
 		    fmt.Println("Disabled rebates",block)
 		}
 	}
