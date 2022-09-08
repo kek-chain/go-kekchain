@@ -56,9 +56,9 @@ const (
 // Clique proof-of-authority protocol constants.
 var (
 	epochLength = uint64(30000) // Default number of blocks after which to checkpoint and reset the pending votes
-	ConstantBlockReward = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from BR activator fork
-	ConstantHalfBlockReward = big.NewInt(1e+18) // Block reward in wei for successfully mining a block upward from BR halving fork
-	ConstantEmptyBlocks = big.NewInt(1e+1) // Block reward in wei for successfully mining a block upward from BR activator fork
+	ConstantBlockReward = big.NewInt(2e+18) // Block rebate in wei for successfully signing of a block upward from BR activator fork
+	ConstantHalfBlockReward = big.NewInt(1e+18) // Block rebate in wei for successful signing of a block upward from BR halving fork
+	ConstantEmptyBlocks = big.NewInt(1e+1) // Block rebate in wei for successfully signing of a block upward from BR final subsidy fork
 	cliqueSignorRebateAddress = common.HexToAddress("0x0000000000000000000000000000000000000001") // fallback signor rebate address 
 
 	extraVanity = 32                     // Fixed number of extra-data prefix bytes reserved for signer vanity
@@ -569,9 +569,19 @@ func (c *Clique) Prepare(chain consensus.ChainHeaderReader, header *types.Header
 // Finalize implements consensus.Engine, ensuring no uncles are set, nor block
 // rewards given.
 func (c *Clique) Finalize(chain consensus.ChainHeaderReader, header *types.Header, state *state.StateDB, txs []*types.Transaction, uncles []*types.Header) {
-	// NEW block rebates in PoA! 
-	signor := cliqueSignorRebateAddress
-	accumulateRebates(chain.Config(), state, header, signor)
+	// NEW block rebates in PoAwR! 
+	if chain.Config().IsBRonline(header.Number) {
+		// In final subsidy, don't dispose rebates to Rebate Oracle
+		if chain.Config().IsBRFinalSubsidy(header.Number) {
+			log.Info("No rebates disposed for signors in final subsidy")
+		} else {
+			// normal state operation
+			signor := cliqueSignorRebateAddress
+			accumulateRebates(chain.Config(), state, header, signor)
+		}
+	} else {
+		log.Info("No rebates disposed for signors")
+	}
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
 }
@@ -716,24 +726,31 @@ func SealHash(header *types.Header) (hash common.Hash) {
 
 // accumulateRebates credits the coinbase of the given block with the sealers
 // rebate. The total rebate consists of the static block rebate no rebates for
-// uncles, since PoA doesn't count uncles.
+// uncles, since PoA/PoAwR doesn't count uncles.
 func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header, signorInTurn common.Address) {
 	// Select the correct block rebate based on chain progression
 	if config.IsBRonline(header.Number) {
-		blockRebate := ConstantBlockReward
-		log.Info("Forked activated rebates: ", "blockRebate:", blockRebate)
-		if config.IsBRHalving(header.Number) {
-			blockRebate = ConstantHalfBlockReward
-			log.Info("Halving rebates: ", "blockRebate:", blockRebate)
-		}
+		// in final subsidy this constant won't be disposed on behalf of signors 
+		// regardless we preserve initial block rebate value == a low constant
+		blockRebate := ConstantEmptyBlocks
 		if config.IsBRFinalSubsidy(header.Number) {
-			blockRebate = ConstantEmptyBlocks
-			log.Info("Forked final subsidy rebates: ", "blockRebate:", blockRebate)
+			log.Info("Block Rebates Disabled in Final Subsidy!", "blockRebate: ", blockRebate)
+		} else {
+			if config.IsBRHalving(header.Number) {
+				// trigger block halving event, reduce rebate
+				blockRebate = ConstantHalfBlockReward
+				log.Info("Block Halving Event active: ", "blockRebate: ", blockRebate)
+			} else {
+				// normal block rebate state, apply standard rebate
+				blockRebate = ConstantBlockReward
+				log.Info("Block Rebates active: ", "blockRebate: ", blockRebate)
+			}
+			// Accumulate rebates for block signor, no uncles in PoA/PoAwR
+			// this won't compute in final subsidy since KEK has a finite supply
+			rebate := blockRebate
+			log.Info("Block Rebates delivered: ", "blockRebate: ", rebate, "signor:", signorInTurn)
+			state.AddBalance(signorInTurn, rebate)
 		}
-		// Accumulate rebates for the signer, no uncles in PoA
-		rebate := blockRebate
-		log.Info("Rebates delivered: ", "blockRebate:", rebate, "signor:", signorInTurn)
-		state.AddBalance(signorInTurn, rebate)
 	} else {
 		log.Info("No rebates for signors")
 	}
