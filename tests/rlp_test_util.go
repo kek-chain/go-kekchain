@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

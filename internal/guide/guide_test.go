@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/accounts/keystore"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/accounts/keystore"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/types"
 )
 
 // Tests that the account management snippets work correctly.

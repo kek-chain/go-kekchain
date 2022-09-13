@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // measurementImpact is the impact a single measurement has on a peer's final

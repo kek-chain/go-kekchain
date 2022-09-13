@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/lol-chain/go-kekchain/les/utils"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/p2p/nodestate"
+	"github.com/kek-chain/go-kekchain/les/utils"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

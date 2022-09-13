@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/lol-chain/go-kekchain"
-	"github.com/lol-chain/go-kekchain/event"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain"
+	"github.com/kek-chain/go-kekchain/event"
+	"github.com/kek-chain/go-kekchain/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

@@ -23,12 +23,12 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/ethdb"
-	"github.com/lol-chain/go-kekchain/ethdb/leveldb"
-	"github.com/lol-chain/go-kekchain/ethdb/memorydb"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/ethdb/leveldb"
+	"github.com/kek-chain/go-kekchain/ethdb/memorydb"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

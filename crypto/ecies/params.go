@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/lol-chain/go-kekchain/crypto"
+	ethcrypto "github.com/kek-chain/go-kekchain/crypto"
 )
 
 var (

@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/accounts/abi"
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/accounts/abi"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

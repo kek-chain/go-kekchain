@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

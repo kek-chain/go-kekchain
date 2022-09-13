@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
-	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/eth/protocols/eth"
+	"github.com/kek-chain/go-kekchain/p2p"
 	"github.com/stretchr/testify/assert"
 )
 

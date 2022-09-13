@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/accounts/abi/bind"
-	"github.com/lol-chain/go-kekchain/accounts/abi/bind/backends"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/accounts/abi/bind"
+	"github.com/kek-chain/go-kekchain/accounts/abi/bind/backends"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

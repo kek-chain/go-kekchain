@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/console/prompt"
+	"github.com/kek-chain/go-kekchain/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

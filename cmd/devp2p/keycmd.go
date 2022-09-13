@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/forkid"
-	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/forkid"
+	"github.com/kek-chain/go-kekchain/p2p"
 )
 
 const (

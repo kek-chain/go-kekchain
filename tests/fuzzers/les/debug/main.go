@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/lol-chain/go-kekchain/tests/fuzzers/les"
+	"github.com/kek-chain/go-kekchain/tests/fuzzers/les"
 )
 
 func main() {

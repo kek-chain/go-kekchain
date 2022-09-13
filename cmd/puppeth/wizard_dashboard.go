@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

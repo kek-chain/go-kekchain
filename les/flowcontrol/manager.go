@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/mclock"
-	"github.com/lol-chain/go-kekchain/common/prque"
+	"github.com/kek-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

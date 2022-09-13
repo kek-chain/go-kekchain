@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/ethdb"
 )
 
 var (

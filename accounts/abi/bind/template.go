@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/lol-chain/go-kekchain/accounts/abi"
+import "github.com/kek-chain/go-kekchain/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -92,12 +92,12 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/lol-chain/go-kekchain"
-	"github.com/lol-chain/go-kekchain/accounts/abi"
-	"github.com/lol-chain/go-kekchain/accounts/abi/bind"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/event"
+	ethereum "github.com/kek-chain/go-kekchain"
+	"github.com/kek-chain/go-kekchain/accounts/abi"
+	"github.com/kek-chain/go-kekchain/accounts/abi/bind"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

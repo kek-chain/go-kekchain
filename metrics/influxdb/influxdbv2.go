@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/metrics"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/metrics"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
 )

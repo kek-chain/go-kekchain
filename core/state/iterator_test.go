@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/lol-chain/go-kekchain/accounts/keystore"
+	"github.com/kek-chain/go-kekchain/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

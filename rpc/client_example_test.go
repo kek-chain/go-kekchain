@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/hexutil"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

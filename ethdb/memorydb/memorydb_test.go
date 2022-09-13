@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/ethdb"
-	"github.com/lol-chain/go-kekchain/ethdb/dbtest"
+	"github.com/kek-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

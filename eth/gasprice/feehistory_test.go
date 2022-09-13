@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

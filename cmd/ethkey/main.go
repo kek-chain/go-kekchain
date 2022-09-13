@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lol-chain/go-kekchain/internal/flags"
+	"github.com/kek-chain/go-kekchain/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

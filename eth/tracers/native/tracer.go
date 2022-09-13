@@ -37,7 +37,7 @@ package native
 import (
 	"errors"
 
-	"github.com/lol-chain/go-kekchain/eth/tracers"
+	"github.com/kek-chain/go-kekchain/eth/tracers"
 )
 
 // init registers itself this packages as a lookup for tracers.

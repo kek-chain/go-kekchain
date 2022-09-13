@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/p2p"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/p2p/simulations"
-	"github.com/lol-chain/go-kekchain/p2p/simulations/adapters"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/p2p/simulations"
+	"github.com/kek-chain/go-kekchain/p2p/simulations/adapters"
+	"github.com/kek-chain/go-kekchain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

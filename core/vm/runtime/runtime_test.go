@@ -24,21 +24,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/accounts/abi"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/consensus"
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/core/asm"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/core/state"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/core/vm"
-	"github.com/lol-chain/go-kekchain/eth/tracers"
-	"github.com/lol-chain/go-kekchain/eth/tracers/logger"
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/accounts/abi"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/consensus"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/core/asm"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/core/state"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/eth/tracers"
+	"github.com/kek-chain/go-kekchain/eth/tracers/logger"
+	"github.com/kek-chain/go-kekchain/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/lol-chain/go-kekchain/eth/tracers/js"
+	_ "github.com/kek-chain/go-kekchain/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -626,7 +626,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/lol-chain/go-kekchain/issues/22649
+// see: https://github.com/kek-chain/go-kekchain/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

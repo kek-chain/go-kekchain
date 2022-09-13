@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/accounts/abi"
-	"github.com/lol-chain/go-kekchain/accounts/abi/bind"
-	"github.com/lol-chain/go-kekchain/cmd/utils"
-	"github.com/lol-chain/go-kekchain/common/compiler"
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/internal/flags"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/accounts/abi"
+	"github.com/kek-chain/go-kekchain/accounts/abi/bind"
+	"github.com/kek-chain/go-kekchain/cmd/utils"
+	"github.com/kek-chain/go-kekchain/common/compiler"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/internal/flags"
+	"github.com/kek-chain/go-kekchain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

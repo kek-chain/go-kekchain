@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
 )
 
 func TestBytesPadding(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/lol-chain/go-kekchain
+module github.com/kek-chain/go-kekchain
 
 go 1.15
 

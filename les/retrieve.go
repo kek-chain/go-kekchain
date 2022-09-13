@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/light"
+	"github.com/kek-chain/go-kekchain/light"
 )
 
 var (

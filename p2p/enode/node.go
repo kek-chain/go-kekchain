@@ -26,8 +26,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/p2p/enr"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/p2p/enr"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

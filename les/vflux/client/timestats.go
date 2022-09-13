@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/les/utils"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/les/utils"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 const (

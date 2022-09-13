@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

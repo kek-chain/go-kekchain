@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/rpc"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint.

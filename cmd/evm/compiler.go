@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/lol-chain/go-kekchain/cmd/evm/internal/compiler"
+	"github.com/kek-chain/go-kekchain/cmd/evm/internal/compiler"
 
 	"gopkg.in/urfave/cli.v1"
 )

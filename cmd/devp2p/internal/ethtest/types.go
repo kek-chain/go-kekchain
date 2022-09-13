@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
-	"github.com/lol-chain/go-kekchain/p2p"
-	"github.com/lol-chain/go-kekchain/p2p/rlpx"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/eth/protocols/eth"
+	"github.com/kek-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/p2p/rlpx"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 type Message interface {

@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/math"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/math"
 	"github.com/holiman/uint256"
 )
 

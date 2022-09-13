@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/dop251/goja"
-	"github.com/lol-chain/go-kekchain/internal/jsre"
+	"github.com/kek-chain/go-kekchain/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

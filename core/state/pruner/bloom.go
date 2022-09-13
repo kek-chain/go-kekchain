@@ -21,9 +21,9 @@ import (
 	"errors"
 	"os"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/log"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 )
 

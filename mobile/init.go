@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 func init() {

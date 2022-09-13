@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

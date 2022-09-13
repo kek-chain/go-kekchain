@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/state"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

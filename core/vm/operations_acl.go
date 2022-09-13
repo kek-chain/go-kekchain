@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/math"
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/math"
+	"github.com/kek-chain/go-kekchain/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

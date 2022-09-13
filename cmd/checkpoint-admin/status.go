@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/cmd/utils"
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/cmd/utils"
+	"github.com/kek-chain/go-kekchain/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

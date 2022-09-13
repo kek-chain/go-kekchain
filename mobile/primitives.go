@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // Strings represents s slice of strs.

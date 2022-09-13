@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // hashes is a helper to implement sort.Interface.

@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/params"
 )
 
 func minSwapStack(n int) int {

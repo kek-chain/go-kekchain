@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

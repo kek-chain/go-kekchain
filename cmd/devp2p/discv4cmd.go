@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/cmd/devp2p/internal/v4test"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/p2p/discover"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/cmd/devp2p/internal/v4test"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/p2p/discover"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

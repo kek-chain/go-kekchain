@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/bitutil"
-	"github.com/lol-chain/go-kekchain/light"
+	"github.com/kek-chain/go-kekchain/common/bitutil"
+	"github.com/kek-chain/go-kekchain/light"
 )
 
 const (

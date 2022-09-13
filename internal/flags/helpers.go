@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

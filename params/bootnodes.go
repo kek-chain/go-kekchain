@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/lol-chain/go-kekchain/common"
+import "github.com/kek-chain/go-kekchain/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Kekchain network.

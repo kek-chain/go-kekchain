@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/lol-chain/go-kekchain/consensus/ethash"
-	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/consensus/ethash"
+	"github.com/kek-chain/go-kekchain/core/types"
 )
 
 type fuzzer struct {

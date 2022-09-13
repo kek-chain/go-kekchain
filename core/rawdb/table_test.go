@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

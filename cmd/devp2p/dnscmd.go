@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/accounts/keystore"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/console/prompt"
-	"github.com/lol-chain/go-kekchain/p2p/dnsdisc"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/accounts/keystore"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/console/prompt"
+	"github.com/kek-chain/go-kekchain/p2p/dnsdisc"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

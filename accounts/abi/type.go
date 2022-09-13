@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // Type enumerator

@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/lol-chain/go-kekchain/cmd/utils"
-	"github.com/lol-chain/go-kekchain/internal/debug"
-	"github.com/lol-chain/go-kekchain/internal/flags"
+	"github.com/kek-chain/go-kekchain/cmd/utils"
+	"github.com/kek-chain/go-kekchain/internal/debug"
+	"github.com/kek-chain/go-kekchain/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

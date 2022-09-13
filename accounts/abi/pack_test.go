@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

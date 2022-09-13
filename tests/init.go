@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/params"
 )
 
 // Forks table defines supported forks and their chain config.

@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
-	"github.com/lol-chain/go-kekchain/eth/protocols/snap"
-	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/eth/protocols/eth"
+	"github.com/kek-chain/go-kekchain/eth/protocols/snap"
+	"github.com/kek-chain/go-kekchain/p2p"
 )
 
 var (

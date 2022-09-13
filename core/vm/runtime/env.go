@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

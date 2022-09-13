@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/consensus/ethash"
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/eth/downloader"
-	"github.com/lol-chain/go-kekchain/eth/gasprice"
-	"github.com/lol-chain/go-kekchain/miner"
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/consensus/ethash"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/eth/downloader"
+	"github.com/kek-chain/go-kekchain/eth/gasprice"
+	"github.com/kek-chain/go-kekchain/miner"
+	"github.com/kek-chain/go-kekchain/params"
 )
 
 // MarshalTOML marshals as TOML.

@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/lol-chain/go-kekchain/les/utils"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/les/utils"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

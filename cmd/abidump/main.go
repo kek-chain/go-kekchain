@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/signer/core/apitypes"
-	"github.com/lol-chain/go-kekchain/signer/fourbyte"
+	"github.com/kek-chain/go-kekchain/signer/core/apitypes"
+	"github.com/kek-chain/go-kekchain/signer/fourbyte"
 )
 
 func init() {

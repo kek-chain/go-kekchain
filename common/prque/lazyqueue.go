@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over

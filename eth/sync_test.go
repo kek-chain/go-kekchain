@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/eth/downloader"
-	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
-	"github.com/lol-chain/go-kekchain/eth/protocols/snap"
-	"github.com/lol-chain/go-kekchain/p2p"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/eth/downloader"
+	"github.com/kek-chain/go-kekchain/eth/protocols/eth"
+	"github.com/kek-chain/go-kekchain/eth/protocols/snap"
+	"github.com/kek-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
 )
 
 // Tests that snap sync is disabled after a successful sync cycle.

@@ -1,11 +1,11 @@
 ## Install go-kekchain-testnet
-When done, check [startups.md](https://github.com/lol-chain/go-kekchain-testnet/blob/main/startups.md) 
+When done, check [startups.md](https://github.com/kek-chain/go-kekchain-testnet/blob/main/startups.md) 
 Installation same as go-ethereum, forked from geth.
 
 Clone source, and Install geth:
 1) clone the repository
 ``` 
-git clone https://github.com/lol-chain/go-kekchain-testnet
+git clone https://github.com/kek-chain/go-kekchain-testnet
 ```
 
 2) set GOPATH to the local path of the repository we just cloned, add /bin 

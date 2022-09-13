@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

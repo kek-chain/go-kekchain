@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

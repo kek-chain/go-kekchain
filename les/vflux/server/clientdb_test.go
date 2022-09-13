@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/mclock"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/les/utils"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/les/utils"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
 )
 
 func expval(v uint64) utils.ExpiredValue {

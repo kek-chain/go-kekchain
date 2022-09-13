@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/metrics"
+	"github.com/kek-chain/go-kekchain/metrics"
 )
 
 var (

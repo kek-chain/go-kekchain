@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

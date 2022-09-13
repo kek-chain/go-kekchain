@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

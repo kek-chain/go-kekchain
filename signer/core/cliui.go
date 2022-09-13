@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/lol-chain/go-kekchain/common/hexutil"
-	"github.com/lol-chain/go-kekchain/console/prompt"
-	"github.com/lol-chain/go-kekchain/internal/ethapi"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/console/prompt"
+	"github.com/kek-chain/go-kekchain/internal/ethapi"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 type CommandlineUI struct {

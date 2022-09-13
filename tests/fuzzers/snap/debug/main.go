@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/lol-chain/go-kekchain/tests/fuzzers/snap"
+	"github.com/kek-chain/go-kekchain/tests/fuzzers/snap"
 )
 
 func main() {

@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/ethdb"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/rlp"
 	"github.com/stretchr/testify/require"
 )
 

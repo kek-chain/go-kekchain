@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 type DynamicFeeTx struct {

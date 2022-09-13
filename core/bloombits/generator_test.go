@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

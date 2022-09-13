@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 func bigFromHex(hex string) *big.Int {

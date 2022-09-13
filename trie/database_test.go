@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/ethdb/memorydb"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

@@ -35,8 +35,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

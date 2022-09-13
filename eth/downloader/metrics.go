@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/lol-chain/go-kekchain/metrics"
+	"github.com/kek-chain/go-kekchain/metrics"
 )
 
 var (

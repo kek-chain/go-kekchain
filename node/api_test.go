@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

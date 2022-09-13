@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/lol-chain/go-kekchain/metrics"
+	"github.com/kek-chain/go-kekchain/metrics"
 )
 
 const (

@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

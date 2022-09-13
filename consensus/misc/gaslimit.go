@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

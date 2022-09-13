@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/metrics"
+	"github.com/kek-chain/go-kekchain/metrics"
 )
 
 func TestMain(m *testing.M) {

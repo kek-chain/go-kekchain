@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

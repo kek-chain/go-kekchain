@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/metrics"
+	"github.com/kek-chain/go-kekchain/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

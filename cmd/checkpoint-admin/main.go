@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lol-chain/go-kekchain/common/fdlimit"
-	"github.com/lol-chain/go-kekchain/internal/flags"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/common/fdlimit"
+	"github.com/kek-chain/go-kekchain/internal/flags"
+	"github.com/kek-chain/go-kekchain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 
