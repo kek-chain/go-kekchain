@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/mclock"
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/p2p/discover/v5wire"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/p2p/enr"
+	"github.com/kek-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/p2p/discover/v5wire"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/p2p/enr"
 )
 
 // readError represents an error during packet reading.

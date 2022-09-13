@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/lol-chain/go-kekchain/common/math"
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/common/math"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
 	"golang.org/x/crypto/hkdf"
 )
 

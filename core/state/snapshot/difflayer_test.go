@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/ethdb/memorydb"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/ethdb/memorydb"
 )
 
 func copyDestructs(destructs map[common.Hash]struct{}) map[common.Hash]struct{} {

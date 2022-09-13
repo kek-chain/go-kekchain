@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/vm"
-	"github.com/lol-chain/go-kekchain/eth/tracers"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/eth/tracers"
 )
 
 func init() {

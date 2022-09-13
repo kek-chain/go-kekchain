@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/lol-chain/go-kekchain/core/types"
+import "github.com/kek-chain/go-kekchain/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

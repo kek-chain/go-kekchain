@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/ethdb"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

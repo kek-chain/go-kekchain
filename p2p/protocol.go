@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/p2p/enr"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

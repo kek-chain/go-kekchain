@@ -19,7 +19,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/metrics"
+	"github.com/kek-chain/go-kekchain/metrics"
 )
 
 var (

@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

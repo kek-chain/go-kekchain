@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

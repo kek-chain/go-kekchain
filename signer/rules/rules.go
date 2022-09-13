@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/lol-chain/go-kekchain/internal/ethapi"
-	"github.com/lol-chain/go-kekchain/internal/jsre/deps"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/signer/core"
-	"github.com/lol-chain/go-kekchain/signer/storage"
+	"github.com/kek-chain/go-kekchain/internal/ethapi"
+	"github.com/kek-chain/go-kekchain/internal/jsre/deps"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/signer/core"
+	"github.com/kek-chain/go-kekchain/signer/storage"
 )
 
 var (

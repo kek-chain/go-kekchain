@@ -26,9 +26,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/math"
-	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/math"
+	"github.com/kek-chain/go-kekchain/crypto"
 )
 
 const jsondata = `

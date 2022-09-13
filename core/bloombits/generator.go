@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/types"
 )
 
 var (

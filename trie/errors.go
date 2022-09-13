@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

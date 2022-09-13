@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/hexutil"
-	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/core/types"
 )
 
 // Tests that ethash works correctly in test mode.
@@ -55,7 +55,7 @@ func TestTestMode(t *testing.T) {
 }
 
 // This test checks that cache lru logic doesn't crash under load.
-// It reproduces https://github.com/lol-chain/go-kekchain/issues/14943
+// It reproduces https://github.com/kek-chain/go-kekchain/issues/14943
 func TestCacheFileEvict(t *testing.T) {
 	tmpdir, err := ioutil.TempDir("", "ethash-test")
 	if err != nil {

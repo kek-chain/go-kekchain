@@ -19,11 +19,11 @@ package state
 import (
 	"bytes"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/ethdb"
-	"github.com/lol-chain/go-kekchain/rlp"
-	"github.com/lol-chain/go-kekchain/trie"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

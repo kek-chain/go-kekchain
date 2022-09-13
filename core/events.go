@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/internal/testlog"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/internal/testlog"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

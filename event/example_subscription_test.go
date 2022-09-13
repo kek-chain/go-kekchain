@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/event"
+	"github.com/kek-chain/go-kekchain/event"
 )
 
 func ExampleNewSubscription() {

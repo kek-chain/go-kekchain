@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/cmd/devp2p/internal/v5test"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/p2p/discover"
+	"github.com/kek-chain/go-kekchain/cmd/devp2p/internal/v5test"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/p2p/discover"
 	"gopkg.in/urfave/cli.v1"
 )
 

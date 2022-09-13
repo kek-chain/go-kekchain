@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 func (g *G2) one() *PointG2 {

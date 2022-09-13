@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/light"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/light"
 )
 
 func TestLightPruner(t *testing.T) {

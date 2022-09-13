@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/accounts/keystore"
-	"github.com/lol-chain/go-kekchain/cmd/utils"
+	"github.com/kek-chain/go-kekchain/accounts/keystore"
+	"github.com/kek-chain/go-kekchain/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

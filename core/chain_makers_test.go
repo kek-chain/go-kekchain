@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/lol-chain/go-kekchain/consensus/ethash"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/core/vm"
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/consensus/ethash"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/params"
 )
 
 func ExampleGenerateChain() {

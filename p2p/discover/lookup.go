@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
 )
 
 // lookup performs a network search for nodes close to the given target. It approaches the

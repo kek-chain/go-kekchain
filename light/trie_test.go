@@ -24,13 +24,13 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lol-chain/go-kekchain/consensus/ethash"
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/core/state"
-	"github.com/lol-chain/go-kekchain/core/vm"
-	"github.com/lol-chain/go-kekchain/params"
-	"github.com/lol-chain/go-kekchain/trie"
+	"github.com/kek-chain/go-kekchain/consensus/ethash"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/core/state"
+	"github.com/kek-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/lol-chain/go-kekchain/cmd/devp2p/internal/v4test"
-	"github.com/lol-chain/go-kekchain/internal/utesting"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/cmd/devp2p/internal/v4test"
+	"github.com/kek-chain/go-kekchain/internal/utesting"
+	"github.com/kek-chain/go-kekchain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

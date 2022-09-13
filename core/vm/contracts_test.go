@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

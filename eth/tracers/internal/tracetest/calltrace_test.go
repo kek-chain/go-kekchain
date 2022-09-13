@@ -26,22 +26,22 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/hexutil"
-	"github.com/lol-chain/go-kekchain/common/math"
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/core/vm"
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/eth/tracers"
-	"github.com/lol-chain/go-kekchain/params"
-	"github.com/lol-chain/go-kekchain/rlp"
-	"github.com/lol-chain/go-kekchain/tests"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/common/math"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/eth/tracers"
+	"github.com/kek-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/tests"
 
 	// Force-load native and js pacakges, to trigger registration
-	_ "github.com/lol-chain/go-kekchain/eth/tracers/js"
-	_ "github.com/lol-chain/go-kekchain/eth/tracers/native"
+	_ "github.com/kek-chain/go-kekchain/eth/tracers/js"
+	_ "github.com/kek-chain/go-kekchain/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

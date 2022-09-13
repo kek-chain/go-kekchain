@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/beacon"
-	"github.com/lol-chain/go-kekchain/les"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/node"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/beacon"
+	"github.com/kek-chain/go-kekchain/les"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/node"
+	"github.com/kek-chain/go-kekchain/rpc"
 )
 
 // Register adds catalyst APIs to the light client.

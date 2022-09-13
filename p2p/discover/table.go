@@ -32,10 +32,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/p2p/netutil"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/p2p/netutil"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

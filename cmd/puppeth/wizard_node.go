@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/accounts/keystore"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/accounts/keystore"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

@@ -27,20 +27,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/math"
-	"github.com/lol-chain/go-kekchain/consensus"
-	"github.com/lol-chain/go-kekchain/consensus/beacon"
-	"github.com/lol-chain/go-kekchain/consensus/ethash"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/core/state"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/core/vm"
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/eth/tracers/logger"
-	"github.com/lol-chain/go-kekchain/ethdb"
-	"github.com/lol-chain/go-kekchain/params"
-	"github.com/lol-chain/go-kekchain/trie"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/math"
+	"github.com/kek-chain/go-kekchain/consensus"
+	"github.com/kek-chain/go-kekchain/consensus/beacon"
+	"github.com/kek-chain/go-kekchain/consensus/ethash"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/core/state"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/eth/tracers/logger"
+	"github.com/kek-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/trie"
 )
 
 // So we can deterministically seed different blockchains
@@ -1596,7 +1596,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/lol-chain/go-kekchain/pull/15941
+// https://github.com/kek-chain/go-kekchain/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()
@@ -1878,8 +1878,8 @@ func TestInsertReceiptChainRollback(t *testing.T) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//  - https://github.com/lol-chain/go-kekchain/issues/18977
-//  - https://github.com/lol-chain/go-kekchain/pull/18988
+//  - https://github.com/kek-chain/go-kekchain/issues/18977
+//  - https://github.com/kek-chain/go-kekchain/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()

@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/lol-chain/go-kekchain"
-	"github.com/lol-chain/go-kekchain/accounts"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain"
+	"github.com/kek-chain/go-kekchain/accounts"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/eth/ethconfig"
+	"github.com/kek-chain/go-kekchain/eth/ethconfig"
 	"gopkg.in/urfave/cli.v1"
 )
 

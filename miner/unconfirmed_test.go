@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

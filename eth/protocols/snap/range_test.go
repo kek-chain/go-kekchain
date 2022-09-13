@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

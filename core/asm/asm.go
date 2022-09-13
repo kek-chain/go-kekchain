@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

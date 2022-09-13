@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/common/math"
+	"github.com/kek-chain/go-kekchain/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

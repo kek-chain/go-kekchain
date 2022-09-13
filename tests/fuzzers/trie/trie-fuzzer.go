@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/ethdb/memorydb"
-	"github.com/lol-chain/go-kekchain/trie"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/ethdb/memorydb"
+	"github.com/kek-chain/go-kekchain/trie"
 )
 
 // randTest performs random trie operations.

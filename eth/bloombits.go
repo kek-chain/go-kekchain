@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/bitutil"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/common/bitutil"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
 )
 
 const (

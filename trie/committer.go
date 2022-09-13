@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/crypto"
 	"golang.org/x/crypto/sha3"
 )
 

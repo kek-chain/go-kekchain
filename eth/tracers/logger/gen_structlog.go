@@ -5,10 +5,10 @@ package logger
 import (
 	"encoding/json"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/hexutil"
-	"github.com/lol-chain/go-kekchain/common/math"
-	"github.com/lol-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/common/math"
+	"github.com/kek-chain/go-kekchain/core/vm"
 	"github.com/holiman/uint256"
 )
 

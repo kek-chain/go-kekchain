@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/lol-chain/go-kekchain/p2p"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

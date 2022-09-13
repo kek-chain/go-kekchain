@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/lol-chain/go-kekchain"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/event"
+	"github.com/kek-chain/go-kekchain"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/event"
 	"golang.org/x/crypto/sha3"
 )
 

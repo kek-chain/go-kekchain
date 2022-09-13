@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

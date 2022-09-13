@@ -30,9 +30,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/math"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/math"
+	"github.com/kek-chain/go-kekchain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

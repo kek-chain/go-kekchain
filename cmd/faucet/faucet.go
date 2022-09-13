@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/accounts"
-	"github.com/lol-chain/go-kekchain/accounts/keystore"
-	"github.com/lol-chain/go-kekchain/cmd/utils"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/eth/downloader"
-	"github.com/lol-chain/go-kekchain/eth/ethconfig"
-	"github.com/lol-chain/go-kekchain/ethclient"
-	"github.com/lol-chain/go-kekchain/ethstats"
-	"github.com/lol-chain/go-kekchain/les"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/node"
-	"github.com/lol-chain/go-kekchain/p2p"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/p2p/nat"
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/accounts"
+	"github.com/kek-chain/go-kekchain/accounts/keystore"
+	"github.com/kek-chain/go-kekchain/cmd/utils"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/eth/downloader"
+	"github.com/kek-chain/go-kekchain/eth/ethconfig"
+	"github.com/kek-chain/go-kekchain/ethclient"
+	"github.com/kek-chain/go-kekchain/ethstats"
+	"github.com/kek-chain/go-kekchain/les"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/node"
+	"github.com/kek-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/p2p/nat"
+	"github.com/kek-chain/go-kekchain/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -470,7 +470,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/lol-chain/go-kekchain/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/kek-chain/go-kekchain/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

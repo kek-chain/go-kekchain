@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/params"
 )
 
 func TestTransaction(t *testing.T) {

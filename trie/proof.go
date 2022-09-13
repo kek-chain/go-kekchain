@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/ethdb"
-	"github.com/lol-chain/go-kekchain/ethdb/memorydb"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/ethdb/memorydb"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

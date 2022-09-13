@@ -32,11 +32,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/accounts"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/event"
+	"github.com/kek-chain/go-kekchain/accounts"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/event"
 )
 
 var (

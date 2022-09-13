@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/lol-chain/go-kekchain/common/mclock"
-	"github.com/lol-chain/go-kekchain/common/prque"
+	"github.com/kek-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/common/prque"
 )
 
 // servingQueue allows running tasks in a limited number of threads and puts the

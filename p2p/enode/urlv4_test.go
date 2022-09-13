@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/p2p/enr"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/p2p/enr"
 )
 
 func init() {

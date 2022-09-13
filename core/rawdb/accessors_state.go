@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/ethdb"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

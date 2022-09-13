@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

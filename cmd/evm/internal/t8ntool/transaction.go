@@ -24,14 +24,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/hexutil"
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/params"
-	"github.com/lol-chain/go-kekchain/rlp"
-	"github.com/lol-chain/go-kekchain/tests"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

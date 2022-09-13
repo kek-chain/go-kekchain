@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/eth/downloader"
-	"github.com/lol-chain/go-kekchain/eth/ethconfig"
-	"github.com/lol-chain/go-kekchain/ethclient"
-	"github.com/lol-chain/go-kekchain/ethstats"
-	"github.com/lol-chain/go-kekchain/internal/debug"
-	"github.com/lol-chain/go-kekchain/les"
-	"github.com/lol-chain/go-kekchain/node"
-	"github.com/lol-chain/go-kekchain/p2p"
-	"github.com/lol-chain/go-kekchain/p2p/nat"
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/eth/downloader"
+	"github.com/kek-chain/go-kekchain/eth/ethconfig"
+	"github.com/kek-chain/go-kekchain/ethclient"
+	"github.com/kek-chain/go-kekchain/ethstats"
+	"github.com/kek-chain/go-kekchain/internal/debug"
+	"github.com/kek-chain/go-kekchain/les"
+	"github.com/kek-chain/go-kekchain/node"
+	"github.com/kek-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/p2p/nat"
+	"github.com/kek-chain/go-kekchain/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

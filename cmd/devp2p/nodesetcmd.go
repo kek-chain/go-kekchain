@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/core/forkid"
-	"github.com/lol-chain/go-kekchain/p2p/enr"
-	"github.com/lol-chain/go-kekchain/params"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/core/forkid"
+	"github.com/kek-chain/go-kekchain/p2p/enr"
+	"github.com/kek-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

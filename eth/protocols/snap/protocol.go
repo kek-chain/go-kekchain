@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/state/snapshot"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/state/snapshot"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 // Constants to match up protocol versions and messages

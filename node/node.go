@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/lol-chain/go-kekchain/accounts"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/ethdb"
-	"github.com/lol-chain/go-kekchain/event"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/p2p"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/accounts"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/event"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/eth/protocols/snap"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/eth/protocols/snap"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

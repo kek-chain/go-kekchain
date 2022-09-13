@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/mclock"
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/core/types"
 )
 
 var (

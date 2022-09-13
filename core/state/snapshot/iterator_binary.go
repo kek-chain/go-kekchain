@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

@@ -41,10 +41,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/accounts"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/event"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/accounts"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/event"
+	"github.com/kek-chain/go-kekchain/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 )
 

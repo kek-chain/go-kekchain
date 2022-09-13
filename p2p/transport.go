@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/bitutil"
-	"github.com/lol-chain/go-kekchain/metrics"
-	"github.com/lol-chain/go-kekchain/p2p/rlpx"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/bitutil"
+	"github.com/kek-chain/go-kekchain/metrics"
+	"github.com/kek-chain/go-kekchain/p2p/rlpx"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 const (

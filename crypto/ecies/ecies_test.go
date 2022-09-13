@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/crypto"
 )
 
 func TestKDF(t *testing.T) {

@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/lol-chain/go-kekchain/accounts"
-	"github.com/lol-chain/go-kekchain/accounts/abi/bind"
-	"github.com/lol-chain/go-kekchain/accounts/external"
-	"github.com/lol-chain/go-kekchain/cmd/utils"
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/contracts/checkpointoracle"
-	"github.com/lol-chain/go-kekchain/ethclient"
-	"github.com/lol-chain/go-kekchain/params"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/accounts"
+	"github.com/kek-chain/go-kekchain/accounts/abi/bind"
+	"github.com/kek-chain/go-kekchain/accounts/external"
+	"github.com/kek-chain/go-kekchain/cmd/utils"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/contracts/checkpointoracle"
+	"github.com/kek-chain/go-kekchain/ethclient"
+	"github.com/kek-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

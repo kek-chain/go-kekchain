@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/lol-chain/go-kekchain/metrics"
-	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/metrics"
+	"github.com/kek-chain/go-kekchain/p2p"
 )
 
 var (

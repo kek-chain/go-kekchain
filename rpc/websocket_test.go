@@ -179,7 +179,7 @@ func TestClientWebsocketPing(t *testing.T) {
 	// server can't handle the request.
 
 	// Wait for the context's deadline to be reached before proceeding.
-	// This is important for reproducing https://github.com/lol-chain/go-kekchain/issues/19798
+	// This is important for reproducing https://github.com/kek-chain/go-kekchain/issues/19798
 	<-ctx.Done()
 	close(sendPing)
 

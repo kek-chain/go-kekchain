@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/les/downloader"
-	"github.com/lol-chain/go-kekchain/light"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/les/downloader"
+	"github.com/kek-chain/go-kekchain/light"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

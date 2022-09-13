@@ -28,10 +28,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/ethdb"
-	"github.com/lol-chain/go-kekchain/p2p"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/ethdb"
+	"github.com/kek-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

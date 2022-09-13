@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/log"
 	"github.com/olekukonko/tablewriter"
 )
 

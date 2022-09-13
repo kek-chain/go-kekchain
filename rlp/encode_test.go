@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common/math"
+	"github.com/kek-chain/go-kekchain/common/math"
 )
 
 type testEncoder struct {

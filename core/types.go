@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/lol-chain/go-kekchain/core/state"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/core/state"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

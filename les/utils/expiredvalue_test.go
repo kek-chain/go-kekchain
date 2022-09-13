@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

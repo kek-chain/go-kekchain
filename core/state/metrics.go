@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/lol-chain/go-kekchain/metrics"
+import "github.com/kek-chain/go-kekchain/metrics"
 
 var (
 	accountUpdatedMeter   = metrics.NewRegisteredMeter("state/update/account", nil)

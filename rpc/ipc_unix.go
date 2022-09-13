@@ -26,7 +26,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // ipcListen will create a Unix socket on the given endpoint.

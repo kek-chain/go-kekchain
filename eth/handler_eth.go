@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/eth/protocols/eth"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
 )
 
 // ethHandler implements the eth.Backend interface to handle the various network

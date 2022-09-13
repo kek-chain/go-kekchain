@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 func newTestFullNode(v []byte) []interface{} {

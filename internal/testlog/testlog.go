@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

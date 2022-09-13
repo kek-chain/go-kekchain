@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/p2p"
 )
 
 var (

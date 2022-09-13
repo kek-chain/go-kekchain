@@ -24,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

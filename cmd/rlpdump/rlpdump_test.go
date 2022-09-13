@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
 )
 
 func TestRoundtrip(t *testing.T) {

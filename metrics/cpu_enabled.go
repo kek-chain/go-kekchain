@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/hexutil"
-	"github.com/lol-chain/go-kekchain/common/mclock"
-	vfs "github.com/lol-chain/go-kekchain/les/vflux/server"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/common/mclock"
+	vfs "github.com/kek-chain/go-kekchain/les/vflux/server"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
 )
 
 var (

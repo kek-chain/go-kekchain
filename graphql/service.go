@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/lol-chain/go-kekchain/internal/ethapi"
-	"github.com/lol-chain/go-kekchain/node"
+	"github.com/kek-chain/go-kekchain/internal/ethapi"
+	"github.com/kek-chain/go-kekchain/node"
 	"github.com/graph-gophers/graphql-go"
 )
 

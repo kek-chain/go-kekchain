@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/mclock"
-	"github.com/lol-chain/go-kekchain/les/utils"
+	"github.com/kek-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

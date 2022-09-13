@@ -17,7 +17,7 @@
 // Package bind generates Ethereum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-ethereum Wiki page:
-// https://github.com/lol-chain/go-kekchain/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
+// https://github.com/kek-chain/go-kekchain/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
 package bind
 
 import (
@@ -30,8 +30,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/lol-chain/go-kekchain/accounts/abi"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/accounts/abi"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

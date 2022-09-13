@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/core/forkid"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/core/forkid"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 // ethEntry is the "eth" ENR entry which advertises eth protocol

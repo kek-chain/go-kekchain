@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lol-chain/go-kekchain/event"
+	"github.com/kek-chain/go-kekchain/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

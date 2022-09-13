@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/cloudflare/cloudflare-go"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/p2p/dnsdisc"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/p2p/dnsdisc"
 	"gopkg.in/urfave/cli.v1"
 )
 

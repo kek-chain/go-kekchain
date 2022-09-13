@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

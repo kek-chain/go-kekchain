@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/p2p"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/p2p/enr"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/p2p"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/p2p/enr"
+	"github.com/kek-chain/go-kekchain/rpc"
 )
 
 // NoopService is the service that does not do anything

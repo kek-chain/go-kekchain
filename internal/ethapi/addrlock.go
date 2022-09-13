@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 type AddrLocker struct {

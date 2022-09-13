@@ -27,17 +27,17 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/lol-chain/go-kekchain/accounts/external"
-	"github.com/lol-chain/go-kekchain/accounts/keystore"
-	"github.com/lol-chain/go-kekchain/accounts/scwallet"
-	"github.com/lol-chain/go-kekchain/accounts/usbwallet"
-	"github.com/lol-chain/go-kekchain/cmd/utils"
-	"github.com/lol-chain/go-kekchain/eth/ethconfig"
-	"github.com/lol-chain/go-kekchain/internal/ethapi"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/metrics"
-	"github.com/lol-chain/go-kekchain/node"
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/accounts/external"
+	"github.com/kek-chain/go-kekchain/accounts/keystore"
+	"github.com/kek-chain/go-kekchain/accounts/scwallet"
+	"github.com/kek-chain/go-kekchain/accounts/usbwallet"
+	"github.com/kek-chain/go-kekchain/cmd/utils"
+	"github.com/kek-chain/go-kekchain/eth/ethconfig"
+	"github.com/kek-chain/go-kekchain/internal/ethapi"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/metrics"
+	"github.com/kek-chain/go-kekchain/node"
+	"github.com/kek-chain/go-kekchain/params"
 	"github.com/naoina/toml"
 )
 

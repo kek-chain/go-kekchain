@@ -24,8 +24,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/lol-chain/go-kekchain/p2p/enr"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/p2p/enr"
+	"github.com/kek-chain/go-kekchain/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

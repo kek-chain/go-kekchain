@@ -19,7 +19,7 @@ package ethash
 import (
 	"math/big"
 
-	"github.com/lol-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/types"
 	"github.com/holiman/uint256"
 )
 

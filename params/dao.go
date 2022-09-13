@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common/mclock"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/common/mclock"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 const (

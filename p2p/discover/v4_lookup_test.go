@@ -23,10 +23,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/p2p/discover/v4wire"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/p2p/enr"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/p2p/discover/v4wire"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/p2p/enr"
 )
 
 func TestUDPv4_Lookup(t *testing.T) {

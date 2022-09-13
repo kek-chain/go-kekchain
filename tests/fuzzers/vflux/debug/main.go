@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/tests/fuzzers/vflux"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/tests/fuzzers/vflux"
 )
 
 func main() {

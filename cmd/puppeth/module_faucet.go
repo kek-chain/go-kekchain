@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

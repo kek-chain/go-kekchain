@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/core/types"
-	"github.com/lol-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/core/types"
+	"github.com/kek-chain/go-kekchain/core/vm"
 )
 
 // accessList is an accumulator for the set of accounts and storage slots an EVM

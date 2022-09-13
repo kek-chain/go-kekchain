@@ -21,10 +21,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/common/prque"
-	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
-	"github.com/lol-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/common/prque"
+	"github.com/kek-chain/go-kekchain/eth/protocols/eth"
+	"github.com/kek-chain/go-kekchain/log"
 )
 
 // timeoutGracePeriod is the amount of time to allow for a peer to deliver a

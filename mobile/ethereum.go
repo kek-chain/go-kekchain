@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	"github.com/lol-chain/go-kekchain"
-	"github.com/lol-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain"
+	"github.com/kek-chain/go-kekchain/common"
 )
 
 // Subscription represents an event subscription where events are

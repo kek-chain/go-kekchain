@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/lol-chain/go-kekchain/internal/ethapi"
-	"github.com/lol-chain/go-kekchain/log"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/internal/ethapi"
+	"github.com/kek-chain/go-kekchain/log"
+	"github.com/kek-chain/go-kekchain/rpc"
 )
 
 type StdIOUI struct {

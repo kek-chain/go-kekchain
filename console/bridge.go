@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/lol-chain/go-kekchain/accounts/scwallet"
-	"github.com/lol-chain/go-kekchain/accounts/usbwallet"
-	"github.com/lol-chain/go-kekchain/common/hexutil"
-	"github.com/lol-chain/go-kekchain/console/prompt"
-	"github.com/lol-chain/go-kekchain/internal/jsre"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/accounts/scwallet"
+	"github.com/kek-chain/go-kekchain/accounts/usbwallet"
+	"github.com/kek-chain/go-kekchain/common/hexutil"
+	"github.com/kek-chain/go-kekchain/console/prompt"
+	"github.com/kek-chain/go-kekchain/internal/jsre"
+	"github.com/kek-chain/go-kekchain/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

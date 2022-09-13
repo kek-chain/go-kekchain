@@ -19,10 +19,10 @@ package ethtest
 import (
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/eth/protocols/eth"
-	"github.com/lol-chain/go-kekchain/internal/utesting"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/eth/protocols/eth"
+	"github.com/kek-chain/go-kekchain/internal/utesting"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

@@ -19,9 +19,9 @@ package simulations
 import (
 	"testing"
 
-	"github.com/lol-chain/go-kekchain/node"
-	"github.com/lol-chain/go-kekchain/p2p/enode"
-	"github.com/lol-chain/go-kekchain/p2p/simulations/adapters"
+	"github.com/kek-chain/go-kekchain/node"
+	"github.com/kek-chain/go-kekchain/p2p/enode"
+	"github.com/kek-chain/go-kekchain/p2p/simulations/adapters"
 )
 
 func newTestNetwork(t *testing.T, nodeCount int) (*Network, []enode.ID) {

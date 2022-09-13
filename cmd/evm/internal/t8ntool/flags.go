@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lol-chain/go-kekchain/core/vm"
-	"github.com/lol-chain/go-kekchain/tests"
+	"github.com/kek-chain/go-kekchain/core/vm"
+	"github.com/kek-chain/go-kekchain/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

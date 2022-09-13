@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/consensus/ethash"
-	"github.com/lol-chain/go-kekchain/console/prompt"
-	"github.com/lol-chain/go-kekchain/core"
-	"github.com/lol-chain/go-kekchain/eth"
-	"github.com/lol-chain/go-kekchain/eth/ethconfig"
-	"github.com/lol-chain/go-kekchain/internal/jsre"
-	"github.com/lol-chain/go-kekchain/miner"
-	"github.com/lol-chain/go-kekchain/node"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/consensus/ethash"
+	"github.com/kek-chain/go-kekchain/console/prompt"
+	"github.com/kek-chain/go-kekchain/core"
+	"github.com/kek-chain/go-kekchain/eth"
+	"github.com/kek-chain/go-kekchain/eth/ethconfig"
+	"github.com/kek-chain/go-kekchain/internal/jsre"
+	"github.com/kek-chain/go-kekchain/miner"
+	"github.com/kek-chain/go-kekchain/node"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/lol-chain/go-kekchain/params"
+	"github.com/kek-chain/go-kekchain/params"
 	"github.com/holiman/uint256"
 )
 

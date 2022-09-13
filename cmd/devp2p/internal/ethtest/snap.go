@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/lol-chain/go-kekchain/common"
-	"github.com/lol-chain/go-kekchain/crypto"
-	"github.com/lol-chain/go-kekchain/eth/protocols/snap"
-	"github.com/lol-chain/go-kekchain/internal/utesting"
-	"github.com/lol-chain/go-kekchain/light"
-	"github.com/lol-chain/go-kekchain/trie"
+	"github.com/kek-chain/go-kekchain/common"
+	"github.com/kek-chain/go-kekchain/crypto"
+	"github.com/kek-chain/go-kekchain/eth/protocols/snap"
+	"github.com/kek-chain/go-kekchain/internal/utesting"
+	"github.com/kek-chain/go-kekchain/light"
+	"github.com/kek-chain/go-kekchain/trie"
 	"golang.org/x/crypto/sha3"
 )
 

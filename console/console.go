@@ -31,11 +31,11 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/lol-chain/go-kekchain/console/prompt"
-	"github.com/lol-chain/go-kekchain/internal/jsre"
-	"github.com/lol-chain/go-kekchain/internal/jsre/deps"
-	"github.com/lol-chain/go-kekchain/internal/web3ext"
-	"github.com/lol-chain/go-kekchain/rpc"
+	"github.com/kek-chain/go-kekchain/console/prompt"
+	"github.com/kek-chain/go-kekchain/internal/jsre"
+	"github.com/kek-chain/go-kekchain/internal/jsre/deps"
+	"github.com/kek-chain/go-kekchain/internal/web3ext"
+	"github.com/kek-chain/go-kekchain/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

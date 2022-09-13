@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lol-chain/go-kekchain/core/rawdb"
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/core/rawdb"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

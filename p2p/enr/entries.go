@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/lol-chain/go-kekchain/rlp"
+	"github.com/kek-chain/go-kekchain/rlp"
 )
 
 // Entry is implemented by known node record entry types.
