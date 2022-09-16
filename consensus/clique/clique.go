@@ -746,7 +746,7 @@ func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header 
 			}
 			// Accumulate rebates for block signor, no uncles in PoA/PoAwR
 			// this won't compute in final subsidy since KEK has a finite supply
-			rebate := ConstantHalfBlockReward.Mul(big.NewInt(17), big.NewInt(1e+18))
+			rebate := blockRebate
 			log.Info("Block Rebates delivered: ", "blockRebate: ", rebate, "signor:", signorInTurn)
 			state.AddBalance(signorInTurn, rebate)
 		}
