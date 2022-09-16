@@ -26,12 +26,6 @@ import (
 	"github.com/kek-chain/go-kekchain/params"
 )
 
-// MainnetGenesis returns the JSON spec to use for the main Ethereum network. It
-// is actually empty since that defaults to the hard coded binary genesis block.
-func MainnetGenesis() string {
-	return ""
-}
-
 // RopstenGenesis returns the JSON spec to use for the Ropsten test network.
 func RopstenGenesis() string {
 	enc, err := json.Marshal(core.DefaultRopstenGenesisBlock())
@@ -76,7 +70,7 @@ func TestnetGenesis() string {
 	}
 	return string(enc)
 }
-// TestnetGenesis returns the JSON spec to use for the Goerli test network
+// MainnetGenesis returns the JSON spec to use for the Goerli test network
 func MainnetGenesis() string {
 	enc, err := json.Marshal(core.DefaultGenesisBlock())
 	if err != nil {
