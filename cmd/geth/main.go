@@ -147,6 +147,7 @@ var (
 		utils.RinkebyFlag,
 		utils.GoerliFlag,
 		utils.KekTestFlag,
+		utils.KekistanFlag,
 		utils.VMEnableDebugFlag,
 		utils.NetworkIdFlag,
 		utils.EthStatsURLFlag,
@@ -285,6 +286,9 @@ func prepare(ctx *cli.Context) {
 		
 	case ctx.GlobalIsSet(utils.KekTestFlag.Name):
 		log.Info("Starting Geth on KekTest testnet...")
+		
+	case ctx.GlobalIsSet(utils.KekistanFlag.Name):
+		log.Info("Starting Geth on Kekistan testnet...")
 
 	case ctx.GlobalIsSet(utils.DeveloperFlag.Name):
 		log.Info("Starting Geth in ephemeral dev mode...")
@@ -300,6 +304,7 @@ func prepare(ctx *cli.Context) {
 			!ctx.GlobalIsSet(utils.RinkebyFlag.Name) &&
 			!ctx.GlobalIsSet(utils.GoerliFlag.Name) &&
 			!ctx.GlobalIsSet(utils.KekTestFlag.Name) &&
+			!ctx.GlobalIsSet(utils.KekistanFlag.Name) &&
 			!ctx.GlobalIsSet(utils.DeveloperFlag.Name) {
 			// Nope, we're really on mainnet. Bump that cache up!
 			log.Info("Bumping default cache on mainnet", "provided", ctx.GlobalInt(utils.CacheFlag.Name), "updated", 4096)

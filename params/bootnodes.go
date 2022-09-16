@@ -142,12 +142,7 @@ var V5ETHBootnodes = []string{
 
 var V5Bootnodes = []string{
 	// Interchained
-	"enr:-KO4QCUGlVI29eUNgGB48mbbhVj0F5MVBO_k2njh128i1vqiSkWD3_I_U4iN7u3Mf07_KC7rclotPO56p5OWG1gnX4-GAYNEpzkug2V0aMfGhBbi2EuAgmlkgnY0gmlwhCby7PiJc2VjcDI1NmsxoQOOpw8S3-FjCGIJZzXz9CIEb-grapZu9mxCdPkYhD9EEIRzbmFwwIN0Y3CCL1uDdWRwgi9b",
-	"enr:-KO4QH6_pA4HxHrLpn4Dtc68KS99mEbfPTBXN8eI4iBYBPXaXwk1Ot38lEraJaw1F3HQ43PO0loHefhLFeriEREooMSGAYNEvKWNg2V0aMfGhBbi2EuAgmlkgnY0gmlwhCby7PiJc2VjcDI1NmsxoQPBMz3O0dQrs-GmdO3bMG-VwtF5QCy1uxg9kYf-MaCKLoRzbmFwwIN0Y3CCL1GDdWRwgi9R",
-	"enr:-Km4QL6y5XVgcJhkbexS_LUAlRheWOT_j0XwcuM9GhEb68VJTT0RUY-kD2SDK1r5VJ6TIm9IlVOb1DLS4XqmYU1lrpqGAYNEvpLgg2V0aMfGhBbi2EuAgmlkgnY0gmlwhKdWUD2DbGVzwQGJc2VjcDI1NmsxoQNMd4mKD33W4cPAwcM7KUddOyIc01-iJyE2QOS39eItLoRzbmFwwIN0Y3CC-wODdWRwgvsD",
-	"enr:-KO4QJbjWubB7iK9tCTpoQuY26_U8Qumn_YLuuRpqgPp4bnPI7K3tvghgb9gEB0OILzFnpOYVeCjPxfUGlwmrHsvuvmGAYNEuscug2V0aMfGhBbi2EuAgmlkgnY0gmlwhKdWUD2Jc2VjcDI1NmsxoQLMXPnH4KT2D5CZn9OumdSvLR1t6wAe279pcTkJWuxI_4RzbmFwwIN0Y3CCcsiDdWRwgnLI",
-	"enr:-Km4QBXISlNAXgk-hpmRA_gymjS_RMKqslSwSwG0W5s_ZLORfEMx4AzIs6OD02JQnC8kKWgJNgXeoK1s9HZmazdrx8KGAYNEqDyIg2V0aMfGhBbi2EuAgmlkgnY0gmlwhCby7PeDbGVzwQGJc2VjcDI1NmsxoQPmvQpglAeEb643zlJO6gPz-1fjmHa-UyBOrcGQP2mQb4RzbmFwwIN0Y3CC-s6DdWRwgvrO",
-	 "enr:-KO4QLXInx8Qesvm-q0pMGzgVky9ySRVcrpVM2hKWxZcjKpfZyvs8Dc7A4hMVBLT7gmVLMyfisyhW2sLlczTzZKeJPeGAYNEskGZg2V0aMfGhBbi2EuAgmlkgnY0gmlwhCby7PeJc2VjcDI1NmsxoQO7tJosbYSaSK5SK_9C1G_BisPZZD_XtWN03Yd4v7ckloRzbmFwwIN0Y3CC-suDdWRwgvrL",
+	"enr:-KO4QNIRwa5PHk1uRYLgmK4IUDATIlD0mWv0zzlEmUfh7HHtD5RRnYZ56NKiniHDgVjXSHp4QQ1AwnOYrkyrsB3i_5eGAYNEvpLhg2V0aMfGhBbi2EuAgmlkgnY0gmlwhKdWUD2Jc2VjcDI1NmsxoQNMd4mKD33W4cPAwcM7KUddOyIc01-iJyE2QOS39eItLoRzbmFwwIN0Y3CC-wODdWRwgvsD",
 }
 
 const dnsPrefix = "enrtree://AKA3AM6LPBYEUDMVNU3BSVQJ5AD45Y7YPOHJLEF6W26QOE4VTUDPE@"
@@ -173,5 +168,5 @@ func KnownDNSNetwork(genesis common.Hash, protocol string) string {
 	default:
 		return ""
 	}
-	return dnsPrefix + protocol + "." + net + ".ethdisco.net"
+	return dnsPrefix + protocol + "." + net + ".interchained.org"
 }
