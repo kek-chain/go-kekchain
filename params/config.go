@@ -127,11 +127,18 @@ var (
 			Epoch:  30000,
 		},
 	}
+	
 	// MainnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
 	MainnetTrustedCheckpoint = &TrustedCheckpoint{}
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
-	MainnetCheckpointOracle = &CheckpointOracleConfig{}
+	MainnetCheckpointOracle = &CheckpointOracleConfig{
+		Address: common.HexToAddress("0x682566e965b47B0dDc8317b6a60E66b8D85B76aD"),
+		Signers: []common.Address{
+			common.HexToAddress("0xd7A108189471b7e3f0E66723e89170E310493125"), // Interchained
+		},
+		Threshold: 1,
+	}
 	
 	// TestnetChainConfig is the chain parameters to run a node on the main network.
 	TestnetChainConfig = &ChainConfig{
