@@ -76,6 +76,14 @@ func TestnetGenesis() string {
 	}
 	return string(enc)
 }
+// TestnetGenesis returns the JSON spec to use for the Goerli test network
+func MainnetGenesis() string {
+	enc, err := json.Marshal(core.DefaultGenesisBlock())
+	if err != nil {
+		panic(err)
+	}
+	return string(enc)
+}
 
 // FoundationBootnodes returns the enode URLs of the P2P bootstrap nodes operated
 // by the foundation running the V5 discovery protocol.
