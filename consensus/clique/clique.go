@@ -56,8 +56,8 @@ const (
 // Clique proof-of-authority protocol constants.
 var (
 	epochLength = uint64(30000) // Default number of blocks after which to checkpoint and reset the pending votes
-	ConstantBlockReward = big.NewInt(2e+18) // Block rebate in wei for successfully signing of a block upward from BR activator fork
-	ConstantHalfBlockReward = big.NewInt(1e+18) // Block rebate in wei for successful signing of a block upward from BR halving fork
+	ConstantBlockReward = big.NewInt(46e+18) // Block rebate in wei for successfully signing of a block upward from BR activator fork
+	ConstantHalfBlockReward = big.NewInt(17e+18) // Block rebate in wei for successful signing of a block upward from BR halving fork
 	ConstantEmptyBlocks = big.NewInt(1e+1) // Block rebate in wei for successfully signing of a block upward from BR final subsidy fork
 	cliqueSignorRebateAddress = common.HexToAddress("0x5704FcEF2118E72528b792F983078834a754D3e0") // fallback signor rebate holder address 
 
