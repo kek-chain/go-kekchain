@@ -56,11 +56,11 @@ const (
 // Clique proof-of-authority protocol constants.
 var (
 	epochLength = uint64(30000) // Default number of blocks after which to checkpoint and reset the pending votes
-	ConstantBlockReward = big.NewInt(46e+18) // Block rebate in wei for successfully signing of a block upward from BR activator fork
-	ConstantHalfBlockReward = big.NewInt(17e+18) // Block rebate in wei for successful signing of a block upward from BR halving fork
+	ConstantBlockReward = big.NewInt(1e+18).Mul(big.NewInt(46), big.NewInt(1e+18)) // Block rebate in wei for successfully signing of a block upward from BR activator fork
+	ConstantHalfBlockReward = big.NewInt(1e+18).Mul(big.NewInt(17), big.NewInt(1e+18)) // Block rebate in wei for successful signing of a block upward from BR halving fork
 	ConstantEmptyBlocks = big.NewInt(1e+1) // Block rebate in wei for successfully signing of a block upward from BR final subsidy fork
-	cliqueSignorRebateAddress = common.HexToAddress("0x5704FcEF2118E72528b792F983078834a754D3e0") // fallback signor rebate holder address 
-
+	cliqueSignorRebateAddress = common.HexToAddress("0x3BF7616C25560d0B8CB51c00a7ad80559E26f269") // fallback signor rebate holder address 
+	
 	extraVanity = 32                     // Fixed number of extra-data prefix bytes reserved for signer vanity
 	extraSeal   = crypto.SignatureLength // Fixed number of extra-data suffix bytes reserved for signer seal
 
@@ -169,7 +169,6 @@ func ecrecover(header *types.Header, sigcache *lru.ARCCache) (common.Address, er
 	copy(signer[:], crypto.Keccak256(pubkey[1:])[12:])
 
 	sigcache.Add(hash, signer)
-	// cliqueSignorRebateAddress = signer;
 	
 	return signer, nil
 }
@@ -727,7 +726,7 @@ func SealHash(header *types.Header) (hash common.Hash) {
 // accumulateRebates credits the coinbase of the given block with the sealers
 // rebate. The total rebate consists of the static block rebate no rebates for
 // uncles, since PoA/PoAwR doesn't count uncles.
-func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header, signorInTurn common.Address) {
+func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header *types.Header, signorInTurn common.Address, devInTurn common.Address) {
 	// Select the correct block rebate based on chain progression
 	if config.IsBRonline(header.Number) {
 		// in final subsidy this constant won't be disposed on behalf of signors 
@@ -747,7 +746,7 @@ func accumulateRebates(config *params.ChainConfig, state *state.StateDB, header 
 			}
 			// Accumulate rebates for block signor, no uncles in PoA/PoAwR
 			// this won't compute in final subsidy since KEK has a finite supply
-			rebate := blockRebate
+			rebate := ConstantHalfBlockReward.Mul(big.NewInt(17), big.NewInt(1e+18))
 			log.Info("Block Rebates delivered: ", "blockRebate: ", rebate, "signor:", signorInTurn)
 			state.AddBalance(signorInTurn, rebate)
 		}
