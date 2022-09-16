@@ -27,7 +27,7 @@ import (
 
 // Genesis hashes to enforce below configs on.
 var (
-	MainnetGenesisHash    = common.HexToHash("0x0146c570e9f4559cfbbc7bf93de7149338cd2d505139af96c8f47c3bfa5da0c9")
+	MainnetGenesisHash    = common.HexToHash("0x3ee766abd8a19fc6fff8d267e9a4cf77a1f73a9a3fb96029b8026da6db8cafd6")
 	TestnetGenesisHash    = common.HexToHash("0x0146c570e9f4559cfbbc7bf93de7149338cd2d505139af96c8f47c3bfa5da0c9")
 	MainnetETHGenesisHash = common.HexToHash("0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3")
 	RopstenGenesisHash    = common.HexToHash("0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d")
@@ -104,7 +104,7 @@ var (
 
 	// MainnetChainConfig is the chain parameters to run a node on the main network.
 	MainnetChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(420690),
+		ChainID:             big.NewInt(420420),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        nil,
 		DAOForkSupport:      false,
@@ -120,25 +120,19 @@ var (
 		BerlinBlock:         big.NewInt(0),
 		LondonBlock:         big.NewInt(0),
 		BRBlock:             big.NewInt(0),
-		BRHalving:           big.NewInt(2599200),
-		BRFinalSubsidy:      big.NewInt(5198400),
+		BRHalving:           big.NewInt(1598400),
+		BRFinalSubsidy:      big.NewInt(3153600),
 		Clique: &CliqueConfig{
 			Period: 10,
 			Epoch:  30000,
 		},
 	}
 
-	// TestnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
-	TestnetTrustedCheckpoint = &TrustedCheckpoint{}
+	// MainnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
+	MainnetTrustedCheckpoint = &TrustedCheckpoint{}
 
-	// TestnetCheckpointOracle contains a set of configs for the main network oracle.
-	TestnetCheckpointOracle = &CheckpointOracleConfig{
-		Address: common.HexToAddress("0xABA76a543ea8849adf3185dfa7AfB8627A264476"),
-		Signers: []common.Address{
-			common.HexToAddress("0xd7A108189471b7e3f0E66723e89170E310493125"), // Interchained
-		},
-		Threshold: 1,
-	}
+	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
+	MainnetCheckpointOracle = &CheckpointOracleConfig{}
 	
 	// TestnetChainConfig is the chain parameters to run a node on the main network.
 	TestnetChainConfig = &ChainConfig{
@@ -162,12 +156,12 @@ var (
 			Epoch:  30000,
 		},
 	}
+	
+	// TestnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
+	TestnetTrustedCheckpoint = &TrustedCheckpoint{}
 
-	// MainnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
-	MainnetTrustedCheckpoint = &TrustedCheckpoint{}
-
-	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
-	MainnetCheckpointOracle = &CheckpointOracleConfig{
+	// TestnetCheckpointOracle contains a set of configs for the main network oracle.
+	TestnetCheckpointOracle = &CheckpointOracleConfig{
 		Address: common.HexToAddress("0xABA76a543ea8849adf3185dfa7AfB8627A264476"),
 		Signers: []common.Address{
 			common.HexToAddress("0xd7A108189471b7e3f0E66723e89170E310493125"), // Interchained
