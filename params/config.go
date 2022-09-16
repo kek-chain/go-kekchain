@@ -102,7 +102,7 @@ var (
 		Threshold: 2,
 	}
 
-	// MainnetChainConfig is the chain parameters to run a node on the main network.
+	// MainnetChainConfig is the chain parameters to run a node on the main network.	
 	MainnetChainConfig = &ChainConfig{
 		ChainID:             big.NewInt(420420),
 		HomesteadBlock:      big.NewInt(0),
@@ -127,7 +127,6 @@ var (
 			Epoch:  30000,
 		},
 	}
-
 	// MainnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
 	MainnetTrustedCheckpoint = &TrustedCheckpoint{}
 
