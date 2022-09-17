@@ -193,11 +193,11 @@ func NewNode(datadir string, config *NodeConfig) (stack *Node, _ error) {
 				config.EthereumNetworkID = 1
 			}
 		}
-		// If we have the KekTest testnet, hard code the chain configs too
+		// If we have the Kekistan testnet, hard code the chain configs too
 		if config.EthereumGenesis == MainnetGenesis() {
 			genesis.Config = params.MainnetChainConfig
 			if config.EthereumNetworkID == 1 {
-				config.EthereumNetworkID = 1
+				config.EthereumNetworkID = 103090
 			}
 		}
 	}
