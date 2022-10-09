@@ -1,4 +1,28 @@
 
+## How to create an account? 
+1) open geth with flag ```--datadir myNewAccountName``` and command ```account new```
+example)
+```
+./geth account new --datadir myNewWallet
+```
+Follow the prompt and enter a password for the wallet, re-enter the password for the wallet.
+Once password for datadir is confirmed, then you will see the output log of the private key and public wallet name. Store private key offline, never keep this in the same location as the datadir. 
+
+To unlock the wallet "aka Hot Wallet" then attach this datadir to geth console:
+```
+./geth --datadir myNewWallet console
+```
+Console will appear, node will synchronize; then type the following unlock command direclty to geth console:
+```
+personal.unlockAccount(eth.coinbase,"PasswordFromStep1",0)
+```
+
+There is a flag to optionally --unlock the wallet from startup command, you will be asked to enter the password after geth synchronizes.
+example) this example startup command is for private full node with open http, use firewall strict to block port 8551 from outside calls and double check the vhosts to ensure security, the following has a wildcard. If firewall is active, it should be safe. But it could be restricted to a specific domain for example myDapp.com... (remember to add all startup flags at once for production...)
+```
+./geth --datadir myNewWallet --unlock --port 12345 --ipcpath=/geth12345.ipc --http.api eth,net,txpool,web3 --http --http.vhosts '*' --http.port 8551 --http.corsdomain '*' --http.addr 127.0.0.1 --syncmode='full' --gcmode='archive' --txlookuplimit=0 --nodiscover --bootnodes="enr:-KO4QKKNUDs0hOAbGFmrqSwIkc08SvLJSyRV9Ig40edh-DxDNH0vc3DcK5w9DI2Ww-ornc2lMKjj_NessjDnnEj-xw6GAYNFQdmcg2V0aMfGhBbi2EuAgmlkgnY0gmlwhCby7PeJc2VjcDI1NmsxoQKMBMD4LxidDE9A5n6d_PwcZFtUThMTdQKa2cvxequHqYRzbmFwwIN0Y3CC-s6DdWRwgvrO" --kekistan console
+```
+
 For a hidden node such as exchange hot wallet add the nodiscover command:
 ```
 --nodiscover 
