@@ -43,3 +43,5 @@ Run geth to sync the chain (Hard coded bootnodes for auto sync.)
 ```
 ./geth --datadir walletDirName --kekistan
 ```
+
+Continue to startups.md
